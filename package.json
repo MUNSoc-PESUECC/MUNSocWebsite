@@ -17,21 +17,23 @@
 		"@playwright/test": "^1.28.1",
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/kit": "next",
-		"autoprefixer": "^9.8.8",
 		"eslint": "^8.28.0",
 		"eslint-config-prettier": "^8.5.0",
 		"eslint-plugin-svelte3": "^4.0.0",
-		"postcss": "^7.0.39",
 		"postcss-load-config": "^4.0.1",
 		"prettier": "^2.8.0",
 		"prettier-plugin-svelte": "^2.8.1",
 		"svelte": "^3.53.1",
 		"svelte-check": "^2.9.2",
 		"svelte-preprocess": "^4.10.7",
-		"tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17",
 		"typescript": "^4.9.3",
 		"vite": "^3.2.4",
 		"vitest": "^0.25.3"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"autoprefixer": "^9.8.8",
+		"postcss": "^7.0.39",
+		"tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"
+	}
 }
