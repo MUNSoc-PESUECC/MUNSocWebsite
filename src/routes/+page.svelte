@@ -13,16 +13,17 @@
 <main>
   <body class = "bg-body-slate"> 
       <nav
-        class="w-auto px-6 py-8 md:flex md:justify-between md:items-center bg-navbar-slate">
+        class="w-auto px-10 py-1 md:flex md:justify-between md:items-center bg-navbar-slate">
         <div class="flex items-center justify-between">
             <a
             class="text-xl font-bold text-white md:text-2xl hover:text-munsoc-yellow"
             href="/">
-            <img class = "pr-2" width = 50 src={logoAddress} alt="">
+            <img class = "pr-2" width = 100 src={logoAddress} alt="">
         
         </a>
+
           <a
-            class="text:xl font-bold md:text-2xl text-white"
+            class="text:xl font-bold md:text-2xl text-white md:hidden"
             href="/">MUNSOC-PESUECC</a>
           
           <!-- Mobile menu button -->
@@ -44,10 +45,10 @@
             ? 'flex'
             : 'hidden'}"
         >
-          <a class="text-white hover:text-munsoc-gold font-semibold transition-all duration-100 text-center" href="/posts">POSTS</a>
-          <a class="text-white hover:text-munsoc-gold font-semibold transition-all duration-100 text-center" href="/members">MEMBERS</a>
-          <a class="text-white hover:text-munsoc-gold font-semibold transition-all duration-100 text-center" href="/events">EVENTS</a>
-          <a class="text-white hover:text-munsoc-gold font-semibold transition-all duration-100 text-center" href="/about">ABOUT</a>
+          <a class="text-white hover:text-munsoc-gold hover:underline font-semibold transition-all duration-100 text-center pl-10" href="/posts">POSTS</a>
+          <a class="text-white hover:text-munsoc-gold hover:underline font-semibold transition-all duration-100 text-center pl-10" href="/members">MEMBERS</a>
+          <a class="text-white hover:text-munsoc-gold hover:underline font-semibold transition-all duration-100 text-center pl-10" href="/events">EVENTS</a>
+          <a class="text-white hover:text-munsoc-gold hover:underline font-semibold transition-all duration-100 text-center pl-10" href="/about">ABOUT</a>
         </div>
       </nav>
 
@@ -59,6 +60,7 @@
 
 </body>
 </main>
+
 
 
 
