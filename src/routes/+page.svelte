@@ -11,6 +11,7 @@
 
 
 <main>
+  <title>MUNSOC-PESUECC</title>
   <body class = "bg-body-slate"> 
       <nav
         class="w-auto px-10 py-1 md:flex md:justify-between md:items-center bg-navbar-slate">
