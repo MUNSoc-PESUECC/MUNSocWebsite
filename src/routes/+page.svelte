@@ -1,170 +1,69 @@
 <script>
     const logoAddress = "/images/logo.png";
+    let showMenu = false;
+    function toggleNavbar() {
+      showMenu = !showMenu;
+    }
 </script>
 
 
 
 
 
-
-
-
-
-
-
 <main>
-<head>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-</head>
-<body>
-    <header>
-        <nav class="main-nav">
-          <input type="checkbox" id="check" />
-          <label for="check" class="menu-btn">
-            <i class="fas fa-bars"></i>
-          </label>
-          <a href="/" ><img class="logo" src={logoAddress} alt="logo" width="80px"></a>
-          <ul class="navlinks">
-            <li><a href="#">Posts</a></li>
-            <li><a href="#">Members</a></li>
-            <li><a href="#">Events</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </nav>
-      </header>
-    <div class = "dev_text">This website is currently under development!</div>
+  <body class = "bg-body-slate"> 
+      <nav
+        class="w-auto px-6 py-8 md:flex md:justify-between md:items-center bg-navbar-slate">
+        <div class="flex items-center justify-between">
+            <a
+            class="text-xl font-bold text-white md:text-2xl hover:text-munsoc-yellow"
+            href="/">
+            <img class = "pr-2" width = 50 src={logoAddress} alt="">
+        
+        </a>
+          <a
+            class="text:xl font-bold md:text-2xl text-white"
+            href="/">MUNSOC-PESUECC</a>
+          
+          <!-- Mobile menu button -->
+          <div on:click={toggleNavbar} class="flex md:hidden">
+            <button
+              type="button"
+              class="text-white hover:text-munsoc-gold focus:outline-none focus:text-munsoc-gold"
+              >
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+            </button>
+          </div>
+        </div>
+  
+        <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
+        <div
+          class="flex-col mt-8 space-y-4 md:flex md:space-y-0 md:flex-row md:items-center md:space-x-10 md:mt-0 {showMenu
+            ? 'flex'
+            : 'hidden'}"
+        >
+          <a class="text-white hover:text-munsoc-gold font-semibold transition-all duration-100 text-center" href="/posts">POSTS</a>
+          <a class="text-white hover:text-munsoc-gold font-semibold transition-all duration-100 text-center" href="/members">MEMBERS</a>
+          <a class="text-white hover:text-munsoc-gold font-semibold transition-all duration-100 text-center" href="/events">EVENTS</a>
+          <a class="text-white hover:text-munsoc-gold font-semibold transition-all duration-100 text-center" href="/about">ABOUT</a>
+        </div>
+      </nav>
+
+
+
+      <div class = "text-white font-mono text-xl px-5 py-5">This Website Is Under Development!</div>
+    
+
+
 </body>
-
-
 </main>
 
 
 
 
 
-
-
-
-
-
-
-
-
 <style>
-:root {
-    --text-color: rgb(192, 169, 96);
-}
 
-
-.dev_text {
-    color: grey;
-    font-size: 20px;
-}
-
-body {
-    margin: 0;
-    padding: 0;
-    font-family: "Lato", serif;
-    background-color: #212c3b;
-}
-
-header {
-    background-color: #141b25;
-}
-
-.main-nav {
-    height: 90px;
-}
-
-.logo {
-    padding: 4px;
-}
-
-.navlinks {
-    list-style: none;
-    float: right;
-    line-height: 90px;
-    margin: 0;
-    padding: 0;
-}
-
-.navlinks li {
-    display: inline-block;
-    margin: 0px 20px;
-}
-
-.navlinks li a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-    transition: all 100ms linear 0s;
-    text-transform: uppercase;
-}
-
-.navlinks li a:hover {
-    color: var(--text-color);
-    padding-bottom: 7px;
-    border-bottom: 2px solid var(--text-color);
-
-}
-
-
-#check {
-    display: none;
-}
-
-.menu-btn {
-    font-size: 25px;
-    color: white;
-    float: right;
-    line-height: 90px;
-    margin-right: 40px;
-    display: none;
-    cursor: pointer;
-}
-
-@media (max-width: 800px) {
-    .navlinks {
-        position: fixed;
-        width: 100%;
-        height: 100vh;
-        text-align: center;
-        transition: all 0.5s;
-        right: -100%;
-        background: #222831;
-    }
-
-    .navlinks li {
-        display: block;
-    }
-
-    .navlinks li a {
-        font-size: 20px;
-    }
-
-    .navlinks li a:hover {
-        border-bottom: none;
-    }
-
-    .menu-btn {
-        display: block;
-    }
-
-    #check:checked~.navlinks {
-        right: 0;
-    }
-}
-
-@media (max-width: 360px) {
-
-    .menu-btn {
-        margin-right: 10px;
-        font-size: 25px;
-    }
-
-    .menu-btn:focus {
-        color: var(--text-color);
-    }
-}
 </style>
