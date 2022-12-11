@@ -25,7 +25,7 @@
             href="/">MUNSOC-PESUECC</a>
           
           <!-- Mobile menu button -->
-          <div on:click={toggleNavbar} class="flex md:hidden">
+          <div on:click={toggleNavbar} on:keydown={toggleNavbar} class="flex md:hidden">
             <button
               type="button"
               class="text-white hover:text-munsoc-gold focus:outline-none focus:text-munsoc-gold"
