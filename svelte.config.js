@@ -2,7 +2,6 @@ import preprocess from 'svelte-preprocess';
 import adapter from '@sveltejs/adapter-auto';
 import { mdsvex } from 'mdsvex';
 
-
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	kit: {
@@ -12,7 +11,7 @@ const config = {
 
 	preprocess: [
 		preprocess({
-			postcss: true
+			postcss: true,
 		}),
 		mdsvex({
 			extensions: ['.md']
