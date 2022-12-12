@@ -8,7 +8,7 @@
 </script>
 
 
-<main>
+
 
 	<nav
         class="w-auto px-10 py-1 md:flex md:justify-between md:items-center bg-navbar-slate">
@@ -51,5 +51,6 @@
         </div>
       </nav>
 
-</main>
+
+
 <slot />

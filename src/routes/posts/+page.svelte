@@ -12,8 +12,8 @@
 
 <main>
     <title>MUNSOC-PESUECC | POSTS</title>
-    <body class = "bg-body-slate text-white">
-        <h1>Posts</h1>
+    <body class = "bg-body-slate text-white prose prose-invert">
+        <h1 class="p-10">Posts</h1>
 
         <ul>
             {#each data.posts as post}

@@ -10,6 +10,7 @@ const config = {
 	extensions: ['.svelte', '.md'],
 
 	preprocess: [
+		
 		preprocess({
 			postcss: true,
 		}),

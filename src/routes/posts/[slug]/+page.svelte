@@ -10,10 +10,10 @@
 <main>
   <body class = "bg-body-slate">
     
-  <article class = "text-white p-10">
-    <h1 class="text-3xl">{ data.title }</h1>
+  <article class = "text-white p-10 prose prose-invert">
+    <h1>{ data.title }</h1>
     <p>Published: {data.date}</p>
-    <div class="p-5"></div>
+    <hr>
     <svelte:component this={data.content} />
 
   </article>
