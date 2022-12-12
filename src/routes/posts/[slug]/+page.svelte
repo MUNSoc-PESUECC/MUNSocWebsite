@@ -20,3 +20,10 @@
   </body>
 
 </main>
+
+
+<style>
+  .prose{
+    max-width: none;
+  }
+</style>
