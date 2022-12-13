@@ -17,7 +17,7 @@
         <hr>
         
         {#each data.posts as post}
-            <div class = "flex justify-center"><img src="{post.meta.img}" alt="" class="w-2/3 h-auto rounded-md"></div>
+            <div class = "flex justify-center"><img src="{post.meta.img}" alt="" class="w-2/3 h-auto rounded-md max-w-md"></div>
             <h1 class = "pr-10 pl-10">
               <a href={post.path}>
                 {post.meta.title}
