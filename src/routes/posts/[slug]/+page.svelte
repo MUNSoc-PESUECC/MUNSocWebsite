@@ -1,7 +1,6 @@
 <script>
-    /**
-	 * @type {{ title: any; date: any; content: any; }}
-	 */
+// @ts-nocheck
+
      export let data;
 </script>
   
