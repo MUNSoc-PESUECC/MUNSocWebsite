@@ -8,6 +8,7 @@
 
 
 <main>
+  <title>{data.title}</title>
   <body class = "bg-body-slate">
     
   <article class = "text-white p-10 prose prose-invert">
