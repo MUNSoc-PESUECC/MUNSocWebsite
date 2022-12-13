@@ -43,11 +43,11 @@
             ? 'flex'
             : 'hidden'}"
         >
-          <a class="text-white hover:text-munsoc-gold hover:underline font-semibold transition-all duration-100 text-center pl-10" href="/">HOME</a>
-          <a class="text-white hover:text-munsoc-gold hover:underline font-semibold transition-all duration-100 text-center pl-10" href="/posts">POSTS</a>
-          <a class="text-white hover:text-munsoc-gold hover:underline font-semibold transition-all duration-100 text-center pl-10" href="/members">MEMBERS</a>
-          <a class="text-white hover:text-munsoc-gold hover:underline font-semibold transition-all duration-100 text-center pl-10" href="/events">EVENTS</a>
-          <a class="text-white hover:text-munsoc-gold hover:underline font-semibold transition-all duration-100 text-center pl-10" href="/about">ABOUT</a>
+          <a class="text-white hover:text-munsoc-gold hover:underline font-semibold transition-all duration-100 text-center pl-10" href="/" on:click={toggleNavbar}>HOME</a>
+          <a class="text-white hover:text-munsoc-gold hover:underline font-semibold transition-all duration-100 text-center pl-10" href="/posts" on:click={toggleNavbar}>POSTS</a>
+          <a class="text-white hover:text-munsoc-gold hover:underline font-semibold transition-all duration-100 text-center pl-10" href="/members" on:click={toggleNavbar}>MEMBERS</a>
+          <a class="text-white hover:text-munsoc-gold hover:underline font-semibold transition-all duration-100 text-center pl-10" href="/events" on:click={toggleNavbar}>EVENTS</a>
+          <a class="text-white hover:text-munsoc-gold hover:underline font-semibold transition-all duration-100 text-center pl-10" href="/about" on:click={toggleNavbar}>ABOUT</a>
         </div>
       </nav>
 
