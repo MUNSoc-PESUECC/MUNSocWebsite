@@ -34,5 +34,7 @@
 
 
 <style>
-
+  .prose{
+    max-width: none;
+  }
 </style>
