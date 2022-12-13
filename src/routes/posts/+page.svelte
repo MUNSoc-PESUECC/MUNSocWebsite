@@ -24,6 +24,8 @@
               </a>
             </h2>
             <div class = "px-10">Published: {post.meta.date} </div> 
+            <div class = "px-10">{post.meta.description} </div> 
+
             <hr>
         {/each}
           
