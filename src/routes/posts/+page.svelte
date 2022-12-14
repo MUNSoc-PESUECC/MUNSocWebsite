@@ -62,6 +62,7 @@
   margin-bottom: 30px;
   background-color: #202c40;
   border: 5px solid #232C3A;
+  cursor: pointer;
 }
 
 /* On mouse-over, add a deeper shadow */
