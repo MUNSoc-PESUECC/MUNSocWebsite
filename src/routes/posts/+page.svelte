@@ -17,17 +17,17 @@
         <hr>
         
         {#each data.posts as post}
-          <div class="card ml-10 mr-10 rounded-md" onclick="window.location='{post.path}'">
-            <div class = "flex justify-center"><img src="{post.meta.img}" alt="" class="w-2/3 h-auto rounded-md max-w-md"></div>
+          <div class="card ml-10 mr-10 rounded-md flex" onclick="window.location='{post.path}'">
+            <div class = "flex justify-center"><img src="{post.meta.img}" alt="" class="w-2/3 h-auto rounded-md max-w-md basis-2/5 object-cover"></div>
             
             <div class = "card-content">
-            <h1 class = "pr-10 pl-10">
+            <h1 class = "">
               <a href={post.path}>
                 {post.meta.title}
               </a>
             </h1>
-            <div class = "pl-10 pr-10 text-xl">Published: {post.meta.date} </div> 
-            <div class = "pl-10 pr-10">{post.meta.description} </div> 
+            <div class = "">Published: {post.meta.date} </div> 
+            <div class = "object-contain">{post.meta.description} </div> 
           </div>
           </div>
 
@@ -73,6 +73,6 @@
 
 /* Add some padding inside the card container */
 .card-content {
-  padding-bottom: 30px;
+  padding: 30px;
 }
 </style>
