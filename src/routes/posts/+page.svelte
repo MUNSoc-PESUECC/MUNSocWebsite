@@ -51,6 +51,9 @@
     color: var(--munsoc-gold);
     text-decoration: none;
   }
+  .prose h1{
+    color: var(--munsoc-gold);
+  }
 
   .card {
   /* Add shadows to create the "card" effect */
