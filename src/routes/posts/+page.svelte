@@ -46,7 +46,7 @@
   .card {
   /* Add shadows to create the "card" effect */
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
+  transition: 0.5s;
   margin-bottom: 30px;
   background-color: #202c40;
   border: 5px solid #232C3A;
