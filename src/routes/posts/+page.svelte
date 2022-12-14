@@ -12,12 +12,12 @@
 
 <main>
     <title>MUNSOC-PESUECC | POSTS</title>
-    <body class = "bg-body-slate text-white prose prose-invert ml-10 mr-10">
+    <body class = "bg-body-slate text-white prose prose-invert">
         <h1 class="px-10 pt-10 text-center">Posts</h1>
         <hr>
         
         {#each data.posts as post}
-          <div class="card">
+          <div class="card ml-10 mr-10 rounded-md" onclick="window.location='{post.path}'">
             <div class = "flex justify-center"><img src="{post.meta.img}" alt="" class="w-2/3 h-auto rounded-md max-w-md"></div>
             
             <div class = "card-content">
@@ -26,7 +26,7 @@
                 {post.meta.title}
               </a>
             </h1>
-            <div class = "pl-10 pr-10">Published: {post.meta.date} </div> 
+            <div class = "pl-10 pr-10 text-xl">Published: {post.meta.date} </div> 
             <div class = "pl-10 pr-10">{post.meta.description} </div> 
           </div>
           </div>
@@ -40,9 +40,18 @@
 
 
 <style>
+  :root{
+    --munsoc-gold: #C0A960;
+    --body-slate: #232C3A;
+  }
   .prose{
     max-width: none;
   }
+  .prose a{
+    color: var(--munsoc-gold);
+    text-decoration: none;
+  }
+
   .card {
   /* Add shadows to create the "card" effect */
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
@@ -54,7 +63,7 @@
 
 /* On mouse-over, add a deeper shadow */
 .card:hover {
-  border-color:#C0A960;
+  border-color: var(--munsoc-gold);
   box-shadow: 0 16px 32px rgba(0,0,0,0.5);
 }
 

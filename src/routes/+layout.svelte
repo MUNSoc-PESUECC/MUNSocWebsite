@@ -43,11 +43,11 @@
             ? 'flex'
             : 'hidden'}"
         >
-          <a class="text-white hover:text-munsoc-gold font-semibold transition-all ease-linear duration-100 text-center ml-10 hover:border-b-2 inline-block hover:pb-1" href="/" on:click={toggleNavbar}>HOME</a>
-          <a class="text-white hover:text-munsoc-gold font-semibold transition-all ease-linear duration-100 text-center ml-10 hover:border-b-2 inline-block hover:pb-1" href="/posts" on:click={toggleNavbar}>POSTS</a>
-          <a class="text-white hover:text-munsoc-gold font-semibold transition-all ease-linear duration-100 text-center ml-10 hover:border-b-2 inline-block hover:pb-1" href="/members" on:click={toggleNavbar}>MEMBERS</a>
-          <a class="text-white hover:text-munsoc-gold font-semibold transition-all ease-linear duration-100 text-center ml-10 hover:border-b-2 inline-block hover:pb-1" href="/events" on:click={toggleNavbar}>EVENTS</a>
-          <a class="text-white hover:text-munsoc-gold font-semibold transition-all ease-linear duration-100 text-center ml-10 hover:border-b-2 inline-block hover:pb-1" href="/about" on:click={toggleNavbar}>ABOUT</a>
+          <a class="text-white hover:text-munsoc-gold font-semibold transition-all ease-linear duration-100 text-center hover:border-b-2 inline-block hover:pb-1" href="/" on:click={toggleNavbar}>HOME</a>
+          <a class="text-white hover:text-munsoc-gold font-semibold transition-all ease-linear duration-100 text-center hover:border-b-2 inline-block hover:pb-1" href="/posts" on:click={toggleNavbar}>POSTS</a>
+          <a class="text-white hover:text-munsoc-gold font-semibold transition-all ease-linear duration-100 text-center hover:border-b-2 inline-block hover:pb-1" href="/members" on:click={toggleNavbar}>MEMBERS</a>
+          <a class="text-white hover:text-munsoc-gold font-semibold transition-all ease-linear duration-100 text-center hover:border-b-2 inline-block hover:pb-1" href="/events" on:click={toggleNavbar}>EVENTS</a>
+          <a class="text-white hover:text-munsoc-gold font-semibold transition-all ease-linear duration-100 text-center hover:border-b-2 inline-block hover:pb-1" href="/about" on:click={toggleNavbar}>ABOUT</a>
         </div>
       </nav>
 
