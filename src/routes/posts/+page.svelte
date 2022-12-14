@@ -17,7 +17,10 @@
         <hr>
         
         {#each data.posts as post}
+          <div class="card">
             <div class = "flex justify-center"><img src="{post.meta.img}" alt="" class="w-2/3 h-auto rounded-md max-w-md"></div>
+            
+            <div class = "card-content">
             <h1 class = "pr-10 pl-10">
               <a href={post.path}>
                 {post.meta.title}
@@ -25,8 +28,9 @@
             </h1>
             <div class = "pl-10 pr-10">Published: {post.meta.date} </div> 
             <div class = "pl-10 pr-10">{post.meta.description} </div> 
+          </div>
+          </div>
 
-            <hr>
         {/each}
           
     </body>
@@ -39,4 +43,23 @@
   .prose{
     max-width: none;
   }
+  .card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  margin-bottom: 30px;
+  background-color: #202c40;
+  border: 5px solid #232C3A;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  border-color:#C0A960;
+  box-shadow: 0 16px 32px rgba(0,0,0,0.5);
+}
+
+/* Add some padding inside the card container */
+.card-content {
+  padding-bottom: 30px;
+}
 </style>
