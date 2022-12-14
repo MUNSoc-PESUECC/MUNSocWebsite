@@ -24,7 +24,14 @@
 
 
 <style>
+  :root{
+    --munsoc-gold: #C0A960;
+    --body-slate: #232C3A;
+  }
   .prose{
     max-width: none;
+  }
+  .prose h1{
+    color: var(--munsoc-gold)
   }
 </style>
