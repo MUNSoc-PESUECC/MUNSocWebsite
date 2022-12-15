@@ -11,17 +11,17 @@
 
 
 	<nav
-        class="w-auto px-10 py-1 md:flex md:justify-between md:items-center bg-navbar-slate">
+        class="w-auto px-10 md:px-0 md:flex md:justify-between md:items-center bg-navbar-slate">
         <div class="flex items-center justify-between">
             <a
             class="text-xl font-bold text-white md:text-2xl hover:text-munsoc-yellow"
             href="/">
-            <img class = "pr-2" width = 100 src={logoAddress} alt="">
+            <img width = 100 src={logoAddress} alt="logo">
         
         </a>
 
           <a
-            class="text:xl font-bold md:text-2xl text-white md:hidden"
+            class="text:xl font-bold md:text-2xl text-white md:hidden no-underline"
             href="/">MUNSOC-PESUECC</a>
           
           <!-- Mobile menu button -->
