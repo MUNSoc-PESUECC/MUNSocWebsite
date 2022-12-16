@@ -1,14 +1,19 @@
 <script>
   const coreMembers = [
     {
-      Name: 'Anurag G',
-      Role: 'Head Of Training And Development',
-      Photo: "https://i.imgur.com/HfP0Lv4.png",
+      Name: "Abhiram Dasika",
+      Role: 'President',
+      Photo: "https://i.imgur.com/SdChrcL.png",
     },
     {
       Name: "Harsh Somvanshi",
-      Role: 'President1',
+      Role: 'President',
       Photo: "https://i.imgur.com/YFnnr3q.png",
+    },
+    {
+      Name: 'Anurag G',
+      Role: 'Head Of Training And Development',
+      Photo: "https://i.imgur.com/HfP0Lv4.png",
     },
     {
       Name: "Hemanth V",
@@ -41,11 +46,6 @@
       Photo: "https://i.imgur.com/sLjEDXL.png",
     },
     {
-      Name: "Abhiram Dasika",
-      Role: 'President2',
-      Photo: "https://i.imgur.com/SdChrcL.png",
-    },
-    {
       Name: "Sphurthi Yandamuri",
       Role: 'Media And Marketing2',
       Photo: "https://i.imgur.com/HauEJy7.png",
@@ -75,6 +75,7 @@
 <main>
   <title>MUNSOC-PESUECC</title>
   <body class = "bg-body-slate prose prose-invert"> 
+    <h1 class="p-10 text-center">Meet Our Team</h1>
     {#each coreMembers as person}
     <div class="card ml-10 mr-10 rounded-md">
       <div class = "flex justify-center"><img src="{person.Photo}" alt="core member" class="w-2/3 h-auto rounded-md max-w-md"></div>
@@ -119,7 +120,7 @@
   transition: 0.5s;
   margin-bottom: 30px;
   background-color: #202c40;
-  border: 5px solid #232C3A;
+  border: 5px solid #202c40;
   cursor: pointer;
 }
 
