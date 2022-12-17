@@ -16,10 +16,8 @@
     <p>Published: {data.date}</p>
     <hr>
     <svelte:component this={data.content} />
-
   </article>
   </body>
-
 </main>
 
 

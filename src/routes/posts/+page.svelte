@@ -17,7 +17,7 @@
         <hr>
         
         {#each data.posts as post}
-          <div class="card ml-10 mr-10 rounded-md" onclick="window.location='{post.path}'">
+          <div class="card ml-10 mr-10 rounded-md text-center" onclick="window.location='{post.path}'">
             <div class = "flex justify-center"><img src="{post.meta.img}" alt="" class="w-2/3 h-auto rounded-md max-w-md"></div>
             
             <div class = "card-content">
@@ -61,7 +61,7 @@
   transition: 0.5s;
   margin-bottom: 30px;
   background-color: #202c40;
-  border: 5px solid;
+  border: 5px solid #202c40;
   cursor: pointer;
 }
 
