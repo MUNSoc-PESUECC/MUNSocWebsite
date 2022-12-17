@@ -11,9 +11,19 @@ const coreMembers = [
       Photo: "https://i.imgur.com/YFnnr3q.png",
     },
     {
+      Name: "Disha Kiran",
+      Role: 'Editor In Chief And Membership Chair',
+      Photo: "https://i.imgur.com/M9SIPEY.png",
+    },
+    {
       Name: 'Anurag G',
-      Role: 'Head Of Training And Development',
+      Role: 'Training And Development',
       Photo: "https://i.imgur.com/HfP0Lv4.png",
+    },
+    {
+      Name: "Babu B",
+      Role: 'Training And Development',
+      Photo: "https://i.imgur.com/mEblgB7.png",
     },
     {
       Name: "Hemanth V",
@@ -21,14 +31,14 @@ const coreMembers = [
       Photo: "https://i.imgur.com/ECFqzKF.png",
     },
     {
-      Name: "Disha Kiran",
-      Role: 'Editor In Chief And Membership Chair',
-      Photo: "https://i.imgur.com/M9SIPEY.png",
+      Name: "Shreyas",
+      Role: 'Head Of Design',
+      Photo: "https://i.imgur.com/p92FAuC.png",
     },
     {
-      Name: "Babu B",
-      Role: 'Mentor',
-      Photo: "https://i.imgur.com/mEblgB7.png",
+      Name: "Sarthak S Kumar",
+      Role: 'Head Of Design',
+      Photo: "https://i.imgur.com/jGBAj5K.png",
     },
     {
       Name: "Srinivaasan N S",
@@ -42,29 +52,20 @@ const coreMembers = [
     },
     {
       Name: "Divyansh Vinayak",
-      Role: 'Event Co-Head',
+      Role: 'Head Of Events',
       Photo: "https://i.imgur.com/sLjEDXL.png",
     },
     {
       Name: "Sphurthi Yandamuri",
-      Role: 'Media And Marketing',
+      Role: 'Head Of Social Media',
       Photo: "https://i.imgur.com/HauEJy7.png",
     },
     {
       Name: "Sukruthi Sanampudi",
-      Role: 'Operations Head',
+      Role: 'Head Of Operations',
       Photo: "https://i.imgur.com/4r2a1eR.png",
     },
-    {
-      Name: "Shreyas",
-      Role: 'Design Lead',
-      Photo: "https://i.imgur.com/p92FAuC.png",
-    },
-    {
-      Name: "Sarthak S Kumar",
-      Role: 'Design',
-      Photo: "https://i.imgur.com/jGBAj5K.png",
-    },
+    
   ];
 </script>
 
