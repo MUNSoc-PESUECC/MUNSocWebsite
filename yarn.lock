@@ -830,6 +830,11 @@ flatted@^3.1.0:
   resolved "https://registry.yarnpkg.com/flatted/-/flatted-3.2.7.tgz#609f39207cb614b89d0765b477cb2d437fbf9787"
   integrity sha512-5nqDSxl8nn5BSNxyR3n4I6eDmbolI6WT+QqR547RwxQapgjQBmtktdP+HTBb/a/zLsbzERTONyUB5pefh5TtjQ==
 
+fontawesome-svelte@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/fontawesome-svelte/-/fontawesome-svelte-2.0.1.tgz#1e878f474e0c89ac3d044d0528cc31753584a4c8"
+  integrity sha512-6OSbpfBFiQA4fcrj5CvJBx36iVYfdvQY8xEdcsQNhWk6FjdwoiWkjxOIvSsr6v1KI2fM9xr99z7uRJHLSsxreQ==
+
 fraction.js@^4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/fraction.js/-/fraction.js-4.2.0.tgz#448e5109a313a3527f5a3ab2119ec4cf0e0e2950"

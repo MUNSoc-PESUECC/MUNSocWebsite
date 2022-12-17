@@ -71,9 +71,9 @@
                 {data.events[0].meta.title}
               </a>
             </h1>
-            <div class = "pl-10 pr-10">Date: {data.events[0].meta.date} </div> 
-            <div class = "pl-10 pr-10">Time: {data.events[0].meta.time} </div> 
-            <div class = "pl-10 pr-10">Venue: {data.events[0].meta.venue} </div> 
+            <h3 class = "pl-10 pr-10">Date: {data.events[0].meta.date} </h3> 
+            <h3 class = "pl-10 pr-10">Time: {data.events[0].meta.time} </h3> 
+            <h3 class = "pl-10 pr-10">Venue: {data.events[0].meta.venue} </h3> 
 
           </div>
           </div>
@@ -88,9 +88,9 @@
                 {data.events[1].meta.title}
               </a>
             </h1>
-            <div class = "pl-10 pr-10">Date: {data.events[1].meta.date} </div> 
-            <div class = "pl-10 pr-10">Time: {data.events[1].meta.time} </div> 
-            <div class = "pl-10 pr-10">Venue: {data.events[1].meta.venue} </div>
+            <h3 class = "pl-10 pr-10">Date: {data.events[1].meta.date} </h3> 
+            <h3 class = "pl-10 pr-10">Time: {data.events[1].meta.time} </h3> 
+            <h3 class = "pl-10 pr-10">Venue: {data.events[1].meta.venue} </h3>
           </div>
           </div>
 

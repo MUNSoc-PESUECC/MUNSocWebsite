@@ -1,4 +1,4 @@
-<script>
+<script>  
 	const logoAddress = "/images/logo.png";
     let showMenu = false;
     function toggleNavbar() {
@@ -7,6 +7,7 @@
 	import '../app.postcss';
 </script>
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
 
@@ -53,3 +54,87 @@
 
 
 <slot />
+
+
+
+    <footer class = "bg-navbar-slate pl-5 pr-5">
+      <div class="footer-content">
+        <img src="/images/logo.png" class = "w-32" alt="">
+        <h3>MUNSOC-PESUECC</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut facilis velit sed accusamus, explicabo itaque non, quia eaque ducimus, quod ex necessitatibus. Vel id officia molestias cumque repellat, quod placeat maiores cum, saepe</p>
+        <ul class="socials">
+          <li><a href="https://www.instagram.com/munsoc.pesuecc/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+          <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="#" target="_blank"><i class="fa fa-youtube"></i></a></li>
+          <li><a href="#" target="_blank"><i class="fa fa-linkedin-square"></i></a></li>
+       </ul>
+       <div>©MUNSOC-PESUECC</div>
+    </div>
+
+    </footer>
+
+
+
+
+<style>
+  footer{
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 100vw;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    color: #fff;
+  }
+  .footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-content h3{
+    margin-top: 0;
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+  }
+  .socials{
+    padding-left:0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.socials li{
+    margin:0 20px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: #fff;
+    border: 1.1px solid white;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.socials a:hover{
+  border-color: #C0A960;
+}
+
+.socials a i{
+    font-size: 1.1rem;
+    width: 20px;
+    transition: color 0.4s ease;
+}
+
+.socials a:hover i{
+    color: #C0A960;
+    
+}
+
+
+</style>
