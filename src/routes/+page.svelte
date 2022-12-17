@@ -24,7 +24,7 @@
     <h1 class="p-10 text-center">Recent Posts</h1>
     {#each data.posts as post, i}
       {#if i < 2}
-          <div class="card ml-10 mr-10 rounded-md" onclick="window.location='{post.path}'">
+          <div class="card ml-10 mr-10 rounded-md text-center" onclick="window.location='{post.path}'">
             <div class = "flex justify-center"><img src="{post.meta.img}" alt="" class="w-2/3 h-auto rounded-md max-w-md"></div>
             
             <div class = "card-content">
