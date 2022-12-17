@@ -11,7 +11,7 @@
 
 
 	<nav
-        class="w-auto px-10 md:px-0 md:flex md:justify-between md:items-center bg-navbar-slate">
+        class="w-auto p-10 md:flex md:justify-between md:items-center bg-navbar-slate">
         <div class="flex items-center justify-between">
             <a
             class="text-xl font-bold text-white md:text-2xl hover:text-munsoc-yellow"
