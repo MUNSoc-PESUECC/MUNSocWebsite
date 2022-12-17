@@ -1,71 +1,17 @@
 <script>
-  const coreMembers = [
+// @ts-nocheck
+
+   export let data
+  const presidents = [
     {
       Name: "Abhiram Dasika",
-      Role: 'President',
       Photo: "https://i.imgur.com/SdChrcL.png",
     },
     {
       Name: "Harsh Somvanshi",
-      Role: 'President',
       Photo: "https://i.imgur.com/YFnnr3q.png",
     },
-    {
-      Name: 'Anurag G',
-      Role: 'Head Of Training And Development',
-      Photo: "https://i.imgur.com/HfP0Lv4.png",
-    },
-    {
-      Name: "Hemanth V",
-      Role: 'Events Co-ordinator',
-      Photo: "https://i.imgur.com/ECFqzKF.png",
-    },
-    {
-      Name: "Disha Kiran",
-      Role: 'Editor In Chief And Membership Chair',
-      Photo: "https://i.imgur.com/M9SIPEY.png",
-    },
-    {
-      Name: "Babu B",
-      Role: 'Mentor',
-      Photo: "https://i.imgur.com/mEblgB7.png",
-    },
-    {
-      Name: "Srinivaasan N S",
-      Role: 'Head Of Finance',
-      Photo: "https://i.imgur.com/P6MnSpZ.png",
-    },
-    {
-      Name: "Garima Bajpayi",
-      Role: 'Media And Marketing1',
-      Photo: "https://i.imgur.com/Jeh5Bwj.png",
-    },
-    {
-      Name: "Divyansh Vinayak",
-      Role: 'Event Co-Head',
-      Photo: "https://i.imgur.com/sLjEDXL.png",
-    },
-    {
-      Name: "Sphurthi Yandamuri",
-      Role: 'Media And Marketing2',
-      Photo: "https://i.imgur.com/HauEJy7.png",
-    },
-    {
-      Name: "Sukruthi Sanampudi",
-      Role: 'Operations Head',
-      Photo: "https://i.imgur.com/4r2a1eR.png",
-    },
-    {
-      Name: "Shreyas",
-      Role: 'Design Lead',
-      Photo: "https://i.imgur.com/p92FAuC.png",
-    },
-    {
-      Name: "Sarthak S Kumar",
-      Role: 'Design',
-      Photo: "https://i.imgur.com/jGBAj5K.png",
-    },
-  ];
+    ]
 </script>
 
 
@@ -74,22 +20,41 @@
 
 <main>
   <title>MUNSOC-PESUECC</title>
-  <body class = "bg-body-slate prose prose-invert"> 
-    <h1 class="p-10 text-center">Meet Our Team</h1>
-    {#each coreMembers as person}
+  <body class = "bg-body-slate prose prose-invert">
+    <h1 class="p-10 text-center">Recent Posts</h1>
+    {#each data.posts as post, i}
+      {#if i < 2}
+          <div class="card ml-10 mr-10 rounded-md" onclick="window.location='{post.path}'">
+            <div class = "flex justify-center"><img src="{post.meta.img}" alt="" class="w-2/3 h-auto rounded-md max-w-md"></div>
+            
+            <div class = "card-content">
+            <h1 class = "pr-10 pl-10">
+              <a href={post.path}>
+                {post.meta.title}
+              </a>
+            </h1>
+            <div class = "pl-10 pr-10 text-xl">Published: {post.meta.date} </div> 
+            <div class = "pl-10 pr-10">{post.meta.description} </div> 
+          </div>
+          </div>
+      {/if}
+      {/each}
+
+
+    <hr class="pl-10 pr-10">
+
+    <h1 class="p-10 text-center">Meet Our Heads</h1>
+    {#each presidents as person}
     <div class="card ml-10 mr-10 rounded-md">
       <div class = "flex justify-center"><img src="{person.Photo}" alt="core member" class="w-2/3 h-auto rounded-md max-w-md"></div>
       <div class = "card-content">
       <h1 class = "pr-10 pl-10 text-center">
           {person.Name}
       </h1>
-      <h3 class="pr-10 pl-10 text-center">
-        {person.Role}
-      </h3>
     </div>
     </div>
 
-  {/each}
+    {/each}
   </body>
 </main>
 
