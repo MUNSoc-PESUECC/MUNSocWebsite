@@ -26,6 +26,7 @@
                 {post.meta.title}
               </a>
             </h1>
+            <h3>✍️ {post.meta.author}</h3>
             <div class = "pl-10 pr-10 text-xl">Published: {post.meta.date} </div> 
             <div class = "pl-10 pr-10">{post.meta.description} </div> 
           </div>
@@ -51,7 +52,7 @@
     color: var(--munsoc-gold);
     text-decoration: none;
   }
-  .prose h1{
+  .prose h1, h3{
     color: var(--munsoc-gold);
   }
 
