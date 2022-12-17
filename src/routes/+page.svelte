@@ -22,7 +22,7 @@
   <title>MUNSOC-PESUECC</title>
 
     <!-- POSTS -->
-    <h1 class="p-10 text-center">Recent Posts</h1>
+    <h1 class="p-10 text-center text-munsoc-gold">Recent Posts</h1>
     
           <div class="card ml-10 mr-10 rounded-md text-center" onclick="window.location='{data.posts[0].path}'">
             <div class = "flex justify-center"><img src="{data.posts[0].meta.img}" alt="" class="w-2/3 h-auto rounded-md max-w-md"></div>
