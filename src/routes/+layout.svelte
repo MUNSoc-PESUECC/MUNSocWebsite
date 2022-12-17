@@ -11,13 +11,12 @@
 
 
 	<nav
-        class="w-auto pl-10 pr-10 md:flex md:justify-between md:items-center bg-navbar-slate">
+        class="w-auto pl-10 pr-10 md:flex md:justify-between md:items-center bg-navbar-slate h-24">
         <div class="flex items-center justify-between">
             <a
-            class="text-xl font-bold text-white md:text-2xl hover:text-munsoc-yellow"
+            class=""
             href="/">
             <img width = 100 src={logoAddress} alt="logo">
-        
         </a>
 
           <a

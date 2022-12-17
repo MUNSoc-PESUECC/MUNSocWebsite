@@ -17,7 +17,7 @@ const coreMembers = [
     },
     {
       Name: "Hemanth V",
-      Role: 'Events Co-ordinator',
+      Role: 'Head Of Events',
       Photo: "https://i.imgur.com/ECFqzKF.png",
     },
     {
