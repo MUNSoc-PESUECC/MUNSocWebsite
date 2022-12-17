@@ -1,7 +1,7 @@
 <script>
 // @ts-nocheck
 
-   export let data
+  export let data;
   const presidents = [
     {
       Name: "Abhiram Dasika",
@@ -21,6 +21,43 @@
 <main>
   <title>MUNSOC-PESUECC</title>
   <body class = "bg-body-slate prose prose-invert">
+    <h1 class="p-10 text-center">Recent Events</h1>
+          <div class="card ml-10 mr-10 rounded-md text-center" onclick="window.location='{data.events[0].path}'">
+            <div class = "flex justify-center"><img src="{data.events[0].meta.img}" alt="" class="w-2/3 h-auto rounded-md max-w-md"></div>
+        
+            <div class = "card-content">
+            <h1 class = "pr-10 pl-10">
+              <a href={data.events[0].path}>
+                {data.events[0].meta.title}
+              </a>
+            </h1>
+            <div class = "pl-10 pr-10">Date: {data.events[0].meta.date} </div> 
+            <div class = "pl-10 pr-10">Time: {data.events[0].meta.time} </div> 
+            <div class = "pl-10 pr-10">Venue: {data.events[0].meta.venue} </div> 
+
+          </div>
+          </div>
+
+
+          <div class="card ml-10 mr-10 rounded-md text-center" onclick="window.location='{data.events[0].path}'">
+            <div class = "flex justify-center"><img src="{data.events[1].meta.img}" alt="" class="w-2/3 h-auto rounded-md max-w-md"></div>
+            
+            <div class = "card-content">
+            <h1 class = "pr-10 pl-10">
+              <a href={data.events[1].path}>
+                {data.events[1].meta.title}
+              </a>
+            </h1>
+            <div class = "pl-10 pr-10">Date: {data.events[1].meta.date} </div> 
+            <div class = "pl-10 pr-10">Time: {data.events[1].meta.time} </div> 
+            <div class = "pl-10 pr-10">Venue: {data.events[1].meta.venue} </div>
+          </div>
+          </div>
+
+
+    <hr class="pl-10 pr-10">
+
+
     <h1 class="p-10 text-center">Recent Posts</h1>
     
           <div class="card ml-10 mr-10 rounded-md text-center" onclick="window.location='{data.posts[0].path}'">
@@ -49,7 +86,7 @@
               </a>
             </h1>
             <h3>✍️ {data.posts[1].meta.author}</h3>
-            <div class = "pl-10 pr-10">Published: {data.posts[1].meta.date} </div> 
+            <div class = "pl-10 pr-10 text-xl">Published: {data.posts[1].meta.date} </div> 
             <div class = "pl-10 pr-10">{data.posts[1].meta.description} </div> 
           </div>
           </div>

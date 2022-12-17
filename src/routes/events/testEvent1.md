@@ -1,5 +1,5 @@
 ---
-title: Test Event
+title: Test Event 1
 date: "2022-12-20"
 time: "16:00"
 img: "https://bestdelegate.com/wp-content/uploads/2021/11/MUN-Conference-scaled.jpeg"
