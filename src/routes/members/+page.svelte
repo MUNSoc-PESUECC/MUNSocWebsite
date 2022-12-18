@@ -11,24 +11,24 @@ const coreMembers = [
       Photo: "https://i.imgur.com/YFnnr3q.png",
     },
     {
-      Name: "Disha Kiran",
-      Role: 'Editor In Chief And Membership Chair',
-      Photo: "https://i.imgur.com/M9SIPEY.png",
-    },
-    {
-      Name: 'Anurag G',
-      Role: 'Training And Development',
-      Photo: "https://i.imgur.com/HfP0Lv4.png",
-    },
-    {
-      Name: "Babu B",
-      Role: 'Training And Development',
-      Photo: "https://i.imgur.com/mEblgB7.png",
-    },
-    {
       Name: "Hemanth V",
       Role: 'Head Of Events',
       Photo: "https://i.imgur.com/ECFqzKF.png",
+    },
+    {
+      Name: "Divyansh Vinayak",
+      Role: 'Head Of Events',
+      Photo: "https://i.imgur.com/sLjEDXL.png",
+    },
+    {
+      Name: "Garima Bajpayi",
+      Role: 'Head Of Marketing',
+      Photo: "https://i.imgur.com/Jeh5Bwj.png",
+    },
+    {
+      Name: "Sphurthi Yandamuri",
+      Role: 'Head Of Social Media',
+      Photo: "https://i.imgur.com/HauEJy7.png",
     },
     {
       Name: "Shreyas",
@@ -41,29 +41,29 @@ const coreMembers = [
       Photo: "https://i.imgur.com/jGBAj5K.png",
     },
     {
-      Name: "Srinivaasan N S",
-      Role: 'Head Of Finance',
-      Photo: "https://i.imgur.com/P6MnSpZ.png",
+      Name: 'Anurag G',
+      Role: 'Training And Development',
+      Photo: "https://i.imgur.com/HfP0Lv4.png",
     },
     {
-      Name: "Garima Bajpayi",
-      Role: 'Media And Marketing',
-      Photo: "https://i.imgur.com/Jeh5Bwj.png",
+      Name: "Babu B",
+      Role: 'Training And Development',
+      Photo: "https://i.imgur.com/mEblgB7.png",
     },
     {
-      Name: "Divyansh Vinayak",
-      Role: 'Head Of Events',
-      Photo: "https://i.imgur.com/sLjEDXL.png",
-    },
-    {
-      Name: "Sphurthi Yandamuri",
-      Role: 'Head Of Social Media',
-      Photo: "https://i.imgur.com/HauEJy7.png",
+      Name: "Disha Kiran",
+      Role: 'Editor In Chief And Membership Chair',
+      Photo: "https://i.imgur.com/M9SIPEY.png",
     },
     {
       Name: "Sukruthi Sanampudi",
       Role: 'Head Of Operations',
       Photo: "https://i.imgur.com/4r2a1eR.png",
+    },
+    {
+      Name: "Srinivaasan N S",
+      Role: 'Head Of Finance',
+      Photo: "https://i.imgur.com/P6MnSpZ.png",
     },
     
   ];
