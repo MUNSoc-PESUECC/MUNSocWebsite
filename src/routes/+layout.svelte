@@ -64,9 +64,8 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut facilis velit sed accusamus, explicabo itaque non, quia eaque ducimus, quod ex necessitatibus. Vel id officia molestias cumque repellat, quod placeat maiores cum, saepe</p>
         <ul class="socials">
           <li><a href="https://www.instagram.com/munsoc.pesuecc/" target="_blank"><i class="fa fa-instagram"></i></a></li>
-          <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
-          <li><a href="#" target="_blank"><i class="fa fa-youtube"></i></a></li>
-          <li><a href="#" target="_blank"><i class="fa fa-linkedin-square"></i></a></li>
+          <li><a href="mailto:munsocecc@pes.edu" target="_blank"><i class="fa fa-envelope"></i></a></li>
+
        </ul>
        <div>©MUNSOC-PESUECC</div>
     </div>
