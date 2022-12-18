@@ -78,8 +78,9 @@ const coreMembers = [
     <title>MUNSOC-PESUECC | MEMBERS</title>
     <body class = "bg-body-slate prose prose-invert">
     <h1 class="p-10 text-center">Meet Our Team</h1>
+    <div class = "wrapper">
     {#each coreMembers as person}
-    <div class="card ml-10 mr-10 rounded-md">
+    <div class="card ml-10 mr-10 rounded-md inline-block">
       <div class = "flex justify-center"><img src="{person.Photo}" alt="core member" class="w-2/3 h-auto rounded-md max-w-md"></div>
       <div class = "card-content">
       <h1 class = "pr-10 pl-10 text-center">
@@ -92,6 +93,7 @@ const coreMembers = [
     </div>
 
     {/each}
+  </div>
     </body>
 </main>
 
@@ -134,4 +136,23 @@ const coreMembers = [
 .card-content {
   padding-bottom: 30px;
 }
+.wrapper { 
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-gap: 20px;
+  align-items: stretch;
+  }
+
+  @media (max-width: 420px) {
+    .wrapper {
+      display:block;
+    }
+    .card{
+      display:block;
+    }
+    .prose h1{
+      font-size:large;
+    }
+  }
+
 </style>
