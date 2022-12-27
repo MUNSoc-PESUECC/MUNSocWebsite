@@ -12,7 +12,7 @@
 
 
 	<nav
-        class="w-auto pl-10 pr-10 md:flex md:justify-between md:items-center bg-navbar-slate md:h-24">
+        class="md:pl-10 md:pr-10 md:flex md:justify-between md:items-center bg-navbar-slate md:h-24">
         <div class="flex items-center justify-between">
             <a
             class=""
@@ -22,7 +22,7 @@
 
           <a
             class="text:xl font-bold md:text-2xl text-white md:hidden no-underline"
-            href="/">MUNSOC-PESUECC</a>
+            href="/">MUNSoc PESU-ECC</a>
           
           <!-- Mobile menu button -->
           <div on:click={toggleNavbar} on:keydown={toggleNavbar} class="flex md:hidden">
@@ -60,14 +60,14 @@
     <footer class = "bg-navbar-slate pl-5 pr-5">
       <div class="footer-content">
         <img src="/images/logo.png" class = "w-32" alt="">
-        <h3>MUNSOC-PESUECC</h3>
+        <h3>MUNSoc PESU-ECC</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut facilis velit sed accusamus, explicabo itaque non, quia eaque ducimus, quod ex necessitatibus. Vel id officia molestias cumque repellat, quod placeat maiores cum, saepe</p>
         <ul class="socials">
           <li><a href="https://www.instagram.com/munsoc.pesuecc/" target="_blank" rel="noreferrer"><i class="fa fa-instagram"></i></a></li>
           <li><a href="mailto:munsocecc@pes.edu" target="_blank"><i class="fa fa-envelope"></i></a></li>
 
        </ul>
-       <div>© MUNSOC-PESUECC</div>
+       <div>© MUNSoc PESU-ECC</div>
     </div>
 
     </footer>

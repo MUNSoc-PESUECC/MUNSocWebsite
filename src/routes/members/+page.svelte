@@ -75,12 +75,12 @@ const coreMembers = [
 
 
 <main>
-    <title>MUNSOC-PESUECC | MEMBERS</title>
+    <title>MUNSoc PESU-ECC | MEMBERS</title>
     <body class = "bg-body-slate prose prose-invert">
     <h1 class="p-10 text-center">Meet Our Team</h1>
     <div class = "wrapper">
     {#each coreMembers as person}
-    <div class="card ml-10 mr-10 rounded-md inline-block">
+    <div class="card md:ml-10 md:mr-10 rounded-md inline-block">
       <div class = "flex justify-center"><img src="{person.Photo}" alt="core member" class="w-2/3 h-auto rounded-md max-w-md"></div>
       <div class = "card-content">
       <h1 class = "pr-10 pl-10 text-center">

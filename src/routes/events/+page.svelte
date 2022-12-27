@@ -10,12 +10,12 @@
 
 
 <main>
-    <title>MUNSOC-PESUECC | EVENTS</title>
+    <title>MUNSoc PESU-ECC | EVENTS</title>
     <body class = "bg-body-slate text-white prose prose-invert">
         <h1 class="px-10 pt-10 text-center">Events</h1>
         <hr>
         {#each data.events as event}
-          <div class="card ml-10 mr-10 rounded-md" onclick="window.location='{event.path}'">
+          <div class="card md:ml-10 md:mr-10 rounded-md" onclick="window.location='{event.path}'">
             <div class = "flex justify-center"><img src="{event.meta.img}" alt="" class="w-2/3 h-auto rounded-md max-w-md"></div>
             
             <div class = "card-content text-center">
