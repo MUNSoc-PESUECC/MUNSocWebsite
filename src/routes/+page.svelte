@@ -20,7 +20,7 @@
 
 <main>
   <title>MUNSoc PESU-ECC</title>
-
+  <body class = "bg-body-slate prose prose-invert">
     <!-- POSTS -->
     <h1 class="p-10 text-center text-munsoc-gold">Recent Posts</h1>
     
@@ -60,7 +60,7 @@
 
 
   <!-- EVENTS -->
-  <body class = "bg-body-slate prose prose-invert">
+  
     <h1 class="p-10 text-center">Recent Events</h1>
           <div class="card md:ml-10 md:mr-10 rounded-md text-center" onclick="window.location='{data.events[0].path}'">
             <div class = "flex justify-center"><img src="{data.events[0].meta.img}" alt="" class="w-2/3 h-auto rounded-md max-w-md"></div>

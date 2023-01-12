@@ -12,7 +12,7 @@
 
 
 	<nav
-        class="md:pl-10 md:pr-10 md:flex md:justify-between md:items-center bg-navbar-slate md:h-24">
+        class="pl-5 pr-5 md:flex md:justify-between md:items-center bg-navbar-slate md:h-24">
         <div class="flex items-center justify-between">
             <a
             class=""
@@ -45,6 +45,7 @@
         >
           <a class="text-white hover:text-munsoc-gold font-semibold transition-all ease-linear duration-100 text-center hover:border-b-2 inline-block hover:pb-1 no-underline" href="/" on:click={toggleNavbar}>HOME</a>
           <a class="text-white hover:text-munsoc-gold font-semibold transition-all ease-linear duration-100 text-center hover:border-b-2 inline-block hover:pb-1 no-underline" href="/posts" on:click={toggleNavbar}>POSTS</a>
+          <a class="text-white hover:text-munsoc-gold font-semibold transition-all ease-linear duration-100 text-center hover:border-b-2 inline-block hover:pb-1 no-underline" href="/newsletter" on:click={toggleNavbar}>NEWSLETTER</a>
           <a class="text-white hover:text-munsoc-gold font-semibold transition-all ease-linear duration-100 text-center hover:border-b-2 inline-block hover:pb-1 no-underline" href="/members" on:click={toggleNavbar}>MEMBERS</a>
           <a class="text-white hover:text-munsoc-gold font-semibold transition-all ease-linear duration-100 text-center hover:border-b-2 inline-block hover:pb-1 no-underline" href="/events" on:click={toggleNavbar}>EVENTS</a>
           <a class="text-white hover:text-munsoc-gold font-semibold transition-all ease-linear duration-100 text-center hover:border-b-2 inline-block hover:pb-1 no-underline" href="/about" on:click={toggleNavbar}>ABOUT</a>
@@ -61,13 +62,13 @@
       <div class="footer-content">
         <img src="/images/logo.png" class = "w-32" alt="">
         <h3>MUNSoc PESU-ECC</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut facilis velit sed accusamus, explicabo itaque non, quia eaque ducimus, quod ex necessitatibus. Vel id officia molestias cumque repellat, quod placeat maiores cum, saepe</p>
+        <p>The best MUN Society at PES.</p>
         <ul class="socials">
           <li><a href="https://www.instagram.com/munsoc.pesuecc/" target="_blank" rel="noreferrer"><i class="fa fa-instagram"></i></a></li>
           <li><a href="mailto:munsocecc@pes.edu" target="_blank"><i class="fa fa-envelope"></i></a></li>
 
        </ul>
-       <div>© MUNSoc PESU-ECC</div>
+       <div>© MUNSoc PESU-ECC 2023</div>
     </div>
 
     </footer>
@@ -102,8 +103,8 @@
   }
   .socials{
     padding-left:0;
-    padding-top: 2;
-    padding-bottom: 2;
+    padding-top: 10px;
+    padding-bottom: 10px;
     list-style: none;
     display: flex;
     align-items: center;
