@@ -23,15 +23,15 @@
             <a
             class=""
             href="/">
-            <img width=100 src={logoAddress} alt="logo">
+            <img width=100 src={logoAddress} alt="logo" class="m-3 {showMenu? 'mb-0': ''}">
         </a>
 
           <a
-            class="text:xl font-bold md:text-2xl text-white md:hidden no-underline"
+            class="text:xl font-bold md:text-2xl text-white md:hidden no-underline {showMenu? 'mt-3' : ''}"
             href="/">MUNSoc PESU-ECC</a>
           
           <!-- Mobile menu button -->
-          <div on:click={toggleNavbar} on:keydown={toggleNavbar} class="flex md:hidden">
+          <div on:click={toggleNavbar} on:keydown={toggleNavbar} class="flex md:hidden {showMenu? 'mt-3' : ''}">
             <button
               type="button"
               class="text-white hover:text-munsoc-gold focus:outline-none focus:text-munsoc-gold"
