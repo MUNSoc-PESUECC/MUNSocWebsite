@@ -25,7 +25,7 @@
     <!-- LATEST NEWSLETTER -->
     <h1 class="p-10 text-center text-munsoc-gold">Latest Newsletter</h1>
     
-    <div class="card md:ml-10 md:mr-10 rounded-md text-center" onclick="window.location='{data.newsletters[0].meta.path}'">
+    <div class="card md:ml-10 md:mr-10 rounded-md text-center" onclick="window.location='{data.newsletters[0].path}'">
       <div class = "flex justify-center"><img src="{data.newsletters[0].meta.img}" alt="" class="w-2/3 h-auto rounded-md max-w-md"></div>
       
       <div class = "card-content">
