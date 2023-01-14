@@ -4,6 +4,12 @@
     function toggleNavbar() {
       showMenu = !showMenu;
     }
+
+    function navBarItemClicked(){
+      if(showMenu){
+        toggleNavbar()
+      }
+    }
 	import '../app.postcss';
 </script>
 
@@ -12,12 +18,12 @@
 
 
 	<nav
-        class="pl-5 pr-5 md:flex md:justify-between md:items-center bg-navbar-slate md:h-24">
+        class="pl-5 pr-5 md:flex md:justify-between md:items-center bg-navbar-slate">
         <div class="flex items-center justify-between">
             <a
             class=""
             href="/">
-            <img width = 100 src={logoAddress} alt="logo">
+            <img width=100 src={logoAddress} alt="logo">
         </a>
 
           <a
@@ -37,18 +43,18 @@
           </div>
         </div>
   
-        <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
+        <!-- Mobile Menu open: "flex", Menu closed: "hidden" -->
         <div
           class="flex-col mt-8 space-y-4 md:flex md:space-y-0 md:flex-row md:items-center md:space-x-10 md:mt-0 {showMenu
-            ? 'flex'
+            ? 'flex pb-5'
             : 'hidden'}"
         >
-          <a class="text-white hover:text-munsoc-gold font-semibold transition-all ease-linear duration-100 text-center hover:border-b-2 inline-block hover:pb-1 no-underline" href="/" on:click={toggleNavbar}>HOME</a>
-          <a class="text-white hover:text-munsoc-gold font-semibold transition-all ease-linear duration-100 text-center hover:border-b-2 inline-block hover:pb-1 no-underline" href="/posts" on:click={toggleNavbar}>POSTS</a>
-          <a class="text-white hover:text-munsoc-gold font-semibold transition-all ease-linear duration-100 text-center hover:border-b-2 inline-block hover:pb-1 no-underline" href="/newsletter" on:click={toggleNavbar}>NEWSLETTER</a>
-          <a class="text-white hover:text-munsoc-gold font-semibold transition-all ease-linear duration-100 text-center hover:border-b-2 inline-block hover:pb-1 no-underline" href="/members" on:click={toggleNavbar}>MEMBERS</a>
-          <a class="text-white hover:text-munsoc-gold font-semibold transition-all ease-linear duration-100 text-center hover:border-b-2 inline-block hover:pb-1 no-underline" href="/events" on:click={toggleNavbar}>EVENTS</a>
-          <a class="text-white hover:text-munsoc-gold font-semibold transition-all ease-linear duration-100 text-center hover:border-b-2 inline-block hover:pb-1 no-underline" href="/about" on:click={toggleNavbar}>ABOUT</a>
+          <a class="text-white hover:text-munsoc-gold font-semibold transition-all ease-linear duration-100 text-center hover:border-b-2 inline-block hover:pb-1 no-underline" href="/" on:click={navBarItemClicked}>HOME</a>
+          <a class="text-white hover:text-munsoc-gold font-semibold transition-all ease-linear duration-100 text-center hover:border-b-2 inline-block hover:pb-1 no-underline {showMenu ? 'pt-5' : ''}" href="/posts" on:click={navBarItemClicked}>POSTS</a>
+          <a class="text-white hover:text-munsoc-gold font-semibold transition-all ease-linear duration-100 text-center hover:border-b-2 inline-block hover:pb-1 no-underline {showMenu ? 'pt-5' : ''}" href="/newsletter" on:click={navBarItemClicked}>NEWSLETTER</a>
+          <a class="text-white hover:text-munsoc-gold font-semibold transition-all ease-linear duration-100 text-center hover:border-b-2 inline-block hover:pb-1 no-underline {showMenu ? 'pt-5' : ''}" href="/members" on:click={navBarItemClicked}>MEMBERS</a>
+          <a class="text-white hover:text-munsoc-gold font-semibold transition-all ease-linear duration-100 text-center hover:border-b-2 inline-block hover:pb-1 no-underline {showMenu ? 'pt-5' : ''}" href="/events" on:click={navBarItemClicked}>EVENTS</a>
+          <a class="text-white hover:text-munsoc-gold font-semibold transition-all ease-linear duration-100 text-center hover:border-b-2 inline-block hover:pb-1 no-underline {showMenu ? 'pt-5' : ''}" href="/about" on:click={navBarItemClicked}>ABOUT</a>
         </div>
       </nav>
 
