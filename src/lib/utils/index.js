@@ -1,3 +1,4 @@
+// @ts-nocheck
 export const fetchMarkdownPosts = async () => {
     const allPostFiles = import.meta.glob('/src/routes/posts/*.md')
     const iterablePostFiles = Object.entries(allPostFiles)
@@ -16,9 +17,9 @@ export const fetchMarkdownPosts = async () => {
     )
   
     return allPosts
-  }
+}
 
-  export const fetchMarkdownEvents = async () => {
+export const fetchMarkdownEvents = async () => {
     const allEventFiles = import.meta.glob('/src/routes/events/*.md')
     const iterableEventFiles = Object.entries(allEventFiles)
     
@@ -26,14 +27,34 @@ export const fetchMarkdownPosts = async () => {
       iterableEventFiles.map(async ([path, resolver]) => {
         // @ts-ignore
         const { metadata } = await resolver()
-        const postPath = path.slice(12, -3)
+        const eventPath = path.slice(12, -3)
   
         return {
           meta: metadata,
-          path: postPath,
+          path: eventPath,
         }
       })
     )
   
     return allEvents
-  }
+}
+
+
+export const fetchMarkdownNewsletters = async () => {
+  const allNewsletterFiles = import.meta.glob('/src/routes/newsletter/*.md')
+  const iterableNewsletterFiles = Object.entries(allNewsletterFiles)
+  
+  const allNewsletters = await Promise.all(
+    iterableNewsletterFiles.map(async ([path, resolver]) => {
+      const { metadata } = await resolver()
+      const newsletterPath = path.slice(12, -3)
+
+      return {
+        meta: metadata,
+        path: newsletterPath,
+      }
+    })
+  )
+
+  return allNewsletters
+}

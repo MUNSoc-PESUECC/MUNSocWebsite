@@ -4,9 +4,12 @@ export const load = async ({ fetch }) => {
     const posts = await responsePosts.json()
     const responseEvents = await fetch('/api/events')
     const events = await responseEvents.json()
+    const responseNewsletters = await fetch('/api/newsletters')
+    const newsletters = await responseNewsletters.json()
   
     return {
       posts,
       events,
+      newsletters,
     }
 }
