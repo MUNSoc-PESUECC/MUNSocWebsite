@@ -18,7 +18,7 @@
 
 
 	<nav
-        class="pl-5 pr-5 md:flex md:justify-between md:items-center bg-navbar-slate">
+        class="pr-5 md:pl-5 md:pr-5 md:flex md:justify-between md:items-center bg-navbar-slate">
         <div class="flex items-center justify-between">
             <a
             class=""
