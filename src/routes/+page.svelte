@@ -25,7 +25,7 @@
     <!-- LATEST NEWSLETTER -->
     <h1 class="p-10 text-center text-munsoc-gold">Latest Newsletter</h1>
     
-    <div class="card md:ml-10 md:mr-10 rounded-md text-center" onclick="window.location='{data.newsletters[0].path}'">
+    <div class="card md:ml-10 md:mr-10 ml-5 mr-5 rounded-md text-center" onclick="window.location='{data.newsletters[0].path}'">
       <div class = "flex justify-center"><img src="{data.newsletters[0].meta.img}" alt="" class="w-2/3 h-auto rounded-md max-w-md"></div>
       
       <div class = "card-content">
@@ -49,7 +49,7 @@
     <!-- POSTS -->
     <h1 class="p-10 text-center text-munsoc-gold">Recent Posts</h1>
     
-          <div class="card md:ml-10 md:mr-10 rounded-md text-center" onclick="window.location='{data.posts[0].path}'">
+          <div class="card md:ml-10 md:mr-10 ml-5 mr-5 rounded-md text-center" onclick="window.location='{data.posts[0].path}'">
             <div class = "flex justify-center"><img src="{data.posts[0].meta.img}" alt="" class="w-2/3 h-auto rounded-md max-w-md"></div>
             
             <div class = "card-content">
@@ -65,7 +65,7 @@
           </div>
 
 
-          <div class="card md:ml-10 md:mr-10 rounded-md text-center" onclick="window.location='{data.posts[0].path}'">
+          <div class="card md:ml-10 md:mr-10 ml-5 mr-5 rounded-md text-center" onclick="window.location='{data.posts[0].path}'">
             <div class = "flex justify-center"><img src="{data.posts[1].meta.img}" alt="" class="w-2/3 h-auto rounded-md max-w-md"></div>
             
             <div class = "card-content">
@@ -87,7 +87,7 @@
   <!-- EVENTS -->
   
     <h1 class="p-10 text-center">Recent Events</h1>
-          <div class="card md:ml-10 md:mr-10 rounded-md text-center" onclick="window.location='{data.events[0].path}'">
+          <div class="card md:ml-10 md:mr-10 ml-5 mr-5 rounded-md text-center" onclick="window.location='{data.events[0].path}'">
             <div class = "flex justify-center"><img src="{data.events[0].meta.img}" alt="" class="w-2/3 h-auto rounded-md max-w-md"></div>
         
             <div class = "card-content">
@@ -104,7 +104,7 @@
           </div>
 
 
-          <div class="card md:ml-10 md:mr-10 rounded-md text-center" onclick="window.location='{data.events[0].path}'">
+          <div class="card md:ml-10 md:mr-10 ml-5 mr-5 rounded-md text-center" onclick="window.location='{data.events[0].path}'">
             <div class = "flex justify-center"><img src="{data.events[1].meta.img}" alt="" class="w-2/3 h-auto rounded-md max-w-md"></div>
             
             <div class = "card-content">
@@ -126,7 +126,7 @@
 
     <h1 class="p-10 text-center">Meet Our Heads</h1>
     {#each presidents as person}
-    <div class="card md:ml-10 md:mr-10 rounded-md">
+    <div class="card md:ml-10 md:mr-10 ml-5 mr-5 rounded-md">
       <div class = "flex justify-center text-xl"><img src="{person.Photo}" alt="core member" class="w-2/3 h-auto rounded-md max-w-md"></div>
       <div class = "card-content">
       <h1 class = "pr-10 pl-10 text-center">

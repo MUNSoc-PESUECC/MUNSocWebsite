@@ -18,7 +18,7 @@
 
 
 	<nav
-        class="pr-5 md:pl-5 md:pr-5 md:flex md:justify-between md:items-center bg-navbar-slate">
+        class="md:pl-5 md:pr-5 md:flex md:justify-between md:items-center bg-navbar-slate">
         <div class="flex items-center justify-between">
             <a
             class=""
@@ -31,7 +31,7 @@
             href="/">MUNSoc PESU-ECC</a>
           
           <!-- Mobile menu button -->
-          <div on:click={toggleNavbar} on:keydown={toggleNavbar} class="flex md:hidden {showMenu? 'mt-3' : ''}">
+          <div on:click={toggleNavbar} on:keydown={toggleNavbar} class="flex md:hidden pr-3 {showMenu? 'mt-3' : ''}">
             <button
               type="button"
               class="text-white hover:text-munsoc-gold focus:outline-none focus:text-munsoc-gold"
