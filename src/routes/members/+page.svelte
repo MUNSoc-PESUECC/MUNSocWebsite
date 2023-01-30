@@ -1,5 +1,5 @@
 <script>
-const coreMembers = [
+  const coreMembers = [
     {
       Name: "Abhiram Dasika",
       Role: 'President',
@@ -94,6 +94,11 @@ const coreMembers = [
 
     {/each}
   </div>
+
+
+  
+
+
     </body>
 </main>
 

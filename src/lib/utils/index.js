@@ -58,3 +58,23 @@ export const fetchMarkdownNewsletters = async () => {
 
   return allNewsletters
 }
+
+
+export const fetchMarkdownAwards = async () => {
+  const allAwardFiles = import.meta.glob('/src/routes/about/awards/*.md')
+  const iterableAwardFiles = Object.entries(allAwardFiles)
+  
+  const allAwards = await Promise.all(
+    iterableAwardFiles.map(async ([path, resolver]) => {
+      const { metadata } = await resolver()
+      const awardsPath = path.slice(12, -3)
+
+      return {
+        meta: metadata,
+        path: awardsPath,
+      }
+    })
+  )
+
+  return allAwards
+}
