@@ -27,7 +27,7 @@
         </a>
 
           <a
-            class="text:xl font-bold md:text-2xl text-white md:hidden no-underline {showMenu? 'mt-3' : ''}"
+            class="font-bold md:text-xl text-white md:hidden no-underline {showMenu? 'mt-3' : ''}"
             href="/">MUNSoc PESU-ECC</a>
           
           <!-- Mobile menu button -->

@@ -1,13 +1,12 @@
 // @ts-ignore
 export async function load({ params }){
     const newsletter = await import(`../${params.slug}.md`);
-    const { title, date, img } = newsletter.metadata;
-    const content = newsletter.default;
+    const { title, date, img, embedLink } = newsletter.metadata;
     
     return {
-      content,
       title,
       date,
-      img
+      img,
+      embedLink
     }
   }
