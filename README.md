@@ -78,7 +78,7 @@ src
             └── +page.svelte
 ```
 
-marked above where the markdown files for `events`, `posts`, `awards` and `newsletters` go in the above tree.
+marked above where the markdown files for `events`, `posts`, `awards` and `newsletters` go.
 
 ## Development Notes
 
