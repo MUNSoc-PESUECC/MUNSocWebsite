@@ -1,4 +1,6 @@
 <script>
+// @ts-nocheck
+
   const coreMembers = [
     {
       Name: "Abhiram Dasika",
@@ -68,13 +70,12 @@
     
   ];
 </script>
-
-
-
-
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
 
 <main>
+  
     <title>MUNSoc PESU-ECC | MEMBERS</title>
     <body class = "bg-body-slate prose prose-invert">
     <h1 class="p-10 text-center">Meet Our Team</h1>
@@ -86,7 +87,7 @@
       <h1 class = "pr-10 pl-10 text-center">
           {person.Name}
       </h1>
-      <h3 class="pr-10 pl-10 text-center">
+      <h3 class="pr-10 pl-10 text-center font-medium">
         {person.Role}
       </h3>
     </div>
@@ -94,11 +95,6 @@
 
     {/each}
   </div>
-
-
-  
-
-
     </body>
 </main>
 
@@ -109,6 +105,7 @@
 :root{
     --munsoc-gold: #C0A960;
     --body-slate: #232C3A;
+    font-family: 'Roboto', sans-serif;
   }
   .prose{
     max-width: none;
@@ -123,19 +120,14 @@
 
   .card {
   /* Add shadows to create the "card" effect */
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
   transition: 0.5s;
   margin-bottom: 30px;
   background-color: #202c40;
-  border: 5px solid #202c40;
-  cursor: pointer;
+  border: 5px solid var(--munsoc-gold);
 }
 
-/* On mouse-over, add a deeper shadow */
-.card:hover {
-  border-color: var(--munsoc-gold);
-  box-shadow: 0 16px 32px rgba(0,0,0,0.5);
-}
+
 
 /* Add some padding inside the card container */
 .card-content {
@@ -151,6 +143,7 @@
   @media (max-width: 420px) {
     .wrapper {
       display:block;
+      align-items: center;
     }
     .card{
       display:block;

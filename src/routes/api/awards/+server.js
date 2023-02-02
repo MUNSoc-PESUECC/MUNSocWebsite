@@ -5,7 +5,7 @@ import { json } from '@sveltejs/kit'
 
 export const GET = async () => {
   const allAwards = await fetchMarkdownAwards()
-  const sortedAwards = allAwards.sort((/** @type {{ meta: { date: string | number | Date; }; }} */ a, /** @type {{ meta: { date: string | number | Date; }; }} */ b) => {
+  const sortedAwards = allAwards.sort((a,  b) => {
     return new Date(b.meta.date) - new Date(a.meta.date)
   })
 

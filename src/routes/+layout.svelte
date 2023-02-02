@@ -1,4 +1,5 @@
 <script>  
+//@ts-nocheck
 	const logoAddress = "/images/logo.png";
     let showMenu = false;
     function toggleNavbar() {
@@ -14,7 +15,9 @@
 </script>
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
 
 
 	<nav
@@ -45,16 +48,16 @@
   
         <!-- Mobile Menu open: "flex", Menu closed: "hidden" -->
         <div
-          class="flex-col mt-8 space-y-4 md:flex md:space-y-0 md:flex-row md:items-center md:space-x-10 md:mt-0 {showMenu
+          class="flex-col mt-8 space-y-4 md:flex md:space-y-0 md:flex-row md:items-center md:space-x-10 md:mt-0 font-semibold {showMenu
             ? 'flex pb-5'
             : 'hidden'}"
         >
-          <a class="text-white hover:text-munsoc-gold font-semibold transition-all ease-linear duration-100 text-center hover:border-b-2 inline-block hover:pb-1 no-underline" href="/" on:click={navBarItemClicked}>HOME</a>
-          <a class="text-white hover:text-munsoc-gold font-semibold transition-all ease-linear duration-100 text-center hover:border-b-2 inline-block hover:pb-1 no-underline {showMenu ? 'pt-5' : ''}" href="/posts" on:click={navBarItemClicked}>POSTS</a>
-          <a class="text-white hover:text-munsoc-gold font-semibold transition-all ease-linear duration-100 text-center hover:border-b-2 inline-block hover:pb-1 no-underline {showMenu ? 'pt-5' : ''}" href="/newsletter" on:click={navBarItemClicked}>NEWSLETTER</a>
-          <a class="text-white hover:text-munsoc-gold font-semibold transition-all ease-linear duration-100 text-center hover:border-b-2 inline-block hover:pb-1 no-underline {showMenu ? 'pt-5' : ''}" href="/members" on:click={navBarItemClicked}>MEMBERS</a>
-          <a class="text-white hover:text-munsoc-gold font-semibold transition-all ease-linear duration-100 text-center hover:border-b-2 inline-block hover:pb-1 no-underline {showMenu ? 'pt-5' : ''}" href="/events" on:click={navBarItemClicked}>EVENTS</a>
-          <a class="text-white hover:text-munsoc-gold font-semibold transition-all ease-linear duration-100 text-center hover:border-b-2 inline-block hover:pb-1 no-underline {showMenu ? 'pt-5' : ''}" href="/about" on:click={navBarItemClicked}>ABOUT</a>
+          <a class="text-white hover:text-munsoc-gold transition-all ease-linear duration-100 text-center hover:border-b-2 inline-block hover:pb-1 no-underline" href="/" on:click={navBarItemClicked}>HOME</a>
+          <a class="text-white hover:text-munsoc-gold transition-all ease-linear duration-100 text-center hover:border-b-2 inline-block hover:pb-1 no-underline {showMenu ? 'pt-5' : ''}" href="/posts" on:click={navBarItemClicked}>POSTS</a>
+          <a class="text-white hover:text-munsoc-gold transition-all ease-linear duration-100 text-center hover:border-b-2 inline-block hover:pb-1 no-underline {showMenu ? 'pt-5' : ''}" href="/newsletter" on:click={navBarItemClicked}>NEWSLETTERS</a>
+          <a class="text-white hover:text-munsoc-gold transition-all ease-linear duration-100 text-center hover:border-b-2 inline-block hover:pb-1 no-underline {showMenu ? 'pt-5' : ''}" href="/members" on:click={navBarItemClicked}>MEMBERS</a>
+          <a class="text-white hover:text-munsoc-gold transition-all ease-linear duration-100 text-center hover:border-b-2 inline-block hover:pb-1 no-underline {showMenu ? 'pt-5' : ''}" href="/events" on:click={navBarItemClicked}>EVENTS</a>
+          <a class="text-white hover:text-munsoc-gold transition-all ease-linear duration-100 text-center hover:border-b-2 inline-block hover:pb-1 no-underline {showMenu ? 'pt-5' : ''}" href="/about" on:click={navBarItemClicked}>ABOUT</a>
         </div>
       </nav>
 
@@ -68,7 +71,7 @@
       <div class="footer-content">
         <img src="/images/logo.png" class = "w-32" alt="">
         <h3>MUNSoc PESU-ECC</h3>
-        <p>The best MUN Society at PES.</p>
+        <p>As Astra Per Aspera</p>
         <ul class="socials">
           <li><a href="https://www.instagram.com/munsoc.pesuecc/" target="_blank" rel="noreferrer"><i class="fa fa-instagram"></i></a></li>
           <li><a href="mailto:munsocecc@pes.edu" target="_blank"><i class="fa fa-envelope"></i></a></li>
@@ -83,6 +86,11 @@
 
 
 <style>
+
+  :root{
+    font-family: 'Roboto', sans-serif;
+  }
+
   footer{
     bottom: 0;
     left: 0;

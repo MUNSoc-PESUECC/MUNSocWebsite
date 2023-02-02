@@ -3,7 +3,9 @@
          export let data;
     </script>
       
-    
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
     
     <main>
       <title>{data.title}</title>
@@ -30,10 +32,13 @@
     
     
     <style>
+
+
       :root{
         --munsoc-gold: #C0A960;
         --body-slate: #232C3A;
         --button-color: #202c40;
+        font-family: 'Roboto', sans-serif;
       }
       .prose{
         max-width: none;
@@ -58,5 +63,7 @@
         border-color: var(--munsoc-gold);
         box-shadow: 0 16px 32px rgba(0,0,0,0.5);
       }
+
+
     </style>
     

@@ -4,7 +4,9 @@
      export let data;
 </script>
   
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
 
 <main>
   <title>{data.title}</title>
@@ -30,6 +32,7 @@
   :root{
     --munsoc-gold: #C0A960;
     --body-slate: #232C3A;
+    font-family: 'Roboto', sans-serif;
   }
   .prose{
     max-width: none;

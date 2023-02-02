@@ -1,8 +1,12 @@
 ---
-title: "testAward4"
-date: "2023-02-01"
-img: "https://i.imgur.com/SdChrcL.png"
-awardee: "AlphaDelta"
-place: "MUN Conference 4"
-description: "AlphaDelta won the first prize somewhere. This is the description"
+conferenceName: "Conference Name 4"
+img: "https://pngimg.com/uploads/mr_bean/mr_bean_PNG9.png"
+date: "2023-02-02"
+awardeeAward: {
+    "person1" : "first place",
+    "person2" : "second place",
+    "person3" : "best mr bean",
+}
 ---
+
+

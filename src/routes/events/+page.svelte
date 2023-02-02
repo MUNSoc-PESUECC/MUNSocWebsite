@@ -5,7 +5,9 @@
 </script>
 
 
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
 
 
 
@@ -24,10 +26,10 @@
                 {event.meta.title}
               </a>
             </h1>
-            <hr class="pr-10 pl-10">
-            <div class = "pl-10 pr-10 text-xl">Date: {event.meta.date} </div> 
-            <div class = "pl-10 pr-10 text-xl">Time: {event.meta.time} </div> 
-            <div class = "pl-10 pr-10 text-xl">Venue: {event.meta.venue} </div> 
+            <hr class="mr-10 ml-10 mb-5 mt-5">
+            <h3 class = "pl-10 pr-10 text-xl">Date: {event.meta.date} </h3> 
+            <h3 class = "pl-10 pr-10 text-xl">Time: {event.meta.time} </h3> 
+            <h3 class = "pl-10 pr-10 text-xl">Venue: {event.meta.venue} </h3> 
           </div>
           </div>
 
@@ -43,6 +45,7 @@
 :root{
     --munsoc-gold: #C0A960;
     --body-slate: #232C3A;
+    font-family: 'Roboto', sans-serif;
   }
   .prose{
     max-width: none;

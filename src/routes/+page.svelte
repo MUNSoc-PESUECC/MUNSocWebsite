@@ -15,7 +15,9 @@
 </script>
 
 
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
 
 
 <main>
@@ -48,8 +50,8 @@
     
     <!-- POSTS -->
     <h1 class="p-10 text-center text-munsoc-gold">Recent Posts</h1>
-    
-          <div class="card md:ml-10 md:mr-10 ml-5 mr-5 rounded-md text-center" onclick="window.location='{data.posts[0].path}'">
+    <div class = "wrapper">
+          <div class="card md:ml-10 md:mr-10 ml-5 mr-5 rounded-md text-center inline-block" onclick="window.location='{data.posts[0].path}'">
             <div class = "flex justify-center"><img src="{data.posts[0].meta.img}" alt="" class="w-2/3 h-auto rounded-md max-w-md"></div>
             
             <div class = "card-content">
@@ -65,7 +67,7 @@
           </div>
 
 
-          <div class="card md:ml-10 md:mr-10 ml-5 mr-5 rounded-md text-center" onclick="window.location='{data.posts[0].path}'">
+          <div class="card md:ml-10 md:mr-10 ml-5 mr-5 rounded-md text-center inline-block" onclick="window.location='{data.posts[0].path}'">
             <div class = "flex justify-center"><img src="{data.posts[1].meta.img}" alt="" class="w-2/3 h-auto rounded-md max-w-md"></div>
             
             <div class = "card-content">
@@ -79,7 +81,7 @@
             <div class = "pl-10 pr-10">{data.posts[1].meta.description} </div> 
           </div>
           </div>
-
+      </div>
 
     <hr class="pl-10 pr-10">
 
@@ -87,7 +89,9 @@
   <!-- EVENTS -->
   
     <h1 class="p-10 text-center">Recent Events</h1>
-          <div class="card md:ml-10 md:mr-10 ml-5 mr-5 rounded-md text-center" onclick="window.location='{data.events[0].path}'">
+
+    <div class = "wrapper">
+          <div class="card md:ml-10 md:mr-10 ml-5 mr-5 rounded-md text-center inline-block" onclick="window.location='{data.events[0].path}'">
             <div class = "flex justify-center"><img src="{data.events[0].meta.img}" alt="" class="w-2/3 h-auto rounded-md max-w-md"></div>
         
             <div class = "card-content">
@@ -104,7 +108,7 @@
           </div>
 
 
-          <div class="card md:ml-10 md:mr-10 ml-5 mr-5 rounded-md text-center" onclick="window.location='{data.events[0].path}'">
+          <div class="card md:ml-10 md:mr-10 ml-5 mr-5 rounded-md text-center inline-block" onclick="window.location='{data.events[0].path}'">
             <div class = "flex justify-center"><img src="{data.events[1].meta.img}" alt="" class="w-2/3 h-auto rounded-md max-w-md"></div>
             
             <div class = "card-content">
@@ -118,6 +122,7 @@
             <h3 class = "pl-10 pr-10">Venue: {data.events[1].meta.venue} </h3>
           </div>
           </div>
+    </div>
 
 
     <hr class="pl-10 pr-10">
@@ -125,8 +130,10 @@
     <!-- PRESIDENTS -->
 
     <h1 class="p-10 text-center">Meet Our Heads</h1>
+
+    <div class = "wrapper">
     {#each presidents as person}
-    <div class="card md:ml-10 md:mr-10 ml-5 mr-5 rounded-md">
+    <div class="card md:ml-10 md:mr-10 ml-5 mr-5 rounded-md inline-block">
       <div class = "flex justify-center text-xl"><img src="{person.Photo}" alt="core member" class="w-2/3 h-auto rounded-md max-w-md"></div>
       <div class = "card-content">
       <h1 class = "pr-10 pl-10 text-center">
@@ -136,6 +143,7 @@
     </div>
 
     {/each}
+    </div>
   </body>
 </main>
 
@@ -148,6 +156,7 @@
   :root{
     --munsoc-gold: #C0A960;
     --body-slate: #232C3A;
+    font-family: 'Roboto', sans-serif;
   }
   .prose{
     max-width: none;
@@ -180,6 +189,20 @@
 .card-content {
   padding-bottom: 30px;
 }
+.wrapper { 
+  display: flex;
+  align-items: stretch;
+  gap: 20px;
+  justify-content: center;
+  }
+
+@media (max-width: 420px) {
+    .wrapper {
+      display:block;
+      align-items: center;
+    }
+}
+
 </style>
 
 

@@ -1,8 +1,13 @@
 ---
-title: "testAward3"
-date: "2023-01-31"
-img: "https://www.pngall.com/wp-content/uploads/5/Mr.-Bean-PNG-Transparent-HD-Photo.png"
-awardee: "MUNSOC Person 3"
-place: "MUN Conference 3"
-description: "MUNSoC Person 3 won award somewhere. This is the description"
+conferenceName: "Conference Name 3"
+img: "https://pngimg.com/uploads/mr_bean/mr_bean_PNG6.png"
+date: "2023-02-02"
+awardeeAward: {
+    "person1" : "first place",
+    "person2" : "second place",
+    "person3" : "best something",
+    "person4" : "best something else",
+}
 ---
+
+

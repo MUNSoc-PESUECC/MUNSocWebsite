@@ -5,7 +5,9 @@
     data.embedLink = data.embedLink+"?embed";
 </script>
   
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
 
 <main>
   <title>{"NEWSLETTER | " + formattedDate.toUpperCase() }</title>
@@ -23,6 +25,7 @@
   :root{
     --munsoc-gold: #C0A960;
     --body-slate: #232C3A;
+    font-family: 'Roboto', sans-serif;
   }
   .prose{
     max-width: none;
