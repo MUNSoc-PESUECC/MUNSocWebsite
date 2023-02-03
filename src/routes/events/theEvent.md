@@ -7,4 +7,4 @@ venue: "Seminar Hall 2"
 registrationLink: "https://www.google.com/forms/about/"
 ---
 
-The MUNSoc Event coming soon!
+The MUNSoc Event coming soon! 
