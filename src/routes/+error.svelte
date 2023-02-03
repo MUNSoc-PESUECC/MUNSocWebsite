@@ -64,7 +64,11 @@
 <style>
 :root{
   font-family: 'Lato', sans-serif;
+  
 }
+body{
+    overflow-x: hidden; /* to fix a weird bug of horizontal scroll bar appearing out of nowhere */
+  }
 
 .fundo{
   animation: scales 3s alternate  infinite;

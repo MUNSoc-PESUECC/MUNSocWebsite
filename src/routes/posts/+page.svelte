@@ -45,6 +45,10 @@
     --munsoc-gold: #C0A960;
     --body-slate: #232C3A;
     font-family: 'Roboto', sans-serif;
+    
+  }
+  body{
+    overflow-x: hidden; /* to fix a weird bug of horizontal scroll bar appearing out of nowhere */
   }
   .prose{
     max-width: none;

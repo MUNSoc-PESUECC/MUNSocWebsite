@@ -40,6 +40,9 @@
         --button-color: #202c40;
         font-family: 'Roboto', sans-serif;
       }
+      body{
+    overflow-x: hidden; /* to fix a weird bug of horizontal scroll bar appearing out of nowhere */
+  }
       .prose{
         max-width: none;
       }
