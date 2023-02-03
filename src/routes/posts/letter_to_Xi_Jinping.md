@@ -8,7 +8,6 @@ author: Shreya (just copied off WION)
 
 # An open letter to Chinese President Xi Jinping 
 
-###### ***By Shreya (not written just copied off WION)*** 
 
 ## **Introduction** 
 Hope this finds you well and safe from the ravages of the virus you’ve gifted us. You’ll appreciate that thanks are not in order and shall not be extended. Suffice to say, we’re doing the best we can, given the soup, a certain kind of soup has landed us in. This has been the most unsavoury business in a century and might I add that your conduct isn’t helping at all.  
