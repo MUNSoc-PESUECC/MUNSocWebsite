@@ -11,33 +11,33 @@ author: Achal Lokesh Ambiger
 ###### ***By Achal Lokesh Ambiger*** 
 
 ## **Introduction** 
-The South China sea is a sea of immense importance in every facet of the necessities that a Nation would require, ranging from the most important and crucial trading routes, ports, and straits that very well hold the world together to one of the most important military waters in the world. It feeds millions due to its fisheries, While the Straits of Malacca, Lombok, and Sunda are vital for the World Economy as a 3rd of all maritime shipping occurs through it, an annual of 3 Trillion USD per year. As though this wasn’t enough, it also contains an immense reserve of Oil and Natural gas, 28 billion barrels of Oil and 266 trillion cubic feet of Natural Gas, to be precise.
+The South China sea is a sea of immense importance in every facet of the necessities that a Nation would require, ranging from the most important and crucial trading routes, ports, and straits that very well hold the world together to one of the most important military waters in the world. It feeds millions due to its fisheries, While the Straits of Malacca, Lombok, and Sunda are vital for the World Economy as a 3rd of all maritime shipping occurs through it, an annual of 3 Trillion USD per year. As though this wasn’t enough, it also contains an immense reserve of Oil and Natural gas, 28 billion barrels of Oil and 266 trillion cubic feet of Natural Gas, to be precise. 
 
-It’s a sea that is shared by many Nations, While some require it more than others due to the immense dependence which has been developed upon it. This makes it a prime target for dispute.
+It’s a sea that is shared by many Nations, While some require it more than others due to the immense dependence which has been developed upon it. This makes it a prime target for dispute. 
 
-To fully understand China’s stance and actions, We must first understand the historical aspects of both China’s ruthless ambition and the Sea itself.
+To fully understand China’s stance and actions, We must first understand the historical aspects of both China’s ruthless ambition and the Sea itself. 
 
-## **History**
+## **History** 
 
-The South China Sea was originally called so, in the Yizhoushu, chronicle of the Western Zhou dynasty, as the *Nanfang Hai*, “The Southern Sea”. The Sea held immense importance, it was considered one of the 4 Seas that make up Chinese Literature.
+The South China Sea was originally called so, in the Yizhoushu, chronicle of the Western Zhou dynasty, as the *Nanfang Hai*, “The Southern Sea”. The Sea held immense importance, it was considered one of the 4 Seas that make up Chinese Literature. 
 
-But the English name itself comes from the European trading expeditions to China, during which the Portuguese named the sea, *Mare Da China,* “The China Sea”, later being dubbed The South China Sea as We know today.
+But the English name itself comes from the European trading expeditions to China, during which the Portuguese named the sea, *Mare Da China,* “The China Sea”, later being dubbed The South China Sea as We know today. 
 
-Later in WW2, the Japanese had nearly unparalleled control over the sea which ratified the name.
+Later in WW2, the Japanese had nearly unparalleled control over the sea which ratified the name. 
 
 Since its very inception, it has held incredible importance in trading routes and has fed millions of Humans for many millennia.  
 
-We must ponder on the question of where all of China’s New found Ambition arise from.
+We must ponder on the question of where all of China’s New found Ambition arise from. 
 
-Ever since the Chinese Communist Party came to power on October 1st, 1949, it has been in a constant state of struggle and Chaos, caught up in its grandiose delusions of the supremacy of the Marxist Ideology, trying to do whatever it takes to maintain the iron grip of an Autocratic Government, over 1.4 billion Citizens.
+Ever since the Chinese Communist Party came to power on October 1st, 1949, it has been in a constant state of struggle and Chaos, caught up in its grandiose delusions of the supremacy of the Marxist Ideology, trying to do whatever it takes to maintain the iron grip of an Autocratic Government, over 1.4 billion Citizens. 
 
 The afterthought of the Soviet collapse drives their leaders to go to enormous lengths to keep the system in check, like plunging the country into madness during the Cultural Revolution and killing hundreds or perhaps thousands of its citizens amid the Tiananmen Square protests in 1989, just to name a few.  
 
 But one of the most important side effects of this desire is the need to regain the territories lost during the turbulent 20th Century. This leads to an aggressive, non-stop expansionist agenda, which draws ire in the eyes of all the nations that border China.  
 
-“We cannot lose even one inch of the territory left behind by our ancestors”
+“We cannot lose even one inch of the territory left behind by our ancestors” 
 
-This was Stated by the President of China, Xi Jinping.
+This was Stated by the President of China, Xi Jinping. 
 
 Beijing also claims some 90 percent of the South China Sea, one of the world’s most commercially vital waterways, as its sovereign possession, which is the very topic of this article.  
 
