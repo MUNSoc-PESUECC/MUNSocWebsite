@@ -67,7 +67,7 @@
           </div>
 
 
-          <div class="card md:ml-10 md:mr-10 ml-5 mr-5 rounded-md text-center inline-block" onclick="window.location='{data.posts[0].path}'">
+          <div class="card md:ml-10 md:mr-10 ml-5 mr-5 rounded-md text-center inline-block" onclick="window.location='{data.posts[1].path}'">
             <div class = "flex justify-center"><img src="{data.posts[1].meta.img}" alt="" class="w-2/3 h-auto rounded-md max-w-md"></div>
             
             <div class = "card-content">
