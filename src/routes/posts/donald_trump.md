@@ -1,12 +1,12 @@
 ---
-title: "7th post"
-date: "2023-12-23"
+title: "Donald Trump"
+date: "2023-02-02"
 description: This is the seventh post description
 img: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Donald_Trump_official_portrait.jpg/800px-Donald_Trump_official_portrait.jpg"
 author: Aakriti Mishra
 ---
-#Donald Trump 
 
+# Donald Trump
 
 The biography for President Trump and past presidents is courtesy of the White House Historical Association.
 
