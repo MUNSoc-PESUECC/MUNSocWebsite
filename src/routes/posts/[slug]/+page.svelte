@@ -6,7 +6,8 @@
   
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&display=swap" rel="stylesheet">
+
 
 <main>
   <title>{data.title}</title>
@@ -32,7 +33,7 @@
   :root{
     --munsoc-gold: #C0A960;
     --body-slate: #232C3A;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
   }
   body{
     overflow-x: hidden; /* to fix a weird bug of horizontal scroll bar appearing out of nowhere */
