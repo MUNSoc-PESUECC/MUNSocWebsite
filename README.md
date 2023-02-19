@@ -6,11 +6,11 @@ This repository maintains code for the MUNSoc Website located [here](https://mun
 
 ## Installation
 
-1. Make sure you have `nodejs` and the `yarn` package manager installed on your system.
+1. Make sure you have `nodejs` installed on your system.
 2. Clone this repository by running this on a shell: `git clone git@github.com:MUNSoc-PESUECC/MUNSocWebsite.git`
 3. cd into the cloned directory: `cd MUNSocWebsite`
-4. Run `yarn install` to install all the needed dependencies
-5. Run `yarn dev` to localhost the website
+4. Run `npm install` to install all the needed dependencies
+5. Run `yarn run dev` to localhost the website
 6. You can find the website at `http://localhost:5173`
 
 ## Folder Structure
