@@ -1,5 +1,5 @@
 <script>
-// @ts-nocheck
+  //@ts-nocheck
   export let data;
 
 </script>
@@ -85,8 +85,6 @@
   background-color: #202c40;
   border: 5px solid var(--munsoc-gold);
 }
-
-/* On mouse-over, add a deeper shadow */
 
 
 /* Add some padding inside the card container */

@@ -1,5 +1,4 @@
 // @ts-nocheck
-// @ts-ignore
 import { fetchMarkdownAwards } from '$lib/utils'
 import { json } from '@sveltejs/kit'
 

@@ -5,7 +5,6 @@ export const fetchMarkdownPosts = async () => {
     
     const allPosts = await Promise.all(
       iterablePostFiles.map(async ([path, resolver]) => {
-        // @ts-ignore
         const { metadata } = await resolver()
         const postPath = path.slice(12, -3)
   
@@ -25,7 +24,6 @@ export const fetchMarkdownEvents = async () => {
     
     const allEvents = await Promise.all(
       iterableEventFiles.map(async ([path, resolver]) => {
-        // @ts-ignore
         const { metadata } = await resolver()
         const eventPath = path.slice(12, -3)
   
