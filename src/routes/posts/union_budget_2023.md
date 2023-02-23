@@ -1,5 +1,5 @@
 ---
-title: UNION BUDGET 2023 KEY HIGHLIGHTS
+title: Union Budget 2023 Key Highlights
 date: "2023-02-10"
 description: Union buget of 2023
 img: "https://i.postimg.cc/Fz0KSLsP/image-000.jpg"
