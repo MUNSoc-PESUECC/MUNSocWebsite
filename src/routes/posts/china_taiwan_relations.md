@@ -71,9 +71,9 @@ United States. That means China's economy and power are about to peak, making
 it even more frantic to achieve its decades-long objective of gaining control of
 Taiwan.
 
-### Former Leaders:
+#### Former Leaders:
 ![image-001.png](https://i.postimg.cc/W3YdWhWw/image-001.png)
-### Current Leaders:
+#### Current Leaders:
 ![image-002.png](https://i.postimg.cc/rmHpG7sh/image-002.png)
 ## Current Situation
 
