@@ -39,7 +39,7 @@ Joe Biden has stated that the US would defend Taiwan if the PRC ever invaded,
 implying that the involvement of the US and its allies is unavoidable, and things
 will escalate quickly if China ever considers a forceful way of obtaining Taiwan.
 
-## Reason:
+## Reason
 
 But why is China so desperate to get control of Taiwan? China has a coastline that
 stretches for 14500 kilometers. Many of the world's largest port cities are located
@@ -76,7 +76,7 @@ Former Leaders
 Current Leaders
 ![image-002.png](https://i.postimg.cc/rmHpG7sh/image-002.png)
 
-## Current Situation:
+## Current Situation
 
 ![image-006.jpg](https://i.postimg.cc/Sx9tm9cj/imgonline-com-ua-twotoone-74-Kawj-JXKPyw43.jpg)
 
@@ -124,13 +124,13 @@ unofficial representatives from the two nations. In 2005, China passed an anti-
 secession law, stating its right to use "non-peaceful means" against Taiwan if it
 tries to "secede" from China.
 
-## Conclusion:
+## Conclusion
 
 It is difficult to predict the outcome of such a dispute. What is certain is that, as
 the second cold war continues, tensions in Taiwan may serve as a watershed
 moment in history.
 
-## Summary:
+## Summary
 
 Taiwan is a de facto independent state by a larger, more powerful, and culturally
 similar country which ruled them in the past. The People’s Republic of China (PRC)
