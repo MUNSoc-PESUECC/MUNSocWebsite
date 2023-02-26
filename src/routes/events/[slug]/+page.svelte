@@ -1,6 +1,19 @@
 <script>
     // @ts-nocheck
-         export let data;
+    export let data;
+
+
+    function isOver(dateString){
+      const date = new Date(dateString);
+      const today = new Date();
+      console.log(today);
+      console.log(date);
+      if (date <= today){
+        return true;
+      } else{
+        return false;
+      }
+    }
     </script>
       
       <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,15 +24,16 @@
       <title>{data.title}</title>
       <body class = "bg-body-slate">
       <article class = "text-white p-10 prose prose-invert">
-        <div class = "flex justify-center"><img src="{ data.img }" alt="" class="w-2/3 h-auto rounded-md"></div>
+        <div class = "flex justify-center"><img src="{ data.img }" alt="" class="w-11/12 h-auto rounded-md"></div>
         <h1 class="text-center">{ data.title }</h1>
         <h3 class="text-center">Date: {data.date}</h3>
         <h3 class="text-center">Time: {data.time}</h3>
         <h3 class="text-center">Venue: {data.venue}</h3>
-        <h3 class="text-center">Date: {data.date}</h3>
+        {#if !isOver(data.date)}
         <button class="register-button" onclick="window.open('{data.registrationLink}', '_blank')">
           Register Here!
-        </button>
+          </button>
+        {/if}
         <hr class="pl-10 pr-10">
         <svelte:component this={data.content} />
       </article>

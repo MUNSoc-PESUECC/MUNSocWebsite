@@ -2,6 +2,17 @@
 	// @ts-nocheck
 
 	export let data;
+
+
+	function isOver(dateString){
+		const date = new Date(dateString);
+		const today = new Date();
+		if (date <= today){
+			return true;
+		} else{
+			return false;
+		}
+	}
 </script>
 
 <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -22,7 +33,7 @@
 				onclick="window.location='{event.path}'"
 			>
 				<div class="flex justify-center">
-					<img src={event.meta.img} alt="" class="w-2/3 h-auto rounded-md max-w-md" />
+					<img src={event.meta.img} alt="" class="w-11/12 h-auto rounded-md max-w-md" />
 				</div>
 
 				<div class="card-content text-center">
@@ -35,6 +46,15 @@
 					<h3 class="pl-10 pr-10 text-xl">Date: {event.meta.date}</h3>
 					<h3 class="pl-10 pr-10 text-xl">Time: {event.meta.time}</h3>
 					<h3 class="pl-10 pr-10 text-xl">Venue: {event.meta.venue}</h3>
+					{#if isOver(event.meta.date)}
+					<h3 class = "text-munsoc-gold">
+						This event is over!
+					</h3>
+					{:else}
+					<button class="register-button" onclick="window.open('{event.meta.registrationLink}', '_blank')">
+						Register Here!
+					  </button>
+					{/if}
 				</div>
 			</div>
 		{/each}
@@ -78,4 +98,20 @@
 	.card-content {
 		padding-bottom: 30px;
 	}
+	.register-button{
+        width:80%;
+        padding: 8px;
+        color: var(--munsoc-gold);
+        font-size:x-large;
+        font-weight: bold;
+        background-color: var(--button-color);
+        border-radius: 6px;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        transition: 0.5s;
+        background-color: #202c40;
+        border: 5px solid #202c40;
+      }
+	  .register-button:hover{
+		box-shadow: 0 32px 64px 0 rgba(0,0,0,0.2);
+	  }      
 </style>
