@@ -1,9 +1,9 @@
 ---
 title: "Iran Contra Affair"
-date: "2023-02-15"
+date: "2023-02-09"`
 description: The iran contra affair was one of the most shocking political scandals in the  history of the united states. Read on to find out more.
 img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbyOX6uLJtNedmiybF-QUK_z3vBBovVlXJRg7bqHUxu9G5J-zVxzrsm9K6&s=10" 
-author: Siddhart Tewari
+author: Siddharth Tewari
 ---
 
 # Iran Contra Affair
