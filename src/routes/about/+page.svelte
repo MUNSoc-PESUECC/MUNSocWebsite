@@ -1,6 +1,10 @@
 <script>
   //@ts-nocheck
   export let data;
+  function changeImage(){
+    const image = document.getElementById("easterEggImage");
+    image.src = "https://i.postimg.cc/JzRrdvJt/easter.jpg";
+  }
 
 </script>
 
@@ -24,18 +28,24 @@
         <!-- AWARDS -->
         <h1 class = "text-center p-10">Our Awards</h1>
         <div class = "wrapper">
-          {#each data.awards as award, index}
+          {#each data.awards as award}
           <div class="card md:ml-10 md:mr-10 ml-5 mr-5 rounded-md inline-block">
             <h2 class = "pr-10 pl-10 text-center mt-5 font-extrabold text-2xl">
               {award.meta.conferenceName}
           </h2>
           <div class = "flex justify-center image-div">
             {#if award.meta.conferenceName == "BMSMUN 2023"}
-            <a href= "https://i.postimg.cc/JzRrdvJt/easter.jpg" class = "flex justify-center">
-            <img src="{award.meta.img}" 
+
+            <img 
+            id = "easterEggImage"
+            src="{award.meta.img}" 
             alt="award" 
-            class="w-11/12 h-auto rounded-md max-w-md m-0 mb-10">
-          </a>
+            class="w-11/12 h-auto rounded-md max-w-md m-0 mb-10"
+            on:click={changeImage}
+            on:keydown={changeImage}
+            >
+
+
             {:else}
             <img src="{award.meta.img}" 
             alt="award" 
