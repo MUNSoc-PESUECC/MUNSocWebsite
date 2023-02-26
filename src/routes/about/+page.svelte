@@ -4,7 +4,7 @@
 
   function changeImage(){
     const image = document.getElementById("easterEggImage");
-    image.src = preloadedImage.src;
+    image.src = "https://i.postimg.cc/JzRrdvJt/easter.jpg";``
   }
 
 </script>
