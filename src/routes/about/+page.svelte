@@ -12,32 +12,48 @@
     <title>MUNSoc PESU-ECC | ABOUT</title>
     <body class = "bg-body-slate prose prose-invert">
         <h1 class="p-10 text-center">About Us</h1>
-        <h3 class = "md:pr-32 md:pl-32 pr-10 pl-10 font-normal">
+        <h4 class = "md:pr-32 md:pl-32 pr-10 pl-10 font-normal">
           MUNSoc PESU-ECC was established in 2019, by Ashwathi Jayakumar and Akshaya Visvanathan, who had noticed the lack of any kinds of debating or diplomatic clubs on campus. Since then, we have established ourselves as one of the most happening and reputed club on the campus.
-        </h3>
-        <h3 class = "pt-10 pb-10 md:pr-32 md:pl-32 pr-10 pl-10 font-normal">
+        </h4>
+        <h4 class = "pt-10 pb-10 md:pr-32 md:pl-32 pr-10 pl-10 font-normal">
           In 2021, the MUNSoc legacy was passed on to two very highly accomplished students, Anurag G and Anirudh Rowjee, the first few people to be recruited into the club as members and bringing awards home for the club. Under their leadership, our members have won awards and accolades in a number of distinguished intercollegiate MUNs.
-        </h3>
+        </h4>
         <hr>
 
 
         <!-- AWARDS -->
         <h1 class = "text-center p-10">Our Awards</h1>
         <div class = "wrapper">
-          {#each data.awards as award}
+          {#each data.awards as award, index}
           <div class="card md:ml-10 md:mr-10 ml-5 mr-5 rounded-md inline-block">
-            <h2 class = "pr-10 pl-10 text-center m-5 font-extrabold">
+            <h2 class = "pr-10 pl-10 text-center mt-5 font-extrabold text-2xl">
               {award.meta.conferenceName}
           </h2>
-          <div class = "flex justify-center"><img src="{award.meta.img}" alt="award" class="w-2/3 h-auto rounded-md max-w-md"></div>
+          <div class = "flex justify-center image-div">
+            {#if award.meta.conferenceName == "BMSMUN 2023"}
+            <a href= "https://i.postimg.cc/JzRrdvJt/easter.jpg" class = "flex justify-center">
+            <img src="{award.meta.img}" 
+            alt="award" 
+            class="w-11/12 h-auto rounded-md max-w-md m-0 mb-10">
+          </a>
+            {:else}
+            <img src="{award.meta.img}" 
+            alt="award" 
+            class="w-11/12 h-auto rounded-md max-w-md m-0 mb-10">
+            {/if}
+
+          </div>
+
           <div class = "prizes pl-2 pr-2 md:pr-5 md:pl-5">
+            <div class = "h-auto items-center">
             {#each Object.entries(award.meta.awardeeAward) as [person, award]}
               <div class = "eachPrizes">
-                <h3 class = "inline-block m-0 text-center text-munsoc-gold pt-2">{person}</h3>
-                <h3 class = "text-center flex items-center m-0 pt-2 pb-2">{award}</h3>
+                <h3 class = "inline-block m-0 text-right text-munsoc-gold pt-2 md:text-xl text-sm">{person}</h3>
+                <h3 class = "text-center flex items-center m-0 pt-2 pb-2 md:text-xl text-sm font-normal">{award}</h3>
                 <hr class = "col-span-2 m-0">
               </div>
             {/each}
+          </div>
           </div>
           </div>
       
@@ -79,7 +95,7 @@
 
   .card {
   /* Add shadows to create the "card" effect */
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); 
   transition: 0.5s;
   margin-bottom: 30px;
   background-color: #202c40;
@@ -97,13 +113,22 @@
   grid-template-columns: 1fr 1fr;
   column-gap: 10px;
 }
-.wrapper { 
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-  grid-gap: 20px;
-  align-items: stretch;
-  text-align: center;
+
+
+  .wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
+  .image-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
 
   @media (max-width: 420px) {
     .wrapper {

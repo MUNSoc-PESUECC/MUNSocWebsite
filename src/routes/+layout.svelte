@@ -116,7 +116,7 @@
   }
   .socials{
     padding-left:0;
-    padding-top: 10px;
+    padding-top: 0px;
     padding-bottom: 10px;
     list-style: none;
     display: flex;
@@ -131,9 +131,9 @@
 .socials a{
     text-decoration: none;
     color: #fff;
-    border: 1.1px solid white;
+    
     padding: 5px;
-    border-radius: 50%;
+    border-radius: 100%;
 }
 
 .socials a:hover{
@@ -141,8 +141,7 @@
 }
 
 .socials a i{
-    font-size: 1.1rem;
-    width: 20px;
+    font-size: 2rem;
     transition: color 0.4s ease;
 }
 

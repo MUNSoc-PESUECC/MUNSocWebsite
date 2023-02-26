@@ -14,7 +14,7 @@
   <body class = "bg-body-slate">
     
   <article class = "text-white p-10 prose prose-invert">
-    <div class = "flex justify-center"><img src="{ data.img }" alt="" class="w-2/3 h-auto rounded-md"></div>
+    <div class = "flex justify-center"><img src="{ data.img }" alt="" class="w-11/12 h-auto rounded-md"></div>
     <div class="text-center">
     <h1>{ data.title }</h1>
     <h3>✍️ {data.author}</h3>

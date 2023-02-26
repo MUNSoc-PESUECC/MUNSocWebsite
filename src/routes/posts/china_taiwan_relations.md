@@ -1,6 +1,6 @@
 ---
 title: The New Frontier of Diplomacy
-date: "2023-02-23"
+date: "2023-02-15"
 description: Assessing the Future of China-Taiwan Relations
 img: "https://i.postimg.cc/XYtxhYh3/image-000.png"
 author: Alan Jogi & Sean Sougaijam
@@ -107,7 +107,7 @@ national infrastructure followed by a large-scale invasion. While these scenario
 are possible, the blockade scenario is considered unlikely as it may backfire,
 potentially severely damaging the Chinese economy without delivering a victory.
 
-[![image-005.png](https://i.postimg.cc/vHq25VRH/image-005.png)](https://postimg.cc/6yZhXT5D)
+![image-005.png](https://i.postimg.cc/vHq25VRH/image-005.png)
 
 In case of a military confrontation, China's armed forces would significantly dwarf
 those of Taiwan. A Chinese takeover in Taiwan would give Beijing control over one

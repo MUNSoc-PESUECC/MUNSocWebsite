@@ -21,6 +21,10 @@
 	rel="stylesheet"
 />
 
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
 <main>
 	<title>MUNSoc PESU-ECC</title>
 	<body class="bg-body-slate prose prose-invert">
@@ -32,7 +36,7 @@
 			onclick="window.location='{data.newsletters[0].path}'"
 		>
 			<div class="flex justify-center">
-				<img src={data.newsletters[0].meta.img} alt="" class="w-2/3 h-auto rounded-md max-w-md" />
+				<img src={data.newsletters[0].meta.img} alt="" class="w-11/12 h-auto rounded-md max-w-md" />
 			</div>
 
 			<div class="card-content">
@@ -49,7 +53,10 @@
 				</h3>
 			</div>
 		</div>
-
+		<div class = "text-right md:pr-10 pr-5 text-xl">
+			<a href="/newsletter">See older Newsletters</a>
+			<div class = "inline arrow text-munsoc-gold"> -> </div>
+		</div>
 		<hr class="pl-10 pr-10" />
 
 		<!-- POSTS -->
@@ -60,7 +67,7 @@
 				onclick="window.location='{data.posts[0].path}'"
 			>
 				<div class="flex justify-center">
-					<img src={data.posts[0].meta.img} alt="" class="w-2/3 h-auto rounded-md max-w-md" />
+					<img src={data.posts[0].meta.img} alt="" class="w-11/12 h-auto rounded-md max-w-md" />
 				</div>
 
 				<div class="card-content">
@@ -80,7 +87,7 @@
 				onclick="window.location='{data.posts[1].path}'"
 			>
 				<div class="flex justify-center">
-					<img src={data.posts[1].meta.img} alt="" class="w-2/3 h-auto rounded-md max-w-md" />
+					<img src={data.posts[1].meta.img} alt="" class="w-11/12 h-auto rounded-md max-w-md" />
 				</div>
 
 				<div class="card-content">
@@ -95,7 +102,10 @@
 				</div>
 			</div>
 		</div>
-
+		<div class = "text-right md:pr-10 pr-5 text-xl">
+			<a href="/posts">See more Posts</a>
+			<div class = "inline arrow text-munsoc-gold"> -> </div>
+		</div>
 		<hr class="pl-10 pr-10" />
 
 		<!-- EVENTS -->
@@ -108,7 +118,7 @@
 				onclick="window.location='{data.events[0].path}'"
 			>
 				<div class="flex justify-center">
-					<img src={data.events[0].meta.img} alt="" class="w-2/3 h-auto rounded-md max-w-md" />
+					<img src={data.events[0].meta.img} alt="" class="w-11/12 h-auto rounded-md max-w-md" />
 				</div>
 
 				<div class="card-content">
@@ -128,7 +138,7 @@
 				onclick="window.location='{data.events[1].path}'"
 			>
 				<div class="flex justify-center">
-					<img src={data.events[1].meta.img} alt="" class="w-2/3 h-auto rounded-md max-w-md" />
+					<img src={data.events[1].meta.img} alt="" class="w-11/12 h-auto rounded-md max-w-md" />
 				</div>
 
 				<div class="card-content">
@@ -143,7 +153,10 @@
 				</div>
 			</div>
 		</div>
-
+		<div class = "text-right md:pr-10 pr-5 text-xl">
+			<a href="/events">See more Events</a>
+			<div class = "inline arrow text-munsoc-gold"> -> </div>
+		</div>
 		<hr class="pl-10 pr-10" />
 
 		<!-- PRESIDENTS -->
@@ -154,7 +167,7 @@
 			{#each presidents as person}
 				<div class="card md:ml-10 md:mr-10 ml-5 mr-5 rounded-md inline-block">
 					<div class="flex justify-center text-xl">
-						<img src={person.Photo} alt="core member" class="w-2/3 h-auto rounded-md max-w-md" />
+						<img src={person.Photo} alt="core member" class="w-11/12 h-auto rounded-md max-w-md" />
 					</div>
 					<div class="card-content">
 						<h1 class="pr-10 pl-10 text-center">
@@ -219,5 +232,8 @@
 			display: block;
 			align-items: center;
 		}
+	}
+	.arrow{
+		font-family: 'JetBrains Mono', monospace;
 	}
 </style>

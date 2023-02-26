@@ -1,6 +1,6 @@
 ---
 title: "Adani's Takeover of NDTV"
-date: "2023-02-24"
+date: "2023-02-15"
 description: Just Another Corporate Deal or a Silencing Act?
 img: "https://i.postimg.cc/yNjT6T9H/Adani-takeover.jpg"
 author: Spice

@@ -83,7 +83,7 @@
     <div class = "wrapper">
     {#each coreMembers as person}
     <div class="card md:ml-10 md:mr-10 ml-5 mr-5 rounded-md inline-block">
-      <div class = "flex justify-center"><img src="{person.Photo}" alt="core member" class="w-2/3 h-auto rounded-md max-w-md"></div>
+      <div class = "flex justify-center"><img src="{person.Photo}" alt="core member" class="w-11/12 h-auto rounded-md max-w-md"></div>
       <div class = "card-content">
       <h1 class = "pr-10 pl-10 text-center">
           {person.Name}
@@ -138,10 +138,9 @@
   padding-bottom: 30px;
 }
 .wrapper { 
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-  grid-gap: 20px;
-  align-items: stretch;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   }
 
   @media (max-width: 420px) {

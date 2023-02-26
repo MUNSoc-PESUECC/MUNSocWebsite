@@ -19,17 +19,18 @@
         
         {#each data.posts as post}
           <div class="card md:ml-10 md:mr-10 ml-5 mr-5 rounded-md text-center" onclick="window.location='{post.path}'">
-            <div class = "flex justify-center"><img src="{post.meta.img}" alt="" class="w-2/3 h-auto rounded-md max-w-md"></div>
+            <div class = "flex justify-center"><img src="{post.meta.img}" alt="" class="w-11/12 h-auto rounded-md max-w-md"></div>
             
             <div class = "card-content">
-            <h1 class = "pr-10 pl-10">
+            <h1 class = "grey mb-1">
               <a href={post.path}>
                 {post.meta.title}
               </a>
             </h1>
-            <h3>✍️ {post.meta.author}</h3>
-            <div class = "pl-10 pr-10 text-xl">Published: {post.meta.date} </div> 
+
             <div class = "pl-10 pr-10">{post.meta.description} </div> 
+            <h3 class = "mt-3 font-normal">✍️ {post.meta.author}</h3>
+            <div class = "pl-10 pr-10 published">Published: {post.meta.date} </div> 
           </div>
           </div>
 
@@ -80,6 +81,10 @@
 
 /* Add some padding inside the card container */
 .card-content {
-  padding-bottom: 30px;
+  padding-bottom: 10px;
+}
+
+.published{
+  font-size: 16px;
 }
 </style>
