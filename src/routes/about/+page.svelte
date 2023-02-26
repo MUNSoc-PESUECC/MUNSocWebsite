@@ -1,8 +1,6 @@
 <script>
   //@ts-nocheck
   export let data;
-  var preloadedImage = new Image();
-  preloadedImage.src = "https://i.postimg.cc/JzRrdvJt/easter.jpg";
 
   function changeImage(){
     const image = document.getElementById("easterEggImage");
