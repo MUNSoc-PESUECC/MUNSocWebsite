@@ -154,12 +154,12 @@ Many justify the existence of the monarchy in modern times by stating their cont
 - Slowly trying to right their past wrongs
 
 ---
-###Conclusion:
+### Conclusion:
 
 #### Final Worthy Score: 3/10
 
 Supporters of the monarchy believe that the current royals cannot and should not be held responsible for the actions of their ancestors, especially considering their figurehead status and limited political power and influence as of now. But those against the monarchy have a multitude of reasons for opposing them.
 
- Despite bringing in millions via tourism, the Royal Estates do not generate enough profit to offset the amount spent on the monarchy: an amount that comes from taxpayer’s wallets. The monarchy also acts as a grim reminder of the country’s colonial past as well as a great example of wealth and income disparity - at a time when many are struggling due to inflation and rising prices. Whether or not the current royals were involved in colonialism and imperialism is irrelevant to the discussion when the institute of monarchy owes itself to them. 
- 
+ Despite bringing in millions via tourism, the Royal Estates do not generate enough profit to offset the amount spent on the monarchy: an amount that comes from taxpayer’s wallets. The monarchy also acts as a grim reminder of the country’s colonial past as well as a great example of wealth and income disparity - at a time when many are struggling due to inflation and rising prices. Whether or not the current royals were involved in colonialism and imperialism is irrelevant to the discussion when the institute of monarchy owes itself to them.
+
 The modern royals directly profit off the actions of their ancestors. After considering all of the above, we believe that the British monarchy is not a worthy institution and should be abolished and replaced with a more democratic institution: one that accurately reflects the progress made from being an empire to a democracy.
