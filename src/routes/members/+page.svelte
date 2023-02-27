@@ -67,6 +67,12 @@
       Role: 'Head Of Finance',
       Photo: "https://i.imgur.com/P6MnSpZ.png",
     },
+
+    {
+      Name: "Anurag",
+      Role: 'Head Of Finance',
+      Photo: "https://i.imgur.com/eCbk8bC.png",
+    },
     
   ];
 </script>
