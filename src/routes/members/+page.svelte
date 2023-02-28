@@ -79,8 +79,8 @@
     },
     {
       Name: "Anurag Rao",
-      Role: 'Web Developer',
-      Photo: "https://i.imgur.com/eCbk8bC.png",
+      Role: 'Head of Website Development',
+      Photo: "https://i.imgur.com/2Sl2UvH.jpg",
     },
   ];
 </script>
