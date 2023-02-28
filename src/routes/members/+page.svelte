@@ -54,13 +54,18 @@
     },
     {
       Name: "Disha Kiran",
-      Role: 'Editor In Chief And Membership Chair',
+      Role: 'Editor-In-Chief',
       Photo: "https://i.imgur.com/M9SIPEY.png",
     },
     {
       Name: "Sukruthi Sanampudi",
       Role: 'Head Of Operations',
       Photo: "https://i.imgur.com/4r2a1eR.png",
+    },
+    {
+      Name: "Avani Dhagam",
+      Role: 'Membership Chair',
+      Photo: "https://i.imgur.com/GjizN6X.jpg",
     },
     {
       Name: "Srinivaasan N S",
