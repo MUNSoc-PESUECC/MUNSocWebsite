@@ -67,7 +67,18 @@
       Role: 'Head Of Finance',
       Photo: "https://i.imgur.com/P6MnSpZ.png",
     },
+
+    {
+      Name: "Anurag Rao",
+      Role: 'Web Developer',
+      Photo: "https://i.imgur.com/eCbk8bC.png",
+    },
     
+    {
+      Name: "Jova Varghese",
+      Role: 'Content Design',
+      Photo: "https://i.imgur.com/eCbk8bC.png",
+    },
   ];
 </script>
 
