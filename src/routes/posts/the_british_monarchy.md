@@ -1,9 +1,9 @@
 ---
-title: "The British Monarchy: Is It a Worthy Institution?"
+title: "History of the Crown"
 date: "2023-02-15"
-description: This is a place holder description, awaiting description
-img: "https://i.imgur.com/HFm4Yws.jpg" 
-author: Nikhil Girish
+description: "The British Monarchy: Is It a Worthy Institution?"
+img: "https://i.postimg.cc/nhg247nZ/23.jpg" 
+author: Nikhil Girish & Tanishka Pasarad
 ---
 
 

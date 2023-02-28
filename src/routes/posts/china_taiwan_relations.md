@@ -3,7 +3,7 @@ title: The New Frontier of Diplomacy
 date: "2023-02-15"
 description: Assessing the Future of China-Taiwan Relations
 img: "https://i.postimg.cc/XYtxhYh3/image-000.png"
-author: Alan Jogi & Sean Sougaijam
+author: Alan Joji & Sean Sougaijam
 ---
 # Assessing the Future of China-Taiwan Relations
 
