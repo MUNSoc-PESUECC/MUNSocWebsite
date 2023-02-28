@@ -76,7 +76,7 @@
     
     {
       Name: "Jova Varghese",
-      Role: 'Content Design',
+      Role: 'Content Designer',
       Photo: "https://i.imgur.com/eCbk8bC.png",
     },
   ];
