@@ -4,7 +4,7 @@
 
   function changeImage(){
     const image = document.getElementById("easterEggImage");
-    image.src = "https://i.postimg.cc/JzRrdvJt/easter.jpg";``
+    image.src = "https://i.postimg.cc/JzRrdvJt/easter.jpg";
   }
 
 </script>
@@ -37,20 +37,20 @@
           <div class = "flex justify-center image-div">
             {#if award.meta.conferenceName == "BMSMUN 2023"}
 
-            <img 
+            <img
             id = "easterEggImage"
             src="{award.meta.img}" 
-            alt="award" 
+            alt="award"
             class="w-11/12 h-auto rounded-md max-w-md m-0 mb-10"
             on:click={changeImage}
             on:keydown={changeImage}
             >
 
-
             {:else}
             <img src="{award.meta.img}" 
             alt="award" 
-            class="w-11/12 h-auto rounded-md max-w-md m-0 mb-10">
+            class="w-11/12 h-auto rounded-md max-w-md m-0 mb-10"
+            >
             {/if}
 
           </div>
@@ -80,6 +80,7 @@
   :root{
     --munsoc-gold: #C0A960;
     --body-slate: #232C3A;
+    font-family: 'Lato', sans-serif;
   }
   body{
     overflow-x: hidden; /* to fix a weird bug of horizontal scroll bar appearing out of nowhere */
@@ -99,9 +100,6 @@
     margin:0;
   }
 
-  body{
-    font-family: 'Roboto', sans-serif;
-  }
 
 
   .card {
@@ -126,18 +124,11 @@
 }
 
 
-  .wrapper{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  .image-wrapper{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
+.wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
 
 

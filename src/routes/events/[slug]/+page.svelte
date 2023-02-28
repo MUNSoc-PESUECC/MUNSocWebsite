@@ -6,8 +6,6 @@
     function isOver(dateString){
       const date = new Date(dateString);
       const today = new Date();
-      console.log(today);
-      console.log(date);
       if (date <= today){
         return true;
       } else{
