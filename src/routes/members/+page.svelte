@@ -65,7 +65,7 @@
     {
       Name: "Avani Dhagam",
       Role: 'Membership Chair',
-      Photo: "https://i.imgur.com/GjizN6X.jpg",
+      Photo: "https://i.imgur.com/PBFX060.jpg",
     },
     {
       Name: "Srinivaasan N S",
