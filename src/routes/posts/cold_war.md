@@ -1,9 +1,9 @@
 ---
-title: Cold War
+title: History of the Cold War
 date: "2023-02-15"
-description: xyz sugar on the bread
+description: The battle of idealogies which brought the world to the brink of nuclear war
 img: "https://i.postimg.cc/ryBWtysR/image-000.jpg" 
-author: Devanjan Banerjee and Onkar Pampattiwar
+author: Devanjan Banerjee & Onkar Pampattiwar
 ---
 
 Battle of ideologies between the US and the USSR which lead to international proxy wars aided by each country for democracy of for communism: The Cold War. The threat of nuclear attack by one country over the other lead to a general stalemate whenever tensions about direct confrontations would arise between the two. Its foundations lie in the nature of socio-political events taking place during and after the second world war.
