@@ -23,6 +23,16 @@
       Photo: "https://i.imgur.com/sLjEDXL.png",
     },
     {
+      Name: "Sukruthi Sanampudi",
+      Role: 'Head Of Operations',
+      Photo: "https://i.imgur.com/4r2a1eR.png",
+    },
+    {
+      Name: "Srinivaasan N S",
+      Role: 'Head Of Finance',
+      Photo: "https://i.imgur.com/P6MnSpZ.png",
+    },
+    {
       Name: "Garima Bajpayi",
       Role: 'Head Of Marketing',
       Photo: "https://i.imgur.com/Jeh5Bwj.png",
@@ -31,16 +41,16 @@
       Name: "Sphurthi Yandamuri",
       Role: 'Head Of Social Media',
       Photo: "https://i.imgur.com/HauEJy7.png",
+    },   
+    {
+      Name: "Disha Kiran",
+      Role: 'Editor-In-Chief',
+      Photo: "https://i.imgur.com/M9SIPEY.png",
     },
     {
-      Name: "Shreyas",
-      Role: 'Head Of Design',
-      Photo: "https://i.imgur.com/p92FAuC.png",
-    },
-    {
-      Name: "Sarthak S Kumar",
-      Role: 'Head Of Design',
-      Photo: "https://i.imgur.com/jGBAj5K.png",
+      Name: "Avani Dhagam",
+      Role: 'Membership Chair',
+      Photo: "https://i.imgur.com/PBFX060.jpg",
     },
     {
       Name: 'Anurag G',
@@ -53,35 +63,23 @@
       Photo: "https://i.imgur.com/mEblgB7.png",
     },
     {
-      Name: "Disha Kiran",
-      Role: 'Editor-In-Chief',
-      Photo: "https://i.imgur.com/M9SIPEY.png",
+      Name: "Shreyas",
+      Role: 'Head Of Design',
+      Photo: "https://i.imgur.com/p92FAuC.png",
     },
     {
-      Name: "Sukruthi Sanampudi",
-      Role: 'Head Of Operations',
-      Photo: "https://i.imgur.com/4r2a1eR.png",
+      Name: "Sarthak S Kumar",
+      Role: 'Head Of Design',
+      Photo: "https://i.imgur.com/jGBAj5K.png",
     },
-    {
-      Name: "Avani Dhagam",
-      Role: 'Membership Chair',
-      Photo: "https://i.imgur.com/PBFX060.jpg",
-    },
-    {
-      Name: "Srinivaasan N S",
-      Role: 'Head Of Finance',
-      Photo: "https://i.imgur.com/P6MnSpZ.png",
-    },
-
-    {
-      Name: "Anurag Rao",
-      Role: 'Web Developer',
-      Photo: "https://i.imgur.com/eCbk8bC.png",
-    },
-    
     {
       Name: "Jova Varghese",
       Role: 'Content Designer',
+      Photo: "https://i.imgur.com/eGP385K.jpg",
+    },
+    {
+      Name: "Anurag Rao",
+      Role: 'Web Developer',
       Photo: "https://i.imgur.com/eCbk8bC.png",
     },
   ];
