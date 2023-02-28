@@ -1,14 +1,14 @@
 ---
 title: "Iran Contra Affair"
 date: "2023-02-09"
-description: The iran contra affair was one of the most shocking political scandals in the  history of the united states. Read on to find out more.
+description: What's the link between a Civil war in Latin America and Iranian arms embargo? Read on to find out
 img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbyOX6uLJtNedmiybF-QUK_z3vBBovVlXJRg7bqHUxu9G5J-zVxzrsm9K6&s=10" 
 author: Siddharth Tewari
 ---
 
 # Iran Contra Affair
 
-The sale of arms to Iran, hostage exchanges(supposed), hezbollah and the civil war in Nicaragua. How are all these related? Well its a long story.
+The sale of arms to Iran, supposed hostage exchanges, Hezbollah and the civil war in Nicaragua. How are all these related? Well, it's a long story.
 
 In simple terms; during the second Reagan term, senior administration officials secretly facilitated the sales of weapons to Iran which at the time was under an arms embargo, and diverted the profits to the Contras, a group of anti-socialist rebels in Nicaragua that were opposed to the socialist Sandinista led government.
 
@@ -16,7 +16,7 @@ In simple terms; during the second Reagan term, senior administration officials 
 
 When Reagan initially assumed office, he immediately condemned the Sandinista National Liberation Front which had aligned itself with cuba and had begun supporting similar socialist influenced movements in Latin America in countries such as El Salvador. Under his administration the CIA were authorized to start financing, training, arming and providing aid to rebels, most of whom were the leftovers of Anastasio Somoza's National Guard, the last of the Somoza family to be president, the Somozas were a family that had been in power since 1937, Somoza had been deposed of by the Sandinistas in 1979. The contras engaged in economic sabotage as was typical in limited guerrilla warfare.
 
-But how is this related to selling arms to iran, hostage exchanges and hezbollah?
+But how is this related to selling arms to Iran, hostage exchanges and Hezbollah?
 
 # Shady dealings:
 
@@ -49,7 +49,6 @@ Creative efforts to resupply the contras such as air supply operations, intellig
 This led to the birth of "the enterprise", which facilitated the flow of arms to Iran via Israel. The deal was wholly managed through private actors- Ghorbanifar for Iran and Schwimmer and Nimrodi for Israel.  A lot of money was skimmed by these private actors and it was said that of the initial proposed 12mn dollars the contras were lucky if they could get even 2mn dollars of tangible benefit. 
 
 # Unravelling and Aftermath:
-
 
 On November 3, 1986, two Lebanese newspapers broke the story of the Iran arms deal, and quickly thereafter the entire mess began to unravel in the United States. The first two weeks following the newspaper leak were marked by an increasing crisis of confidence in the government as facts about the affair rapidly became public. The month of November was marked by heavy media coverage, and by December 1986 everything from the Contra affair to the diversion scheme found its way into the press. 
 
