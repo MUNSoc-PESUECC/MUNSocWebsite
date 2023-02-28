@@ -1,9 +1,9 @@
 ---
-title: Union Budget 2023 Key Highlights
+title: "At a glance: Budget'23"
 date: "2023-02-15"
-description: Union buget of 2023
+description: Key Highlights of the Union Budget 2023
 img: "https://i.postimg.cc/Fz0KSLsP/image-000.jpg"
-author: Himanshu Kumar and Ayushmaan Singh
+author: Himanshu Kumar & Ayushmaan Singh
 ---
 
 
