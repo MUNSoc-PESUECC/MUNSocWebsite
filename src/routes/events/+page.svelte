@@ -15,7 +15,11 @@
 	}
 	
 	
-
+	function changeImage(event){
+	  event.stopPropagation();
+      const image = document.getElementById("easterEggImage");
+      image.src = "https://i.imgur.com/u4lW09X.jpg";
+    }
 
 </script>
 
@@ -37,10 +41,22 @@
 				onclick="window.location='{event.path}'">
 
 					<div class = "flex justify-center image-div pt-10">
+
+
+						{#if event.meta.title == "Orientation MUNDay"}
             			<img src="{event.meta.img}" 
+						id = "easterEggImage"
+						on:click={changeImage}
+						on:keydown={changeImage}
             			alt="event" 
             			class="w-11/12 h-auto rounded-md max-w-md m-0 mb-10"
             			>
+						{:else}
+						<img src="{event.meta.img}" 
+            			alt="event" 
+            			class="w-11/12 h-auto rounded-md max-w-md m-0 mb-10"
+            			>
+						{/if}
 
 					
 					
