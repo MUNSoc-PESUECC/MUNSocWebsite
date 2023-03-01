@@ -12,6 +12,12 @@
         return false;
       }
     }
+
+    function changeImage(){
+      const image = document.getElementById("easterEggImage");
+      image.src = "https://i.imgur.com/u4lW09X.jpg";
+    }
+
     </script>
       
       <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,7 +28,13 @@
       <title>{data.title}</title>
       <body class = "bg-body-slate">
       <article class = "text-white p-10 prose prose-invert">
-        <div class = "flex justify-center"><img src="{ data.img }" alt="" class="w-11/12 h-auto rounded-md"></div>
+        <div class = "flex justify-center">
+          {#if data.title == "Orientation MUNDay"}
+            <img id = "easterEggImage" src="{ data.img }" alt="" class="w-11/12 h-auto rounded-md" on:click={changeImage} on:keydown={changeImage}>
+          {:else}
+            <img src="{ data.img }" alt="" class="w-11/12 h-auto rounded-md">
+          {/if}
+        </div>
         <h1 class="text-center">{ data.title }</h1>
         <h3 class="text-center">Date: {data.date}</h3>
         <h3 class="text-center">Time: {data.time}</h3>

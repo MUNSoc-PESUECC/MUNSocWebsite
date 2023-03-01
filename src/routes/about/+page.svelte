@@ -47,10 +47,12 @@
             >
 
             {:else}
+
             <img src="{award.meta.img}" 
             alt="award" 
             class="w-11/12 h-auto rounded-md max-w-md m-0 mb-10"
             >
+            
             {/if}
 
           </div>

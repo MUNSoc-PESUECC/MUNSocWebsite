@@ -75,14 +75,20 @@
     {
       Name: "Jova Varghese",
       Role: 'Content Designer',
-      Photo: "https://i.imgur.com/eGP385K.jpg",
+      Photo: " https://i.imgur.com/X5YW6yg.png",
     },
     {
       Name: "Anurag Rao",
       Role: 'Head of Website Development',
-      Photo: "https://i.imgur.com/2Sl2UvH.jpg",
+      Photo: "https://i.imgur.com/VI6ZUhJ.png",
     },
   ];
+
+
+  function changeImage(){
+      const image = document.getElementById("easterEggImage");
+      image.src = "https://i.imgur.com/u4lW09X.jpg";
+  }
 </script>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -97,8 +103,12 @@
     <div class = "wrapper">
     {#each coreMembers as person}
     <div class="card md:ml-10 md:mr-10 ml-5 mr-5 rounded-md inline-block">
-      <div class = "flex justify-center"><img src="{person.Photo}" alt="core member" class="w-11/12 h-auto rounded-md max-w-md"></div>
+      <div class = "flex justify-center">   
+      <img src="{person.Photo}" alt="core member" class="w-11/12 h-auto rounded-md max-w-md">
+      </div>
+
       <div class = "card-content">
+
       <h1 class = "pr-10 pl-10 text-center">
           {person.Name}
       </h1>

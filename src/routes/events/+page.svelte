@@ -13,6 +13,10 @@
 			return false;
 		}
 	}
+	
+	
+
+
 </script>
 
 <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -30,10 +34,16 @@
 		{#each data.events as event}
 			<div
 				class="card md:ml-10 md:mr-10 ml-5 mr-5 rounded-md"
-				onclick="window.location='{event.path}'"
-			>
-				<div class="flex justify-center">
-					<img src={event.meta.img} alt="" class="w-11/12 h-auto rounded-md max-w-md" />
+				onclick="window.location='{event.path}'">
+
+					<div class = "flex justify-center image-div pt-10">
+            			<img src="{event.meta.img}" 
+            			alt="event" 
+            			class="w-11/12 h-auto rounded-md max-w-md m-0 mb-10"
+            			>
+
+					
+					
 				</div>
 
 				<div class="card-content text-center">
