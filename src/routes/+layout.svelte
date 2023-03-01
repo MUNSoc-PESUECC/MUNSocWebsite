@@ -73,7 +73,8 @@
         <p>Ad Astra per Aspera</p>
         <ul class="socials">
           <li><a href="https://www.instagram.com/munsoc.pesuecc/" target="_blank" rel="noreferrer"><i class="fa fa-instagram"></i></a></li>
-          <li><a href="mailto:munsocecc@pes.edu" target="_blank"><i class="fa fa-envelope"></i></a></li>
+          <li><a href="mailto:munsocecc@pes.edu" target="_blank" rel="noreferrer"><i class="fa fa-envelope"></i></a></li>
+          <li><a href="https://github.com/MUNSoc-PESUECC/MUNSocWebsite" target="_blank" rel="noreferrer"><i class="fa fa-github"></i></a></li>
 
        </ul>
        <div>© MUNSoc PESU-ECC 2023</div>
