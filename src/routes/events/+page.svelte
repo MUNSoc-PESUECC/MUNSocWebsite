@@ -35,6 +35,7 @@
 	<body class="bg-body-slate text-white prose prose-invert">
 		<h1 class="px-10 pt-10 text-center">Events</h1>
 		<hr />
+		<div class="wrapper">
 		{#each data.events as event}
 			<div
 				class="card md:ml-10 md:mr-10 ml-5 mr-5 rounded-md"
@@ -84,6 +85,7 @@
 				</div>
 			</div>
 		{/each}
+	</div>
 	</body>
 </main>
 
@@ -114,6 +116,9 @@
 		background-color: #202c40;
 		border: 5px solid #202c40;
 		cursor: pointer;
+		display: flex;
+  		justify-content: center;
+  		flex-direction: column;
 	}
 
 	.card:hover {
@@ -140,4 +145,10 @@
 	  .register-button:hover{
 		box-shadow: 0 32px 64px 0 rgba(0,0,0,0.2);
 	  }      
+	  .wrapper { 
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+		grid-gap: 20px;
+		align-items: stretch;
+	}
 </style>
