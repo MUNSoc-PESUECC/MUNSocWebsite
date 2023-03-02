@@ -86,9 +86,13 @@
 
 
   function changeImage(id, src){
+      console.log(id);
       const image = document.getElementById(id);
       image.src = src;
   }
+
+
+  
 
 </script>
 
@@ -101,6 +105,7 @@
     <title>MUNSoc PESU-ECC | MEMBERS</title>
     <body class = "bg-body-slate prose prose-invert">
     <h1 class="p-10 text-center">Meet Our Team</h1>
+    <hr class="ml-10 mr-10" />
     <div class = "wrapper">
     {#each coreMembers as person}
     <div class="card md:ml-10 md:mr-10 ml-5 mr-5 rounded-md inline-block">
@@ -109,26 +114,28 @@
         {#if person.Name == "Abhiram Dasika"}
         
         <img src={person.Photo}
+        id={person.Name}
         alt="core member" 
         class="w-11/12 h-auto rounded-md max-w-md"
         on:click={() => {
-          changeImage(person.Name, "");
+          changeImage(person.Name, "https://cdn.discordapp.com/attachments/1080892669313699881/1080904223790739606/16.png");
         }}
         on:keydown={() => {
-          changeImage(person.Name, "");
+          changeImage(person.Name, "https://cdn.discordapp.com/attachments/1080892669313699881/1080904223790739606/16.png");
         }}
         >
 
         {:else if person.Name == "Anurag Rao"}
         
         <img src={person.Photo}
-        alt="core member" 
+        id = {person.Name}
+        alt="core member"
         class="w-11/12 h-auto rounded-md max-w-md"
         on:click={() => {
-          changeImage(person.Name, "");
+          changeImage(person.Name, "https://cdn.discordapp.com/attachments/1080892669313699881/1080904224113709168/17.png");
         }}
         on:keydown={() => {
-          changeImage(person.Name, "");
+          changeImage(person.Name, "https://cdn.discordapp.com/attachments/1080892669313699881/1080904224113709168/17.png");
         }}
         >
 
@@ -188,11 +195,11 @@
 
   .card {
   /* Add shadows to create the "card" effect */
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+  box-shadow: 0 16px 32px 0 rgba(0,0,0,0.5);
   transition: 0.5s;
   margin-bottom: 30px;
   background-color: #202c40;
-  border: 5px solid var(--munsoc-gold);
+  border: 5px solid var(--body-slate);
 }
 
 

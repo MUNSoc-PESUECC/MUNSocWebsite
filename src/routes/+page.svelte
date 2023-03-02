@@ -23,8 +23,6 @@
 	}
 
 
-
-
 </script>
 
 <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -71,7 +69,9 @@
 			<a href="/newsletter">See older Newsletters</a>
 			<div class = "inline arrow text-munsoc-gold"> -> </div>
 		</div>
-		<hr class="ml-10 mr-10 " />
+
+
+		<hr class="ml-10 mr-10" />
 
 		<!-- POSTS -->
 		<h1 class="p-10 text-center text-munsoc-gold">Recent Posts</h1>
@@ -120,7 +120,7 @@
 			<a href="/posts">See more Posts</a>
 			<div class = "inline arrow text-munsoc-gold"> -> </div>
 		</div>
-		<hr class="pl-10 pr-10" />
+		<hr class="ml-10 mr-10 " />
 
 		<!-- EVENTS -->
 
@@ -190,7 +190,7 @@
 			<a href="/events">See more Events</a>
 			<div class = "inline arrow text-munsoc-gold"> -> </div>
 		</div>
-		<hr class="pl-10 pr-10" />
+		<hr class="ml-10 mr-10 " />
 
 		<!-- PRESIDENTS -->
 
@@ -235,7 +235,7 @@
 
 	.card {
 		/* Add shadows to create the "card" effect */
-		box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+		box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.2);
 		transition: 0.5s;
 		margin-bottom: 30px;
 		background-color: var(--body-slate);
@@ -249,8 +249,8 @@
 
 	/* On mouse-over, add a deeper shadow */
 	.card:hover {
-		border-color: var(--munsoc-gold);
-		box-shadow: 0 16px 32px rgba(0, 0, 0, 0.5);
+		border: 5px solid var(--munsoc-gold);
+		box-shadow: 0 32px 64px rgba(0, 0, 0, 0.5);
 	}
 
 	/* Add some padding inside the card container */

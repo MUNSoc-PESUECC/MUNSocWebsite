@@ -14,7 +14,7 @@
         <title>MUNSoc PESU-ECC | NEWSLETTERS</title>
         <body class = "bg-body-slate text-white prose prose-invert">
             <h1 class="px-10 pt-10 text-center">Newsletters</h1>
-            <hr>
+            <hr class="ml-10 mr-10" />
             
             {#each data.newsletters as newsletter}
               <div class="card md:ml-10 md:mr-10 ml-5 mr-5 rounded-md text-center" onclick="window.location='{newsletter.path}'">
@@ -61,18 +61,18 @@
     
       .card {
       /* Add shadows to create the "card" effect */
-      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+      box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
       transition: 0.5s;
       margin-bottom: 30px;
       background-color: #202c40;
-      border: 5px solid #202c40;
       cursor: pointer;
+      border: 5px solid var(--body-slate);
     }
     
     /* On mouse-over, add a deeper shadow */
     .card:hover {
-      border-color: var(--munsoc-gold);
-      box-shadow: 0 16px 32px rgba(0,0,0,0.5);
+      border: 5px solid var(--munsoc-gold);
+      box-shadow: 0 32px 64px rgba(0,0,0,0.5);
     }
     
     /* Add some padding inside the card container */

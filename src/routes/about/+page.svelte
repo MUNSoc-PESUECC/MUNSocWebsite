@@ -23,8 +23,7 @@
         <h4 class = "pt-10 pb-10 md:pr-32 md:pl-32 pr-10 pl-10 font-normal">
           In 2021, the MUNSoc legacy was passed on to two very highly accomplished students, Anurag G and Anirudh Rowjee, the first few people to be recruited into the club as members and bringing awards home for the club. Under their leadership, our members have won awards and accolades in a number of distinguished intercollegiate MUNs.
         </h4>
-        <hr>
-
+        <hr class="ml-10 mr-10" />
 
         <!-- AWARDS -->
         <h1 class = "text-center p-10">Our Awards</h1>

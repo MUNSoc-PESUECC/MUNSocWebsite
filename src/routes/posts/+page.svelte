@@ -15,7 +15,7 @@
     <title>MUNSoc PESU-ECC | POSTS</title>
     <body class = "bg-body-slate text-white prose prose-invert">
         <h1 class="px-10 pt-10 text-center">Posts</h1>
-        <hr>
+        <hr class="ml-10 mr-10" />
         <div class="wrapper">
         {#each data.posts as post}
           <div class="card md:ml-10 md:mr-10 ml-5 mr-5 rounded-md text-center" onclick="window.location='{post.path}'">
@@ -75,11 +75,12 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+  border: 1px solid var(--munsoc-gold);
 }
 
 /* On mouse-over, add a deeper shadow */
 .card:hover {
-  border-color: var(--munsoc-gold);
+  border: 5px solid var(--munsoc-gold);
   box-shadow: 0 16px 32px rgba(0,0,0,0.5);
 }
 

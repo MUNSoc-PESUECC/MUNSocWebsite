@@ -34,7 +34,7 @@
 	<title>MUNSoc PESU-ECC | EVENTS</title>
 	<body class="bg-body-slate text-white prose prose-invert">
 		<h1 class="px-10 pt-10 text-center">Events</h1>
-		<hr />
+		<hr class="ml-10 mr-10 " />
 		<div class="wrapper">
 		{#each data.events as event}
 			<div
@@ -110,19 +110,19 @@
 	}
 
 	.card {
-		box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+		box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.2);
 		transition: 0.5s;
 		margin-bottom: 30px;
 		background-color: #202c40;
-		border: 5px solid #202c40;
 		cursor: pointer;
 		display: flex;
   		justify-content: center;
   		flex-direction: column;
+		border: 5px solid var(--body-slate);
 	}
 
 	.card:hover {
-		border-color: var(--munsoc-gold);
+		border: 5px solid var(--munsoc-gold);
 		box-shadow: 0 16px 32px rgba(0, 0, 0, 0.5);
 	}
 
