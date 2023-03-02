@@ -11,6 +11,8 @@
         toggleNavbar()
       }
     }
+
+    
 	import '../app.postcss';
 </script>
 

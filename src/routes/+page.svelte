@@ -46,6 +46,7 @@
 
 		<div
 			class="card md:ml-10 md:mr-10 ml-5 mr-5 rounded-md text-center"
+			style="width: auto; height: 50%; "
 			onclick="window.location='{data.newsletters[0].path}'"
 		>
 			<div class="flex justify-center">
@@ -70,7 +71,7 @@
 			<a href="/newsletter">See older Newsletters</a>
 			<div class = "inline arrow text-munsoc-gold"> -> </div>
 		</div>
-		<hr class="pl-10 pr-10" />
+		<hr class="ml-10 mr-10 " />
 
 		<!-- POSTS -->
 		<h1 class="p-10 text-center text-munsoc-gold">Recent Posts</h1>
@@ -240,6 +241,10 @@
 		background-color: var(--body-slate);
 		border: 5px solid var(--body-slate);
 		cursor: pointer;
+		width: 40%;
+		display: flex;
+  		justify-content: center;
+  		flex-direction: column;
 	}
 
 	/* On mouse-over, add a deeper shadow */
@@ -257,6 +262,7 @@
 		align-items: stretch;
 		gap: 20px;
 		justify-content: center;
+
 	}
 
 	@media (max-width: 420px) {
@@ -265,9 +271,11 @@
 			align-items: center;
 		}
 	}
+
 	.arrow{
 		font-family: 'JetBrains Mono', monospace;
 	}
+
 	.register-button{
         width:80%;
         padding: 8px;

@@ -85,10 +85,11 @@
   ];
 
 
-  function changeImage(){
-      const image = document.getElementById("easterEggImage");
-      image.src = "https://i.imgur.com/u4lW09X.jpg";
+  function changeImage(id, src){
+      const image = document.getElementById(id);
+      image.src = src;
   }
+
 </script>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -103,8 +104,46 @@
     <div class = "wrapper">
     {#each coreMembers as person}
     <div class="card md:ml-10 md:mr-10 ml-5 mr-5 rounded-md inline-block">
-      <div class = "flex justify-center">   
-      <img src="{person.Photo}" alt="core member" class="w-11/12 h-auto rounded-md max-w-md">
+      <div class = "flex justify-center">  
+        
+        {#if person.Name == "Abhiram Dasika"}
+        
+        <img src={person.Photo}
+        alt="core member" 
+        class="w-11/12 h-auto rounded-md max-w-md"
+        on:click={() => {
+          changeImage(person.Name, "");
+        }}
+        on:keydown={() => {
+          changeImage(person.Name, "");
+        }}
+        >
+
+        {:else if person.Name == "Anurag Rao"}
+        
+        <img src={person.Photo}
+        alt="core member" 
+        class="w-11/12 h-auto rounded-md max-w-md"
+        on:click={() => {
+          changeImage(person.Name, "");
+        }}
+        on:keydown={() => {
+          changeImage(person.Name, "");
+        }}
+        >
+
+
+
+
+        {:else}
+
+        <img src={person.Photo}
+        alt="core member" 
+        class="w-11/12 h-auto rounded-md max-w-md"
+        >
+
+        {/if}
+
       </div>
 
       <div class = "card-content">
@@ -112,6 +151,7 @@
       <h1 class = "pr-10 pl-10 text-center">
           {person.Name}
       </h1>
+
       <h3 class="pr-10 pl-10 text-center font-medium">
         {person.Role}
       </h3>
@@ -162,9 +202,10 @@
   padding-bottom: 30px;
 }
 .wrapper { 
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-gap: 20px;
+  align-items: stretch;
   }
 
   @media (max-width: 420px) {

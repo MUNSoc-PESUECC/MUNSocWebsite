@@ -16,7 +16,7 @@
     <body class = "bg-body-slate text-white prose prose-invert">
         <h1 class="px-10 pt-10 text-center">Posts</h1>
         <hr>
-        
+        <div class="wrapper">
         {#each data.posts as post}
           <div class="card md:ml-10 md:mr-10 ml-5 mr-5 rounded-md text-center" onclick="window.location='{post.path}'">
             <div class = "flex justify-center"><img src="{post.meta.img}" alt="" class="w-11/12 h-auto rounded-md max-w-md"></div>
@@ -35,6 +35,7 @@
           </div>
 
         {/each}
+        </div>
           
     </body>
 </main>
@@ -71,6 +72,9 @@
   background-color: #202c40;
   border: 5px solid #202c40;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 /* On mouse-over, add a deeper shadow */
@@ -87,4 +91,24 @@
 .published{
   font-size: 16px;
 }
+
+.wrapper { 
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-gap: 20px;
+  align-items: stretch;
+  }
+
+  @media (max-width: 420px) {
+    .wrapper {
+      display:block;
+      align-items: center;
+    }
+    .card{
+      display:block;
+    }
+  }
+
+
+
 </style>
