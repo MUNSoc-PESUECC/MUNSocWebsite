@@ -241,7 +241,6 @@
 		background-color: var(--body-slate);
 		border: 5px solid var(--body-slate);
 		cursor: pointer;
-		width: 40%;
 		display: flex;
   		justify-content: center;
   		flex-direction: column;
@@ -258,17 +257,17 @@
 		padding-bottom: 30px;
 	}
 	.wrapper {
-		display: flex;
-		align-items: stretch;
-		gap: 20px;
-		justify-content: center;
-
+		display: grid;
+  		grid-template-columns: 1fr 1fr;
 	}
 
 	@media (max-width: 420px) {
 		.wrapper {
 			display: block;
 			align-items: center;
+		}
+		.card{
+			width: auto;
 		}
 	}
 

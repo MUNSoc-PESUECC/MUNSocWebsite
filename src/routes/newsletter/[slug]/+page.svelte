@@ -2,7 +2,8 @@
 // @ts-nocheck
     export let data;
     let formattedDate = new Date(data.date).toLocaleDateString('default', { month: 'long', year: 'numeric' });
-    data.embedLink = data.embedLink+"?embed";
+    data.embedLink = data.embedLink.slice(0,-4) + "preview";
+    console.log(data.embedLink);
 </script>
   
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,11 +14,17 @@
 <main>
   <title>{"NEWSLETTER | " + formattedDate.toUpperCase() }</title>
   <body class = "bg-body-slate">
+    <div class="wrapper">
     <div class = "canvaEmbed mr-1 ml-1 md:ml-3 md:mr-3">
-     <iframe title = "newsletter" loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+
+      
+     <iframe title = "newsletter" loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 50; border: none; padding: 0;margin: 0;" class="iframeEmbed"
        src="{data.embedLink}" allowfullscreen="allowfullscreen" allow="fullscreen">
      </iframe>
+   
+
    </div>
+  </div>
   </body>
 </main>
 
@@ -46,8 +53,12 @@
 
 
   .canvaEmbed{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: relative;
-    width: 100%; 
+    width: 100%;
+    margin: 0 auto; 
     height: 0; 
     padding-top: 
     141.4286%;
@@ -60,5 +71,12 @@
     will-change: transform;
   }
 
+
+
+@media (min-width: 1000px){
+  .iframeEmbed{
+    max-width: 70%;
+  }
+}
 
 </style>

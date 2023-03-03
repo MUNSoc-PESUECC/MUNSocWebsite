@@ -66,7 +66,7 @@
 
   .card {
   /* Add shadows to create the "card" effect */
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
   transition: 0.5s;
   margin-bottom: 30px;
   background-color: #202c40;
@@ -75,13 +75,13 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  border: 1px solid var(--munsoc-gold);
+  border: 5px solid var(--body-slate);
 }
 
 /* On mouse-over, add a deeper shadow */
 .card:hover {
   border: 5px solid var(--munsoc-gold);
-  box-shadow: 0 16px 32px rgba(0,0,0,0.5);
+  box-shadow: 0 32px 64px rgba(0,0,0,0.5);
 }
 
 /* Add some padding inside the card container */
