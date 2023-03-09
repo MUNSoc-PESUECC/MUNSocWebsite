@@ -69,6 +69,8 @@
   box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
   transition: 0.5s;
   margin-bottom: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
   background-color: #202c40;
   border: 5px solid #202c40;
   cursor: pointer;

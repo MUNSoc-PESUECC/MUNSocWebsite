@@ -22,7 +22,9 @@
     </div>
     <hr>
     <div class = "content md:pl-32 md:pr-32">
-    <svelte:component this={data.content} class="content" />
+    <div class="prose prose-invert content">
+      <svelte:component this={data.content} />
+    </div>
   </div>
   </article>
   </body>
@@ -49,6 +51,10 @@
     width:100%;
     padding-left:10%;
     padding-right:10%;
+  }
+
+  .content :global(p){
+    font-size: 20px;
   }
 
 

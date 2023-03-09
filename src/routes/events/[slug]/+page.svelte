@@ -38,7 +38,9 @@
           </button>
         {/if}
         <hr class="pl-10 pr-10">
-        <svelte:component this={data.content} />
+        <div class="content">
+        <svelte:component this={data.content} class = "content"/>
+      </div>
       </article>
 
       
@@ -49,8 +51,6 @@
     
     
     <style>
-
-
       :root{
         --munsoc-gold: #C0A960;
         --body-slate: #232C3A;
@@ -58,8 +58,8 @@
         font-family: 'Lato', sans-serif;
       }
       body{
-    overflow-x: hidden; /* to fix a weird bug of horizontal scroll bar appearing out of nowhere */
-  }
+        overflow-x: hidden; /* to fix a weird bug of horizontal scroll bar appearing out of nowhere */
+      }
       .prose{
         max-width: none;
       }
@@ -82,6 +82,9 @@
       .register-button:hover{
         border-color: var(--munsoc-gold);
         box-shadow: 0 16px 32px rgba(0,0,0,0.5);
+      }
+      .content :global(p){
+          font-size: 20px;
       }
 
 
