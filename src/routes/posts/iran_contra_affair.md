@@ -69,3 +69,11 @@ Robert C. McFarlane, National Security Adviser, convicted of withholding evidenc
 At the end of the Bush presidency, H. W. Bush pardoned five administration officials that had been found guilty on charges relating to the affair.
 
 North went on to become the National Rifle Association's president in 2018, and had a brief foray into politics in 1994, and also had his own show on the Fox News Channel.
+
+# References:
+
+* [Brown Case Study](https://www.brown.edu/Research/Understanding_the_Iran_Contra_Affair/overview-case.php#_ftn11)
+* [NSA archives](https://nsarchive2.gwu.edu/NSAEBB/NSAEBB210/16-Diversion%20Memo%204-4-86%20(IC%2002614).pdf)
+* [Brown Documents](https://www.brown.edu/Research/Understanding_the_Iran_Contra_Affair/documents/d-nic-6.pdf)
+* [NYT Article](https://www.nytimes.com/1991/12/08/world/iran-pipeline-hidden-chapter-special-report-us-said-have-allowed-israel-sell.html)
+* [Archive Documents](https://archive.org/details/irancontrascanda00korn)
