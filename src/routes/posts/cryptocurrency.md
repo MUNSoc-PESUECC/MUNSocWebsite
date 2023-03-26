@@ -45,17 +45,17 @@ Hence governments are finding it difficult to make legislation for it. Some coun
 
 ![](https://media.discordapp.net/attachments/1080892669313699881/1089484765188608010/Aspose.Words.b3b92a46-7766-4b70-ad57-94f1584e01bd.003.jpeg?width=442&height=249)
 
-Cryptocurrencies are not tied to any physical asset or entity, meaning that its value can fluctuate rapidly and is impossible to predict. This has led to significant losses to investors –. 
+Cryptocurrencies are not tied to any physical asset or entity, meaning that its value can fluctuate rapidly and is impossible to predict. This has led to significant losses to investors. 
 
 For example TerraUST (UST) and LUNA were a blockchain network and token created by Terraform Labs. Terraform Labs created the UST coin to be an algorithmic stablecoin on the Terra network. 
 
-` `Stablecoins are tokens that are meant to have a fixed value of $1 in order to have a stable rate unlike other cryptocurrencies. To create UST you have to use Luna. So, for example, when Luna token's price was $85, you could trade one token for 85 UST. This deflationary protocol was designed to ensure there was long-term growth for LUNA.  
+Stablecoins are tokens that are meant to have a fixed value of $1 in order to have a stable rate unlike other cryptocurrencies. To create UST you have to use Luna. So, for example, when Luna token's price was $85, you could trade one token for 85 UST. This deflationary protocol was designed to ensure there was long-term growth for LUNA.  
 
 LUNA went from being $0.80 in early 2021 to $119 in April 2022, a 14000% increase! But it suddenly crashed in May 2022. Over $2 billion worth of UST was taken off and millions were being liquidated hence lowering the value of UST to $0.91.  
 
 This led to a panic where investors rushed to sell off the UST therefore creating more LUNA tokens therefore reducing the price of a LUNA token. Due to this the value of LUNA dropped to less than ten cents, leading to LUNA and UST being delisted from the market. 
 
-` `This crash is estimated to cause a loss of $300 billion in value across the cryptocurrency space. Many people lost their life savings and suffered financial hardships due to the Luna crypto crash. This also caused the instability in Bitcoin.  
+This crash is estimated to cause a loss of $300 billion in value across the cryptocurrency space. Many people lost their life savings and suffered financial hardships due to the Luna crypto crash. This also caused the instability in Bitcoin.  
 
 The value of Bitcoin increased from $18,000 in Nov 2020 to $36,000 in Jan 2021; in Nov 2021 was $64,400 but in Dec 2021 it fell to $35,000 in Jan 2022 then to a low of $18,000 in June 2022.  
 
