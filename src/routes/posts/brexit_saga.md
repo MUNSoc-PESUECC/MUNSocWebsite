@@ -1,9 +1,10 @@
 ---
 title: "Brexit Saga: UK’s Arranged Marriage and Hesitant Divorce"
 date: "2023-03-26"
-description: desc needed
+description: What happened in 2016?
 img: "https://i.postimg.cc/mk6fnSbZ/brexit.jpg"
-author: author needed
+author: Kaashvi R and Sakhi Saswat Panda
+
 ---
 
  The word “Brexit” was voted Word of the Year in 2016. So why was Brexit the most talked about topic from 2016? Let us take a deep dive into the history, implications and aftereffects of this event that shook the European Union. Brexit – the portmanteau - was coined to refer to one of the UK's momentous decisions, when 17.4 million people voted to become the first country to leave the European Union (EU). This all began in 1945. As World War II ended, a new realisation dawned upon the leaders of Europe that countries would be less likely to war if they have stronger economic ties. This resulted in the formation of the European Economic Community (EEC) in 1957 eventually to be called the European Union. Twice rejected before, the UK did not earn acceptance into the EU by other member states until 1973. Although finally accepted into the EU, the UK could never reconcile with its membership status, for effective functioning as a whole in a union always entails losing certain aspects of one’s identity, which the UK was not ready to compromise on. This is evident from the fact that within 2 years of joining the union, the UK had to hold a stay-or-leave referendum to resolve its still persisting dilemma on whether it should remain in the EU. Also, the UK never adopted the common euro currency nor did it open its borders for free movement within the union, unlike its other members. Many in UK felt that the influx of EU migrants was putting a strain on public services and job opportunities, leading to eurosceptic sentiments.
