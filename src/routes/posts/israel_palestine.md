@@ -2,7 +2,7 @@
 title: "Israel-Palestine Conflict"
 date: "2023-04-15"
 description: "Conflict Zone: Exploring the roots of the Israel-Palestine conflict"
-img: "https://discord.com/channels/697798712184930334/823762376096481280/1096669523203080314"
+img: "https://cdn.discordapp.com/attachments/1035514365278957660/1096452028596756542/Bill_Clinton2C_Yitzhak_Rabin2C_Yasser_Arafat_at_the_White_House_1993-09-13.png"
 author: "Craig Nigel Fernandes"
 ---
 
