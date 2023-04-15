@@ -50,7 +50,7 @@ The resolution for the City of Jerusalem, to be established as a corpus separatu
 
 The first Palestinian uprising began in 1987 as a response to escalating attacks and endless occupation. By the early 1990s, international efforts to settle the conflict had begun, in light of the success of the Egyptian–Israeli peace treaty of 1982. Eventually, the Israeli–Palestinian peace process led to the Oslo Accords of 1993. 
 
-![A picture of the Israeli PM and PLO Negotiator shaking hands](https://discord.com/channels/697798712184930334/823762376096481280/1096669523203080314)
+![A picture of the Israeli PM and PLO Negotiator shaking hands](https://cdn.discordapp.com/attachments/1035514365278957660/1096452028596756542/Bill_Clinton2C_Yitzhak_Rabin2C_Yasser_Arafat_at_the_White_House_1993-09-13.png)
 _The signing of the Oslo Accords_
 
 The peace process also had significant opposition among radical Islamic elements of Palestinian society, such as Hamas and Palestinian Islamic Jihad, who immediately initiated a campaign of attacks targeting Israelis. Following hundreds of casualties and a wave of radical anti-government propaganda, Israeli Prime Minister Rabin was assassinated by an Israeli fanatic who objected to the peace initiative.
