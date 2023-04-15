@@ -10,24 +10,24 @@ On 10th May 2021, a major outbreak of violence commenced between Israel and Pale
 
 Jerusalem is considered the holiest city for the world’s Jewish and Christian population and the third holiest city for Muslims, after Mecca and Medina. As a result of being such a prominent city to three of the most influential religions in the world, the city has been besieged 23 times, attacked 52 times and captured/recaptured 44 times.
 
-![A picture of the Temple Mount](https://discord.com/channels/697798712184930334/823762376096481280/1096669735590039562)
+![A picture of the Temple Mount](https://cdn.discordapp.com/attachments/1035514365278957660/1096452751879315607/Temple-Mount.png)
 _The Temple Mount_
 
 From 1500 BC to 326 AD, the city of Jerusalem was mostly dominated by the Jews except for 196 years in between when it was ruled by the Greek pagans. It is during this period that the most legendary events of Judaism took place such as the Exodus and the rule of King David. In 326 AD however, Jerusalem came under Christian rule for the first time which resulted in the construction of the Church of the Holy Sepulchre where Jesus Christ was said to have been buried, thus making it an important site for the Christians.
 
-![A picture of the Church of the Holy Sepulchure](https://discord.com/channels/@me/1035514365278957660/10964526831304)
+![A picture of the Church of the Holy Sepulchure](https://cdn.discordapp.com/attachments/1035514365278957660/1096452681872179350/Church_of_the_Holy_Sepulchre_by_Gerd_Eichmann_28cropped29.png)
 _Church of the Holy Sepulchure_
 
 In the year 636 AD, the holy city was conquered by the Muslims for the first time. Jerusalem is the last city visited by Prophet Muhammed and houses the third holiest site in Islam, the Al-Aqsa Mosque which is said to be the second mosque ever constructed. The Muslims would keep a stronghold of the city till the year 1099 AD.
 
-![A picure of the Al-Aqsa Mosque](https://discord.com/channels/697798712184930334/823762376096481280/1096669654648365067)
+![A picure of the Al-Aqsa Mosque](https://cdn.discordapp.com/attachments/1035514365278957660/1096452568198160485/1200px-Jerusalem-2013-Temple_Mount-Al-Aqsa_Mosque_28NE_exposure29.png)
 _Al-Aqsa Mosque_
 
 While Jerusalem was under Christian rule, the Jews were heavily persecuted whereas, under Muslim rule, they experienced tolerance and integration. Some historians even refer to this period as the “Golden Age” for the Jews. By the year 1850 AD, the city was equally divided between the Jews and the Muslims along with a significant Christian minority.
 
 The friction between the two religions began following the defeat and eventual decline of the Ottoman Empire during World War 1. The Ottoman Empire had provided refuge to the Jews who were being forcefully converted to Christianity in the Iberian Peninsula during the Spanish Inquisition. In 1920, the city fell under the British Mandate.
 
-![A picture of the British article after the fall of the Ottoman](https://discord.com/channels/697798712184930334/823762376096481280/1096669617063219230)
+![A picture of the British article after the fall of the Ottoman](https://cdn.discordapp.com/attachments/1035514365278957660/1096452471217467433/DQw7ZbuVoAAvT9g.png)
 _British article after the fall of the Ottoman_
 
 The name given to the Mandate’s territory was Palestine, in accordance with the Palestinian Arab and Ottoman usage as well as European traditions. In 1917, The British government issued a public statement called the ‘Balfour Declaration’ which supported the establishment of a ‘national home for the Jewish people in Palestine.
@@ -40,7 +40,7 @@ The 1936-1939 Arab revolt in Palestine however, was bloodily repressed by the Br
 
 On 29th November 1947, the General Assembly of the United Nations adopted Resolution 181(II) recommending the adoption and implementation of a plan to partition Palestine into an Arab state, a Jewish state and the City of Jerusalem. Following the Declaration of the Establishment of the State of Israel on 14th May 1948,  the Arab League decided to intervene on behalf of Palestinian Arabs, marching their forces into former British Palestine, beginning the main phase of the 1948 Arab–Israeli War.
 
-![A picture showing the 1949 Armistice Lines](https://discord.com/channels/697798712184930334/823762376096481280/1096669573450842122)
+![A picture showing the 1949 Armistice Lines](https://cdn.discordapp.com/attachments/1035514365278957660/1096452042861596702/114380422_03_1949_armistice_line_640-nc.png)
 
 The overall fighting, leading to around 15,000 casualties, resulted in cease-fire and armistice agreements of 1949, with Israel holding much of the former Mandate territory, Jordan occupying and later annexing the West Bank and Egypt taking over the Gaza Strip, where the All-Palestine Government was declared by the Arab League on 22 September 1948.
 
