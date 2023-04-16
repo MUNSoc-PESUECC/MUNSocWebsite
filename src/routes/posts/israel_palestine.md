@@ -48,7 +48,7 @@ The 1956 Suez Crisis resulted in a short-term Israeli occupation of the Gaza Str
 
 The resolution for the City of Jerusalem, to be established as a corpus separatum (independent state), was accepted by the Jewish leadership but rejected by the Arabs in Palestine. It was thus agreed upon that Western Jerusalem would be a part of Israel-occupied territory and Eastern Jerusalem would be a part of Palestine-occupied territory. In 1980, Israel passed the Basic Jerusalem Law, declaring unified Jerusalem as Israel's "eternal and indivisible" capital.
 
-The first Palestinian uprising began in 1987 as a response to escalating attacks and endless occupation. By the early 1990s, international efforts to settle the conflict had begun, in light of the success of the Egyptian–Israeli peace treaty of 1982. Eventually, the Israeli–Palestinian peace process led to the Oslo Accords of 1993. 
+The first Palestinian uprising began in 1987 as a response to escalating attacks and endless occupation. By the early 1990s, international efforts to settle the conflict had begun, in light of the success of the Egyptian–Israeli peace treaty of 1982. Eventually, the Israeli–Palestinian peace process led to the Oslo Accords of 1993.
 
 ![A picture of the Israeli PM and PLO Negotiator shaking hands](https://cdn.discordapp.com/attachments/1035514365278957660/1096452028596756542/Bill_Clinton2C_Yitzhak_Rabin2C_Yasser_Arafat_at_the_White_House_1993-09-13.png)
 _The signing of the Oslo Accords_
@@ -60,5 +60,3 @@ Following several years of unsuccessful negotiations, the conflict re-erupted as
 Hamas refused to accept Israel’s right to exist which caused Israel to impose a Naval blockade on the Gaza Strip in 2007. Tensions escalated until late 2008, when Israel launched operation Cast Lead upon Gaza, resulting in thousands of civilian casualties and billions of dollars in damage. By February 2009, a ceasefire was signed with international mediation between the parties, though the occupation and small and sporadic eruptions of violence continued.
 
 The 2021 Israel-Palestine crisis has led to many unfortunate events such as the severing of an Al-Aqsa mosque speaker, turning away ten-thousands of people from Al-Aqsa mosque, ‘Death to the Arabs’ chants, 36 rockets launched in Southern Israel, stones thrown in the Al-Aqsa mosque and arresting of at least 61 Palestinian children.
-
-
