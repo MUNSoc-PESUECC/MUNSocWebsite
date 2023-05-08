@@ -21,8 +21,6 @@ They committed their first attack on **November 3, 1994**, taking control of Kan
 
 On **26 September 1996**, Kabul was flooded by the Taliban and came under their control, establishing the Islamic Emirate of Afghanistan with the goal of establishing an Islamic government with a strict interpretation of Sharia law, in accordance with the Hanafi school of Fiqh (Islamic law) and the religious edicts of their founder, Mullah Omar. By 1998 the Emirate controlled nearly 90% of Afghanistan but 2001 brought ill fortune for the Taliban with the invasion of the US, its allies, and the Afghan Northern Alliance - forcing the leadership to flee to Pakistan. [^1]
 
-[^1]:[Stanford CISAC](https://cisac.fsi.stanford.edu/mappingmilitants/profiles/afghan-taliban#text_block_16833)
-
 ![Taliban](https://media.discordapp.net/attachments/1105106387865980968/1105170071321583686/023510-01-02-1-1208869-1681296402.png)
 Taliban
 
@@ -43,6 +41,7 @@ With increased military preparedness from the Soviet side in the later half of 1
 An analysis of the Taliban with this historical context establishes them as a group who want to reject undue Western influence in their country, albeit through extreme means. Given the brutality of the US and the USSR, the Taliban’s use of force is contextually vindicated. A fire must be fought with fire after all. So then why are they classified as a terror group?
 
 ![Taliban with Reagan](https://media.discordapp.net/attachments/1105106387865980968/1105170300255096832/c6e7c84dcc7a1b22f3cfed1fc2bad81a88f67ef8.jpg)
+Taliban with Reagan
 
 ---
 
@@ -63,6 +62,7 @@ In 2011 alone, they killed former Afghan President Burhanuddin Rabbani, the poli
 The Taliban's recent return to power in Afghanistan is the culmination of a complex and rapidly evolving set of circumstances, including the withdrawal of US and NATO troops, the collapse of the Afghan government, and the Taliban's military and political strategies. The withdrawal of US and NATO troops from Afghanistan was a key factor in the Taliban's return to power. In April 2021, US President Joe Biden announced that all US troops would be withdrawn from Afghanistan by September 11, 2021, effectively ending the US military presence in the country after two decades of war. This decision was based on a desire to end what many Americans saw as a costly and futile war, and to shift US foreign policy priorities towards other global challenges such as China and Russia.
 
 ![Modern Taliban](https://media.discordapp.net/attachments/1105106387865980968/1105171168937390220/000_9LX6DB.png)
+
 Modern Taliban
 
 However, the withdrawal of US and NATO troops left the Afghan government and military without critical logistical and military support, which weakened their ability to resist the Taliban's military advances. The Taliban launched a series of lightning offensives across the country, rapidly capturing key cities and towns and undermining the legitimacy and authority of the Afghan government. The collapse of the Afghan government was also a significant factor in the Taliban's return to power. Despite years of US and international support, the Afghan government was plagued by corruption, mismanagement, and internal divisions, which weakened its ability to govern effectively and respond to the Taliban's military advances. As the Taliban gained ground, many Afghan security forces and government officials either surrendered or fled the country including the President Ashraf Ghani who fled the country saying he wanted to avoid bloodshed all while leaving the government and military in disarray.
@@ -108,8 +108,15 @@ Overall, the diverse perspectives of Afghans on the Taliban reflect the complex 
 
 While this article has been less than as comprehensive as we’d like in tackling as vast an issue as this, we hope that we were able to provide a new perspective on one of the world’s most dangerous groups; a perspective that recognises the hand the West played in its creation, both directly and indirectly, and one that is able to convey the varying perspectives of Afghans with the context necessary to understanding these perspectives. Thank you for reading our article!
 
+
+[^1]:[Stanford CISAC](https://cisac.fsi.stanford.edu/mappingmilitants/profiles/afghan-taliban#text_block_16833)
+
 [^2]:[Reuters](https://www.reuters.com/world/asia-pacific/half-all-afghan-district-centers-under-taliban-control-us-general-2021-07-21/)
+
 [^3]:While the actuality is more complex than can be explained in a footnote, a brief explanation is that Marxism-Leninism is the result of Lenin introducing his theory of imperialism to Orthodox Marxism - the original theorised form of communism by Marx and Engels.
-[^4]:[Terrorism Financing…](https://archive.org/details/terrorismfinanci00haro/page/n387/mode/2up)
+
+[^4]:[Terrorism Financing](https://archive.org/details/terrorismfinanci00haro/page/n387/mode/2up)
+
 [^5]:[Source](http://nl.newsbank.com/nl-search/we/Archives?p_product=NewsLibrary&p_multi=APAB&d_place=APAB&p_theme=newslibrary2&p_action=search&p_maxdocs=200&p_topdoc=1&p_text_direct-0=0F8B4F98500EA0F8&p_field_direct-0=document_id&p_perpage=10&p_sort=YMD_date:D&s_trackval=GooglePM)
+
 [^6]:[Targeted Killing Team](https://web.archive.org/web/20150904024043/http://dspace.wrlc.org/doc/get/2041/66914/03096display.pdf)
