@@ -3,7 +3,7 @@ title: "The Anti-CAA Protests"
 date: "2023-07-19"
 description: "Reflections that shaped a nation"
 img: "https://media.discordapp.net/attachments/1105106387865980968/1140730229325844560/caa_protest.jpg"
-author: "Jitesh Nayak Kumar"
+author: "Jitesh Kumar Nayak"
 ---
 
 The anti-Citizenship Amendment Act (CAA) protests that swept across India in 2019 and 2020 marked a significant chapter in the nation's history. The movement, driven by concerns over the erosion of secular values and the potential marginalization of Muslim citizens, captivated the nation and sparked debates on citizenship, religious freedom, and the future of India's democracy. This article takes a throwback on the anti-CAA protests, exploring their motivations, impact, and the lessons learned from this influential movement.
