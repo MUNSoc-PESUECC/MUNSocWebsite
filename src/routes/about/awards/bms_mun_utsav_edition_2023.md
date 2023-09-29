@@ -1,9 +1,9 @@
 ---
-conferenceName: "BMSMUN 2023"
-img: "https://i.imgur.com/zDzRalu.jpg"
-date: "2023-01-07"
+conferenceName: "BMSMUN Utsav Edition 2023"
+img: "https://i.imgur.com/BteiJLs.jpg"
+date: "2023-05-28"
 awardeeAward: {
-    "Avani Dhangam" : "Special Mention 1",
+    "Abhiram Dasika" : "Special Mention 1"
     "Nikhil Girish" : "Special Mention 2",
 }
 ---
