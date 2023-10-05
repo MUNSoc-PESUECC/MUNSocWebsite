@@ -1,5 +1,20 @@
 # MUNSocWebsite
 
+# Hacknight 5.0
+
+Hi participant! great to see you here.
+This would be the section you **need** to read before you contribute anything to this repository.
+
+We hope you know Git already. If you don't or don't remember, you can always checkout the [Git Reference Guide](https://www.digitalocean.com/community/cheatsheets/how-to-use-git-a-reference-guide)
+
+Now that we have gotten the general stuff out of the way, here's some things you'd have to know if you want to contribute to this repository
+
+1. `DO NOT PUSH TO MAIN`: You wouldn't have permissions to push to the main branch of this repository anyway but this is a general rule of thumb. Always make a new branch or `fork` the repository, and then work on that branch or fork.
+2. This is a `Sveltekit` project. `Sveltekit` is known to be the most fun tech stack to work on on the web. It's similar to frameworks like `Next.js`.
+3. If you're new to Svelte has a really amazing interactive tutorial on their official website which you can find [here](https://learn.svelte.dev/tutorial/introducing-sveltekit)
+4. If you want a more traditional documentation, that is [available too](https://kit.svelte.dev/docs/introduction)
+5. Go to the `issues` tab above to explore available issues to solve. You can always propose your own too, you will get extra points for it!
+
 ## Introduction
 
 This repository maintains code for the MUNSoc Website located [here](https://munsocecc.vercel.app).
@@ -94,7 +109,7 @@ The website is server-side-rendered using `sveltekit` and hosted on `vercel`
 
 ### Markdown rendering
 
-We use a `[slug]` model for posts, events and newsletters. All of these are fetched from markdown files and rendered using `mdsvex`.
+We use a `[slug]`(dynamic route) model for posts, events and newsletters. All of these are fetched from markdown files and rendered using `mdsvex`.
 
 The javascript file at `/src/lib/utils/index.js` is responsible for fetching all of these markdown files. This is then used by the files at `/src/routes/api/` to sort by date where applicable and serve them in a `.json` format.
 
