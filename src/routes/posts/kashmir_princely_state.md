@@ -19,13 +19,13 @@ Bombay.
 
 Following the establishment of the Kashmiri princely state, it is safe to say that it was entwined with political and administrative criticism from the beginning. These concerns are reflected in a series of letters from British authorities, including the Governor-General, who stated in his 1848 letter to the Maharaja,
 
-> "In no case, will the British Government be the blind instrument of a Ruler's injustice towards his people and if inspite of friendly warnings, the evil of which the British Government may have just cause to complain be not corrected, a system of direct interference must be resorted to which as Your Highness must be aware would lower the dignity and curtail the independence of the Ruler."
+> In no case, will the British Government be the blind instrument of a Ruler's injustice towards his people and if inspite of friendly warnings, the evil of which the British Government may have just cause to complain be not corrected, a system of direct interference must be resorted to which as Your Highness must be aware would lower the dignity and curtail the independence of the Ruler.
 
 The lineage of kings under Dogra rule commenced with Maharaja Gulab Singh and ended with Maharaja Hari Singh, with Ranbir Singh, Pratap Singh and Amar Singh in the interim. While successive rulers did undertake substantial reforms to the administrative system, it is safe to say with credible legal evidence that the Maharaja's interests preceded those of the Kashmiri people.
 
 The Indian Mirror,a Calcutta-based Indian publisher, dated 5 October 1886, provides an Indian perspective on the political landscape in the Kashmiri State. The Author(s) express their unequivocal support for the Maharaja as they state,
 
-> "….We pity the loot of poor Cashmere and its Maharaja."
+> ….We pity the loot of poor Cashmere and its Maharaja.
 
 The paper also provides a political opinion on how the *“Government has always been casting wistful eyes, longingly and lingeringly, and now under the plea of guarding India from Russian invasion”.*
 
@@ -47,23 +47,23 @@ The Kashmiri State later jailed Sheikh Abdullah on the pretext of instigating se
 
 However, in the 1930s, many leaders in the Muslim Conference did away with its Muslim-centric approach, perhaps solely to garner greater political support from Hindu and Sikh minorities in the State. This is reflected in Sheikh Abdullah’s Presidential Address to the Muslim Conference in 1938, he declared,
 
-> "Like us the large majority of Hindus and Sikhs in the State have immensely suffered at the hands of the irresponsible government...Sooner or later these people are bound to join our ranks...We must end communalism by ceasing to think in terms of Muslims and non-Muslims when discussing our political problems."
+> Like us the large majority of Hindus and Sikhs in the State have immensely suffered at the hands of the irresponsible government...Sooner or later these people are bound to join our ranks...We must end communalism by ceasing to think in terms of Muslims and non-Muslims when discussing our political problems.
 
 Eventually, in 1939, specific prominent political faces in the Muslim Conference including Sheikh Abdullah parted ways with the party and formed the NationalConference. This led to the development of three political blocs in the Princely State: The Dynasty, The National Conference, and The Muslim Conference.
 
 Due to aligning ideologies, the Muslim League, headed by Muhammad Ali Jinnah chose to side with the Muslim Conference. Regarding Accession, the Muslim conference took a clear stance that it preferred that Kashmir either accede to Pakistan or remain an independent State. The Conference reasoned this decision by essentially citing the Muslim majority demographic of Kashmir. Jinnah’s interest in wooing the Kashmiri people (mostly the Muslims) to side with the idea of acceding to Pakistan is evident from his address to the people of Kashmir, where he states,
 
-> "….I, after careful consideration, suggested that the Mussalmans should organise themselves under one flag and on one platform….."
+> ….I, after careful consideration, suggested that the Mussalmans should organise themselves under one flag and on one platform…..
 
 The same address gives us insight into the dynamic between the National Conference and the Muslim League. When speaking of Sheikh Abdullah’s views on his proposal, Jinnah states,
 
-> "….Sheikh Abdullah but, as is his habit, which has become a second nature with him, he indulged in all sorts of language of a most offensive and vituperative character in attacking me."
+> ….Sheikh Abdullah but, as is his habit, which has become a second nature with him, he indulged in all sorts of language of a most offensive and vituperative character in attacking me.
 
 In the interim, the Indian National Congress developed a great dynamic with the National Conference, perhaps due to a concurrence in ideology if not political interests. I (the author) say this as the ideologies of both these entities were mostly similar. The only difference of opinion was concerning the degree of autonomy that would be given to Kashmir, post-accession.
 
 Simultaneously, the Maharaja had a “strong” opinion of his own concerning accession. This is best captured by his Prime Minister, Ramchandra Kak, who stated,
 
-> "The question of accession was posed to the Jammu and Kashmir Government on two different occasions and under two different sets of conditions. The reaction of the Kashmir Government was the same in both cases."
+> The question of accession was posed to the Jammu and Kashmir Government on two different occasions and under two different sets of conditions. The reaction of the Kashmir Government was the same in both cases.
 
 On the 15th August 1947, Kashmir was still in a dilemma of sorts concerning the State’s future. The factors that contributed to this dilemma were: the unique demographic structure of Kashmir: 
 - A Hindu king ruling over a Muslim-majority State,
@@ -77,7 +77,7 @@ In June 1947, Lord Mountbatten, having spent 4 days in the State, supposedly exp
 
 Having signed a Standstill Agreement with Pakistan on August 12, 1947, Kashmir could only imagine a state of normalcy with regard to its relations with Pakistan. This is highlighted in V. P. Menon’s book, ***The Story of the Integration of the Indian States***, which states,
 
-> "The Government of Jammu and Kashmir complained that, in an effort to coerce the State into acceding, the Pakistan authorities had cut off the supply of food, petrol and other essential commodities, and hindered the free transit of travelers between Kashmir and Pakistan."
+> The Government of Jammu and Kashmir complained that, in an effort to coerce the State into acceding, the Pakistan authorities had cut off the supply of food, petrol and other essential commodities, and hindered the free transit of travelers between Kashmir and Pakistan.
 
 The State also complained of Pakistan staging “hit-and-run border raids” along the 450-mile border that it shared with Pakistan, in blatant violation of the agreement.
 

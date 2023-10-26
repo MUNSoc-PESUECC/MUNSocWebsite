@@ -18,13 +18,13 @@ In the interim, the Maharaja of Kashmir was forced to move to Jammu with his val
 
 When we discuss the relevance and importance of the British in this entire conflict, it is important to reflect on Lord Mountbatten’s stand on this particular issue before the Pakistani invasion. Quoting the *"Jammu and Kashmir State in 1956-47 Dilemma of Accession - The Missing Link in the Story"*, by Pandit Ramchandra Kak,
 
-> “Pandit Kak asked him(Lord Mountbatten) point-blank to state as to which Dominion he advised Kashmir to accede. Lord Mountbatten, avoiding the direct reply, said “That is entirely for you to decide. You must consider your geographical position, your political situation and the composition of your population and then decide”. Kak rejoined “That means that you advise us to accede to Pakistan. It is not possible for us to do that; and since that is so, we cannot accede to India”.”
+> Pandit Kak asked him(Lord Mountbatten) point-blank to state as to which Dominion he advised Kashmir to accede. Lord Mountbatten, avoiding the direct reply, said “That is entirely for you to decide. You must consider your geographical position, your political situation and the composition of your population and then decide”. Kak rejoined “That means that you advise us to accede to Pakistan. It is not possible for us to do that; and since that is so, we cannot accede to India”.
 
 It must be noted that the Instrument of Accession signed by the Maharaja of Kashmir was exactly the same as the ones signed by the rulers of Mysore and other Princely States. This being the only legal document signed by the Maharaja during the accession, lays testament to the fact that Kashmir is indeed as integral a part of India as Mysore or Hyderabad or any region acceded by any other Princely State to the Indian Union.
 
 The Indian Government, having received the Instrument,signed by the Maharaja on 26 October 1947, immediately instructed the Defence Committee to take action. The Indian Military flew in with the help of not just R.I.A.F aircrafts, but also over a hundred civilian aircrafts and immediately took control of Srinagar and the Airport. V. P. Menon described the magnitude of the Air support that reached Srinagar by stating,
 
-> "Lord Mountbatten, who had been Chief of Combined Operations and Supreme Allied Commander, South East Asia, said that in all his war experience he had never heard of an airlift of this nature being put into operation at such short notice and he complimented all concerned on the astonishing performance."
+> Lord Mountbatten, who had been Chief of Combined Operations and Supreme Allied Commander, South East Asia, said that in all his war experience he had never heard of an airlift of this nature being put into operation at such short notice and he complimented all concerned on the astonishing performance.
 
 Sheikh Abdullah, having been released from jail in September, played a substantial role in assisting the Indian military on its arrival.
 
@@ -42,7 +42,7 @@ The post of Governor-General was held by Mr. Jinnah for the Dominion of Pakistan
 
 Probably owing to Article 33 of the UN Charter (Chapter VI - The Pacific Settlement of Disputes), which said
 
-> "The parties to any dispute…..shall, first of all, seek a solution by negotiation, enquiry, mediation, conciliation, arbitration, judicial settlement, resort to regional agencies or arrangements, or other peaceful means of their own choice,"
+> The parties to any dispute…..shall, first of all, seek a solution by negotiation, enquiry, mediation, conciliation, arbitration, judicial settlement, resort to regional agencies or arrangements, or other peaceful means of their own choice
 
 The Indian Government formally asked the Pakistani Government to deny the tribesmen (whom they claimed had no communication with the Pakistani Government) the following:
 
