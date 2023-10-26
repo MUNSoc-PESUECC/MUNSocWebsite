@@ -11,7 +11,7 @@ Having established the history and the events that transpired in Kashmir, both d
 
 Sheikh Abdullah, having now ascended to the role of the “Head of the Emergency Administration”, essentially played the role of Kashmir’s Head of State in all further negotiations with India. In June 1949, Sheikh Abdullah, Nehru and Patel met in Delhi and agreed to admit four representatives from Kashmir into the Indian Constituent Assembly. Known as the Delhi Understanding (not to be confused with the Delhi Agreement), the discussion played an integral role in shaping Kashmir’s relationship with the Indian Government. This meeting can perhaps be regarded as the origin to the special status bestowed upon Kashmir.
 
-#### Why the special status for Kashmir?
+### Why the special status for Kashmir?
 
 While the terms of the Instrument of Accession signed by the Kashmiri Maharaja were the exact same as those signed by the rulers of other Princely States, Nehru’s declaration in support of a referendum/ plebiscite to be held, snowballed with the subsequent UN Security Council resolutions, along with the Delhi Understanding and the arguments made by the Kashmiri representatives in the Constituent Assembly debates can be termed as the major factors for the state’s special status in independent India. It must be noted that Jammu and Kashmir was not the only state with such special provisions, but also areas of the North-East including current day Nagaland (because of the secessionist claims made by the Nagas).
 
@@ -19,13 +19,13 @@ Simply put, given the fragile nature of certain territories including Kashmir an
 
 The Indian Constituent Assembly, now with four representatives from Kashmir including Sheikh Abdullah himself, drafted Article 306(a) in the draft Constitution, later renamed to Article 370 on the Constitution’s adoption. Note that this was an Article adopted with the consensus of the entire Assembly.
 
-#### What is Article 370?
+### What is Article 370?
 
 While not indulging in the debate on the ambiguity of this Article and the questions concerning the legal interpretation of various terms in it, this Article can be best termed as the Article that defined India’s relationship with Jammu and Kashmir. It outlines the matters on which the Indian Government would have the say and matters on which the state Government of Kashmir would have a say. It essentially defines the degree of autonomy provided to the state within the Indian Union.
 
 Subsequently, the Jammu and Kashmir Constituent Assembly came into being in 1951 which was tasked with drafting a constitution for the state.
 
-#### Why a separate constitution for the state?
+### Why a separate constitution for the state?
 
 The simple answer to this question is that a separate constitution was negotiated for by Sheikh Abdullah given the degree of autonomy that Kashmir enjoyed. The text of the Jammu and Kashmir Constitution (1956) states,
 
@@ -41,7 +41,7 @@ Karan Singh, being the Head of State, in 1953 dissolved Abdullah’s government 
 
 In 1954, a Presidential order was issued which detailed the application of various provisions of the Indian Constitution on the state of Jammu and Kashmir. This included the addition of Art. 35(a) to the Indian Constitution.
 
-#### What is Article 35(A)?
+### What is Article 35(A)?
 This Article gave the state Government the power to decide on who would be a “Permanent resident” of the state. A Permanent resident would have certain “special rights and privileges” including the sole right to own property, receiveemployment, scholarship and settlement under the state government. The most controversial aspect of the Article is a provision which strips the permanent resident status of any woman who marries a non permanent resident. Note that this does not apply to Kashmiri men marrying non-permanent residents.
 
 The Article hence is argued to be fundamentally discriminatory in nature while a debate still continues on the constitutionality of its amending into the constitution by a presidential order.
