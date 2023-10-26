@@ -84,3 +84,5 @@ The State also complained of Pakistan staging “hit-and-run border raids” alo
 Jinnah, on being questioned on the above-mentioned breaches of the Standstill Agreement and the cutoff of supply of essential commodities, alluded to *“widespread disturbances in East Punjab and the disruption of communications caused thereby particularly by the shortage of coal”* to justify Pakistani actions.
 
 Having established the dynamic of politics within the State and the impact of the Indian Independence movement which induced and amplified these political forces, the upcoming articles shall detail the accession of Kashmir into the Indian Union and legislative decisions that integrated the State of Kashmir with the Union of India.
+
+[Continue to the next article](https://munsocecc.vercel.app/posts/kashmir_war)

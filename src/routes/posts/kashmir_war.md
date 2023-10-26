@@ -62,3 +62,4 @@ Those who argue that a plebiscite/referendum must have been held must first note
 
 Having explained in great detail the various nuances of Kashmir’s accession and even the legalities of the UN Resolutions, the next article shall discuss the Integration of Kashmir into *India that is Bharat*.
 
+[Continue to the next article](https://munsocecc.vercel.app/posts/kashmir_integration)
