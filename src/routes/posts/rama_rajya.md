@@ -2,7 +2,7 @@
 title: "In Pursuit of a Rama Rajya"
 date: "2024-01-22"
 description: "An Opinion Piece"
-img: "https://media.discordapp.net/attachments/1105106387865980968/1199037705657520279/foqli7gg_ram-temple_625x300_22_January_24.png?ex=65c115e2&is=65aea0e2&hm=6162f009adc10b2acde6e3117cf67d0942c075c3167456e694341bd4e1748970"
+img: "https://media.discordapp.net/attachments/1105106387865980968/1199037705657520279/foqli7gg_ram-temple_625x300_22_January_24.png"
 author: "Eshwar R A"
 ---
 
