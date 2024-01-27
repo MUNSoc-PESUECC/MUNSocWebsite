@@ -1,10 +1,11 @@
 ---
 title: The New Frontier of Diplomacy
-date: "2023-02-15"
+date: '2023-02-15'
 description: Assessing the Future of China-Taiwan Relations
-img: "https://i.postimg.cc/XYtxhYh3/image-000.png"
+img: 'https://i.postimg.cc/XYtxhYh3/image-000.png'
 author: Alan Joji & Sean Sougaijam
 ---
+
 # Assessing the Future of China-Taiwan Relations
 
 ## Introduction
@@ -72,9 +73,13 @@ it even more frantic to achieve its decades-long objective of gaining control of
 Taiwan.
 
 #### Former Leaders:
+
 ![image-001.png](https://i.postimg.cc/W3YdWhWw/image-001.png)
+
 #### Current Leaders:
+
 ![image-002.png](https://i.postimg.cc/rmHpG7sh/image-002.png)
+
 ## Current Situation
 
 ![image-006.jpg](https://i.postimg.cc/Sx9tm9cj/imgonline-com-ua-twotoone-74-Kawj-JXKPyw43.jpg)
@@ -114,7 +119,6 @@ those of Taiwan. A Chinese takeover in Taiwan would give Beijing control over on
 of the world's most important industries, and the outcome of the ongoing tensions
 between the two nations will have significant global implications.
 
-
 Taiwan's legal status stays unclear, despite having all the characteristics of an
 independent state and a political system that is distinct from China. Taiwan has
 rejected China's "one country, two systems" solution, and Beijing considers the
@@ -138,5 +142,3 @@ negotiations do not work out, then Beijing has reserved a right to use forceful
 means to reunify China. Taiwan dominates the entire advanced semiconductor and
 chip industry which powers every advanced civilian and military device in the
 world.
-
-

@@ -1,9 +1,9 @@
 ---
-title: "Kashmir: A violation of modesty and the 1947 war"
-date: "2023-10-26"
-description: "Actions that changed the course of history"
-img: "https://media.discordapp.net/attachments/1105106387865980968/1167137202912899122/Indian_soldiers_fighting_in_1947_war.png"
-author: "Eshwar R A"
+title: 'Kashmir: A violation of modesty and the 1947 war'
+date: '2023-10-26'
+description: 'Actions that changed the course of history'
+img: 'https://media.discordapp.net/attachments/1105106387865980968/1167137202912899122/Indian_soldiers_fighting_in_1947_war.png'
+author: 'Eshwar R A'
 ---
 
 On the twenty-second of October 1947, the Pakistanis staged an all-out invasion of Kashmir and blatantly violated the State’s modesty.
@@ -16,7 +16,7 @@ Pakistani forces further advanced towards Baramulla, cutting off the power suppl
 
 In the interim, the Maharaja of Kashmir was forced to move to Jammu with his valuables and family due to concerns about his safety. V. P. Menon, having consulted with Lord Mountbatten, Nehru, Sardar Patel and the Defence Committee, presented the instrument of accession to the Maharaja, now in Jammu. The Instrument of Accession, having its legal basis in Section 6 of the Indian Independence Act of 1947, was the legal agreement of sorts that was to be signed by a Princely state, to accede to the Indian Dominion. The Maharaja readily signed the instrument and was said to have instructed his guard to shoot him in sleep if Indian forces didn't reach Srinagar by dawn.
 
-When we discuss the relevance and importance of the British in this entire conflict, it is important to reflect on Lord Mountbatten’s stand on this particular issue before the Pakistani invasion. Quoting the *"Jammu and Kashmir State in 1956-47 Dilemma of Accession - The Missing Link in the Story"*, by Pandit Ramchandra Kak,
+When we discuss the relevance and importance of the British in this entire conflict, it is important to reflect on Lord Mountbatten’s stand on this particular issue before the Pakistani invasion. Quoting the _"Jammu and Kashmir State in 1956-47 Dilemma of Accession - The Missing Link in the Story"_, by Pandit Ramchandra Kak,
 
 > Pandit Kak asked him(Lord Mountbatten) point-blank to state as to which Dominion he advised Kashmir to accede. Lord Mountbatten, avoiding the direct reply, said “That is entirely for you to decide. You must consider your geographical position, your political situation and the composition of your population and then decide”. Kak rejoined “That means that you advise us to accede to Pakistan. It is not possible for us to do that; and since that is so, we cannot accede to India”.
 
@@ -28,11 +28,11 @@ The Indian Government, having received the Instrument,signed by the Maharaja on 
 
 Sheikh Abdullah, having been released from jail in September, played a substantial role in assisting the Indian military on its arrival.
 
-The Indian forces,having landed in Srinagar, Jinnah requested the Acting Commander-in-Chief of the Pakistan Army, General Gracey to simultaneously rush troops into Kashmir. However, these requests/orders were rejected as they didnot have the approval of the “Supreme Commander”. The accession of Kashmir by India, the Maharaja having signed the Instrument of Accession was characterised by Pakistan as being *“based on fraud and violence and as such cannot be recognized”*.
+The Indian forces,having landed in Srinagar, Jinnah requested the Acting Commander-in-Chief of the Pakistan Army, General Gracey to simultaneously rush troops into Kashmir. However, these requests/orders were rejected as they didnot have the approval of the “Supreme Commander”. The accession of Kashmir by India, the Maharaja having signed the Instrument of Accession was characterised by Pakistan as being _“based on fraud and violence and as such cannot be recognized”_.
 
-In the meantime, Sheikh Abdullah had been invited by the Maharaja to form an interim ‘emergency administration’. Major-General Kalwant Singh, leading the counter attack, pushed the tribesmen all the way back to Uri by 11 November. The tribesmen were outnumbered to the extent that *‘they gave up Tangmarg and Gulmarg without firing a shot’*.
+In the meantime, Sheikh Abdullah had been invited by the Maharaja to form an interim ‘emergency administration’. Major-General Kalwant Singh, leading the counter attack, pushed the tribesmen all the way back to Uri by 11 November. The tribesmen were outnumbered to the extent that _‘they gave up Tangmarg and Gulmarg without firing a shot’_.
 
-While on papernothing differentiated Kashmir from any other Princely State that acceded to India, Pandit Nehru’s declaration on 2 November 1947, did make a semi-permanent dent in Kashmir’s integration with India. He declared *“his readiness, when peace and the rule of law had been established, to have a referendum held under some such international auspices as that of the United Nations”*. In his defence, a referendum of a similar kind - a vote to let the people decide if they wanted to accede to Pakistan or India - was in order after the accession of Junagadh around the same time. This was done because India didn't want to make the impression that it had illegally occupied the Princely State of Junagadh. Without doubt, as the majority population was Hindu, the vote was 99.95% in favour of Junagadh joining the Indian Union.
+While on papernothing differentiated Kashmir from any other Princely State that acceded to India, Pandit Nehru’s declaration on 2 November 1947, did make a semi-permanent dent in Kashmir’s integration with India. He declared _“his readiness, when peace and the rule of law had been established, to have a referendum held under some such international auspices as that of the United Nations”_. In his defence, a referendum of a similar kind - a vote to let the people decide if they wanted to accede to Pakistan or India - was in order after the accession of Junagadh around the same time. This was done because India didn't want to make the impression that it had illegally occupied the Princely State of Junagadh. Without doubt, as the majority population was Hindu, the vote was 99.95% in favour of Junagadh joining the Indian Union.
 
 Perhaps along the same lines, since Pandit Nehru’s administration was on rather good terms with Sheikh Abdullah, the popular leader in Kashmir at the time, he assumed that a plebiscite would be in favour of India and would negate any doubt over India’s legitimate claim over Kashmir.
 
@@ -55,11 +55,11 @@ Having received no reply to the above demands by 31 December 1947, India made a 
 Having discussed the Matter in the United Nations Security Council, the Council (whose resolutions are legally binding on all its members) adopted Resolution 47 on 21 April 1948. The Resolution comprised of three parts -
 
 1. **Ceasefire order** - demanded both Nations to issue necessary orders to their forces to immediately establish a ceasefire. Note that the ceasefire line that was established is now what we know as the “line of control”
-1. **Truce Agreement** - Obliged Pakistan to withdraw its tribesmen while India would maintain *“within the lines existing at the moment of the cease-fire the minimum strength of its forces… ...necessary to assist local authorities in the observance of law and order”*.
+1. **Truce Agreement** - Obliged Pakistan to withdraw its tribesmen while India would maintain _“within the lines existing at the moment of the cease-fire the minimum strength of its forces… ...necessary to assist local authorities in the observance of law and order”_.
 1. **Referendum** - Both parties/States having fulfilled their obligations under the first 2 parts of this resolution (Ceasefire order and the Truce Agreement), a referendum was to be held
 
 Those who argue that a plebiscite/referendum must have been held must first note that Pakistan never withdrew its Nationals from Kashmir as obliged under the Security Council Resolution.
 
-Having explained in great detail the various nuances of Kashmir’s accession and even the legalities of the UN Resolutions, the next article shall discuss the Integration of Kashmir into *India that is Bharat*.
+Having explained in great detail the various nuances of Kashmir’s accession and even the legalities of the UN Resolutions, the next article shall discuss the Integration of Kashmir into _India that is Bharat_.
 
 [Continue to the next article](https://munsocecc.vercel.app/posts/kashmir_integration)

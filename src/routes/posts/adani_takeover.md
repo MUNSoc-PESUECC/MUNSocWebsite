@@ -1,12 +1,10 @@
 ---
 title: "Adani's Takeover of NDTV"
-date: "2023-02-15"
+date: '2023-02-15'
 description: Just Another Corporate Deal or a Silencing Act?
-img: "https://i.postimg.cc/yNjT6T9H/Adani-takeover.jpg"
+img: 'https://i.postimg.cc/yNjT6T9H/Adani-takeover.jpg'
 author: Charan S Gowda & Nama Sai Pranav
 ---
-
-
 
 On the 22nd of December 2021, it was announced that Gautam Adani, chairman of the Adani Group, would be acquiring a controlling stake in NDTV, one of India's most prominent media houses. The announcement caused an uproar in the Indian media industry and raised questions about the future of free speech in the country.
 

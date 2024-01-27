@@ -1,9 +1,9 @@
 ---
-title: "Israel-Palestine Conflict"
-date: "2023-04-15"
-description: "Conflict Zone: Exploring the roots of the Israel-Palestine conflict"
-img: "https://cdn.discordapp.com/attachments/1035514365278957660/1096452028596756542/Bill_Clinton2C_Yitzhak_Rabin2C_Yasser_Arafat_at_the_White_House_1993-09-13.png"
-author: "Craig Nigel Fernandes"
+title: 'Israel-Palestine Conflict'
+date: '2023-04-15'
+description: 'Conflict Zone: Exploring the roots of the Israel-Palestine conflict'
+img: 'https://cdn.discordapp.com/attachments/1035514365278957660/1096452028596756542/Bill_Clinton2C_Yitzhak_Rabin2C_Yasser_Arafat_at_the_White_House_1993-09-13.png'
+author: 'Craig Nigel Fernandes'
 ---
 
 On 10th May 2021, a major outbreak of violence commenced between Israel and Palestine and continued until a ceasefire came into effect on 21st May 2021. The unfortunate events caused the deaths of 256 Palestinians and 13 Israelites. These tragic events brought into the limelight, a conflict that has been in effect for well over a hundred years.
@@ -38,7 +38,7 @@ The 1920s marked the beginning of the Palestinian Arab Nationalist Struggle whic
 
 The 1936-1939 Arab revolt in Palestine however, was bloodily repressed by the British assisted by associated forces of the Jewish Settlement Police, the Jewish Supernumerary Police and Special Night Squads. With the eruption of World War 2, the situation in Mandatory Palestine calmed down.
 
-On 29th November 1947, the General Assembly of the United Nations adopted Resolution 181(II) recommending the adoption and implementation of a plan to partition Palestine into an Arab state, a Jewish state and the City of Jerusalem. Following the Declaration of the Establishment of the State of Israel on 14th May 1948,  the Arab League decided to intervene on behalf of Palestinian Arabs, marching their forces into former British Palestine, beginning the main phase of the 1948 Arab–Israeli War.
+On 29th November 1947, the General Assembly of the United Nations adopted Resolution 181(II) recommending the adoption and implementation of a plan to partition Palestine into an Arab state, a Jewish state and the City of Jerusalem. Following the Declaration of the Establishment of the State of Israel on 14th May 1948, the Arab League decided to intervene on behalf of Palestinian Arabs, marching their forces into former British Palestine, beginning the main phase of the 1948 Arab–Israeli War.
 
 ![A picture showing the 1949 Armistice Lines](https://cdn.discordapp.com/attachments/1035514365278957660/1096452042861596702/114380422_03_1949_armistice_line_640-nc.png)
 

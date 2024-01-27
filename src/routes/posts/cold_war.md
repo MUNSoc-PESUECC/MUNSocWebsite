@@ -1,8 +1,8 @@
 ---
 title: History of the Cold War
-date: "2023-02-15"
+date: '2023-02-15'
 description: The battle of idealogies which brought the world to the brink of nuclear war
-img: "https://i.postimg.cc/ryBWtysR/image-000.jpg" 
+img: 'https://i.postimg.cc/ryBWtysR/image-000.jpg'
 author: Devanjan Banerjee & Onkar Pampattiwar
 ---
 
@@ -11,7 +11,6 @@ Battle of ideologies between the US and the USSR which lead to international pro
 May 1945. an extremely important month in the pages of history. Nazi Germany surrenders under Karl Donitz on 8 th May 1945. The red army marches into the heart of Germany from the eastern front, whereas the British, the French and American troops catch the retreating and defeated Nazi armies from the western front. The war in Europe has ended and Germany is divided is divided into 4 zones between the British, the French, the Americans and the Soviets. The capital city of Berlin is mostly inside the Soviet occupied region, however considering its importance, is divided among the
 4 as well.
 
-
 The British, French and American regions later combine under one flag to form Western Germany, inheriting the democratic and right-wing ideals of the previous occupants whereas, the Soviet territory of Germany forms the new state of eastern Germany, pertaining the communist values ushered under the soviet rule. Tensions rise and the prelude to the Cold War begins.
 
 The research and development of nuclear bombs play a key role in all this. The Americans launch nuclear programs for from 1939 itself. America, backed by the British and Canada begin the Manhattan project. The soviets suspect that the Americans have a secret ‘superweapon’ and start their own research. Soviet spies of likes of Klaus Fuchs pass highly confidential information about the project to the soviets till the end of 1949. The atomic bombs dropped on 6th and 9th august by the US sends shockwaves around the world and Japan surrenders on 15 august. However, this military capability doesn’t come as a shock to Stalin who is already aware of the extent of western powers. The official surrender is done on 2nd September 1945, marking the end of the second world war.
@@ -19,7 +18,7 @@ The research and development of nuclear bombs play a key role in all this. The A
 
 Two massive nations with different ideologies and having huge arsenal led to growing insecurities about control over international politics. The idea of communism threatened the free ideals of the American capitalist system and the Truman Doctrine is announced in 1947 to control the global spread of communism. The soviets are not happy. An example being the values of freedom and democracy in western Germany especially, bothered the reds. The final nail in the coffin being the Deutsche Mark, a new currency. The Soviets bring in the Berlin Blockade, cutting all resource access (railway, roads and canal) from Soviet occupied Germany to Western occupied Berlin, with their condition for removing the blockade being the renunciation and annulment of the Deutsche Mark. The US and UK choose the option of airlift as an answer to the blockade, bringing the Soviets international shame due to the failure of their plans. The soviets answer with the East Germany Mark as the new currency in eastern Germany and the Berlin Wall is setup later in 1961.
 
- August of 1949, the soviets test their nuclear weapon, ushering the world into a new era of nuclear arms race. The US is extremely concerned with these new developments as the discovery of Soviet spies leaking information to the reds about the Manhattan project surface. The Cold War has begun.
+August of 1949, the soviets test their nuclear weapon, ushering the world into a new era of nuclear arms race. The US is extremely concerned with these new developments as the discovery of Soviet spies leaking information to the reds about the Manhattan project surface. The Cold War has begun.
 
 The North Atlantic Treaty Organization (NATO) is formed by select western states stating that they will provide military support if the East Germany or the USSR invades any of its members. The USSR shortly retaliates to this with the Warsaw Pact which is similar deal but for the eastern fronts and USSR allies. This lead to the formation of an “Iron Curtain” between the two blocs.
 
@@ -37,7 +36,7 @@ With the armistice, a demilitarized zone was established between North and South
 
 While the Korean War was direct war fought during the Cold War, the Cuban Missile Crisis was a war that was not fought with weapons, but fought about the very conception of threat of war. It encapsulates perfectly what the Cold War really was or to what extent each country would go to maintain their international superpower status. Both knew that neither could afford another war and both knew that a even if it did happen, a direct confrontation would be death to humanity itself.
 
-Fidel Castro became the first communist leader of Cuba on 16 February, 1959. The relationship between Cuba and the US was extremely delicate at that time. Cuba used to be a Republic after its independence but was not democratic. The US supported Fidel during the early stages of the Cuban Revolution to overthrow the Republic. They would apply taxes and embargos to subtly weaken the Cuban government. However, they were taken aback, when Fidel eliminated his rivals after coming to power and adopted communist ideals. What the US saw as a way to bring democracy into the 
+Fidel Castro became the first communist leader of Cuba on 16 February, 1959. The relationship between Cuba and the US was extremely delicate at that time. Cuba used to be a Republic after its independence but was not democratic. The US supported Fidel during the early stages of the Cuban Revolution to overthrow the Republic. They would apply taxes and embargos to subtly weaken the Cuban government. However, they were taken aback, when Fidel eliminated his rivals after coming to power and adopted communist ideals. What the US saw as a way to bring democracy into the
 
 Latin America and Cuba instead established itself as a communist state even without much Soviet backing. This prompted the US government to commence the Cuban Project to actively sabotage the government. Careful politics was played to ensure that this was not seen as war.
 
@@ -66,5 +65,3 @@ The chapter of the Cold War starts to end with the beginning of weakening of the
 This takes us back to Germany, but on 9th November, 1989. The iron curtain, now rusted begins to show signs of crumbling, with the first cracks appearing on the Berlin Wall. East Germans break the wall and reunite with their fellow Germans in the west under one flag of Germany. They maintain their status of a NATO country as well.
 
 As the USSR slowly sees a rise in republic states within its ranks, the new state of Russia along with 26 other states see the light of day. The Cold War comes to an end with the dissolution of the USSR on 26 December, 1991.
-
-
