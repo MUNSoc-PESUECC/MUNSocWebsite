@@ -42,11 +42,12 @@ Karan Singh, being the Head of State, in 1953 dissolved Abdullah’s government 
 In 1954, a Presidential order was issued which detailed the application of various provisions of the Indian Constitution on the state of Jammu and Kashmir. This included the addition of Art. 35(a) to the Indian Constitution.
 
 ### What is Article 35(A)?
+
 This Article gave the state Government the power to decide on who would be a “Permanent resident” of the state. A Permanent resident would have certain “special rights and privileges” including the sole right to own property, receiveemployment, scholarship and settlement under the state government. The most controversial aspect of the Article is a provision which strips the permanent resident status of any woman who marries a non permanent resident. Note that this does not apply to Kashmiri men marrying non-permanent residents.
 
 The Article hence is argued to be fundamentally discriminatory in nature while a debate still continues on the constitutionality of its amending into the constitution by a presidential order.
 
-The Jammu and Kashmir Constitution came into force on 26 November 1956. Karan Singh’s title was altered to “Sadar-e-Riyasat” (Similar to the role of a Governor of a state, the symbolic head of that state). 
+The Jammu and Kashmir Constitution came into force on 26 November 1956. Karan Singh’s title was altered to “Sadar-e-Riyasat” (Similar to the role of a Governor of a state, the symbolic head of that state).
 
 Abdullah now in jail, the congress party ruled Kashmir for the next 2 decades. Kashmir being a volatile state, throughout its existence as a political entity was no different post the coming into force of the 1956 constitution. Secessionist claims were made by separatist groups throughout the 60s, and 70s. The 80s saw an influx of extremist activity post the Soviet-Afghan war as more tribesmen, many being descendants of the same tribesmen who violated Kashmir’s modesty in the 1947 war, came back to the state with US supplied ammunition. The subsequent years were certainly those of continued destruction of peace in the “happy valley”.
 

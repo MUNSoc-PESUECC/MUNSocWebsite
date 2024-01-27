@@ -1,12 +1,12 @@
 // @ts-nocheck
-import { fetchMarkdownAwards } from '$lib/utils'
-import { json } from '@sveltejs/kit'
+import { fetchMarkdownAwards } from '$lib/utils';
+import { json } from '@sveltejs/kit';
 
 export const GET = async () => {
-  const allAwards = await fetchMarkdownAwards()
-  const sortedAwards = allAwards.sort((a,  b) => {
-    return new Date(b.meta.date) - new Date(a.meta.date)
-  })
+	const allAwards = await fetchMarkdownAwards();
+	const sortedAwards = allAwards.sort((a, b) => {
+		return new Date(b.meta.date) - new Date(a.meta.date);
+	});
 
-  return json(sortedAwards)
-}
+	return json(sortedAwards);
+};

@@ -6,12 +6,11 @@ module.exports = {
 		extend: {},
 		colors: {
 			'munsoc-gold': '#C0A960',
-			'navbar-slate': '#151B24',
-			'body-slate': '#232C3A',
-			white: '#ffffff'
+			'navbar-slate': '#f1ede7',
+			'body-slate': '#f1ede7',
+			white: '#ffffff',
+			black: '#000000'
 		}
 	},
-	plugins: [
-		require('@tailwindcss/typography'),
-	]
+	plugins: [require('@tailwindcss/typography')]
 };

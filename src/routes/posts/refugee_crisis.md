@@ -1,9 +1,9 @@
 ---
-title: "Tackling the Global Refugee Crisis"
-date: "2023-04-21"
-description: "What is it, and steps to fix it"
-img: "https://media.discordapp.net/attachments/1105106387865980968/1105511745738518650/Screenshot_2023-05-09_at_8.28.51_PM.png"
-author: "Piyush Ranjan & Bharadwaj Krishnamoorthy"
+title: 'Tackling the Global Refugee Crisis'
+date: '2023-04-21'
+description: 'What is it, and steps to fix it'
+img: 'https://media.discordapp.net/attachments/1105106387865980968/1105511745738518650/Screenshot_2023-05-09_at_8.28.51_PM.png'
+author: 'Piyush Ranjan & Bharadwaj Krishnamoorthy'
 ---
 
 # Who is a refugee?
@@ -38,16 +38,16 @@ Resettlement programs, which allow refugees to permanently settle in third world
 
 As the global refugee crisis continues to escalate, it is important that we come up with solutions. Here are some key actions that can make a difference:
 
-- ***Humanitarian Assistance:*** Increased funding and support for humanitarian organizations to provide life-saving assistance, protection, and services to refugees, with a focus on meeting their basic needs, such as shelter, food, clean water, healthcare, and education.
+- **_Humanitarian Assistance:_** Increased funding and support for humanitarian organizations to provide life-saving assistance, protection, and services to refugees, with a focus on meeting their basic needs, such as shelter, food, clean water, healthcare, and education.
 
-- ***Long-term Solutions:*** Addressing the root causes of the refugee crisis, including conflict resolution, promotion of human rights, resolving poverty, and environmental sustainability.
+- **_Long-term Solutions:_** Addressing the root causes of the refugee crisis, including conflict resolution, promotion of human rights, resolving poverty, and environmental sustainability.
 
-- ***Resettlement and Integration:*** Expanding resettlement programs and ensuring that refugees have access to legal and safe pathways for migration, as well as providing support for their successful integration into host communities. This includes language training, education, vocational training, and employment opportunities to enable refugees to rebuild their lives and contribute to their new communities.
+- **_Resettlement and Integration:_** Expanding resettlement programs and ensuring that refugees have access to legal and safe pathways for migration, as well as providing support for their successful integration into host communities. This includes language training, education, vocational training, and employment opportunities to enable refugees to rebuild their lives and contribute to their new communities.
 
-- ***Empowering Women and Children:*** Recognizing the specific vulnerabilities and needs of refugee women and children, and providing targeted support to ensure their protection, well-being, and empowerment. This includes access to education, healthcare, psychosocial support, and measures to prevent and respond to gender-based violence.
+- **_Empowering Women and Children:_** Recognizing the specific vulnerabilities and needs of refugee women and children, and providing targeted support to ensure their protection, well-being, and empowerment. This includes access to education, healthcare, psychosocial support, and measures to prevent and respond to gender-based violence.
 
-- ***Empowering Refugees to participate in decision making:*** Recognizing the agency, skills, and resilience of refugees, and involving them in decision making processes that affect their lives. This includes empowering refugees to participate in community initiatives, educating about their rights, and promoting their leadership in shaping solutions to the refugee crisis.
+- **_Empowering Refugees to participate in decision making:_** Recognizing the agency, skills, and resilience of refugees, and involving them in decision making processes that affect their lives. This includes empowering refugees to participate in community initiatives, educating about their rights, and promoting their leadership in shaping solutions to the refugee crisis.
 
-- ***Raising Awareness:*** Creating awareness among the public and media about the realities and needs of refugees, and mobilizing support for compassionate solutions. This includes engaging in storytelling.
+- **_Raising Awareness:_** Creating awareness among the public and media about the realities and needs of refugees, and mobilizing support for compassionate solutions. This includes engaging in storytelling.
 
 ![queue](https://media.discordapp.net/attachments/1105106387865980968/1105513928156512346/Screenshot_2023-05-09_at_8.46.48_PM.png)
