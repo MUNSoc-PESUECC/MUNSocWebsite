@@ -47,7 +47,7 @@
 <style>
 	:root {
 		--munsoc-gold: #c0a960;
-		--body-slate: #531C63;
+		--body-slate: #531c63;
 		--button-color: #202c40;
 		font-family: 'Lato', sans-serif;
 	}
@@ -71,7 +71,7 @@
 		box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 		transition: 0.5s;
 		background-color: var(--body-slate);
-		border: 5px solid #202c40;
+		border: 2px solid #202c40;
 	}
 	.register-button:hover {
 		border-color: var(--munsoc-gold);

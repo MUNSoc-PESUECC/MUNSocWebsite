@@ -13,12 +13,11 @@
 <main>
 	<title>MUNSoc PESU-ECC | NEWSLETTERS</title>
 	<body class="bg-body-slate text-white prose prose-invert">
-		<h1 class="px-10 pt-10 text-center">Newsletters</h1>
-		<hr class="ml-10 mr-10" />
+		<h1 class="p-10 text-center">Newsletters</h1>
 
 		{#each data.newsletters as newsletter}
 			<div
-				class="card md:ml-10 md:mr-10 ml-5 mr-5 rounded-md text-center"
+				class="card md:ml-10 md:mr-10 ml-5 mr-5 rounded-md text-center bg-munsoc-alabaster"
 				onclick="window.location='{newsletter.path}'"
 			>
 				<div class="flex justify-center">
@@ -31,7 +30,7 @@
 							{newsletter.meta.title}
 						</a>
 					</h1>
-					<h3>
+					<h3 class="text-munsoc-purple">
 						{new Date(newsletter.meta.date).toLocaleDateString('default', {
 							month: 'long',
 							year: 'numeric'
@@ -46,7 +45,7 @@
 <style>
 	:root {
 		--munsoc-gold: #c0a960;
-		--body-slate: #531C63;
+		--body-slate: #531c63;
 		--navbar-slate: #461854;
 		font-family: 'Lato', sans-serif;
 	}
@@ -69,14 +68,12 @@
 		box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.2);
 		transition: 0.5s;
 		margin-bottom: 30px;
-		background-color: var(--body-slate) ;
 		cursor: pointer;
-		border: 8px solid var(--navbar-slate);
+		border: 2px solid var(--munsoc-gold);
 	}
 
 	/* On mouse-over, add a deeper shadow */
 	.card:hover {
-		border: 5px solid var(--munsoc-gold);
 		box-shadow: 0 32px 64px rgba(0, 0, 0, 0.5);
 	}
 
