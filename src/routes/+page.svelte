@@ -21,7 +21,13 @@
 							UNICON
 						</div>
 						<div class="text-xl md:text-2xl text-munsoc-gold ml-1 mb-2">MUNSoc PESUECC</div>
-						<img class="instagram hidden md:block" src="images/insta.png" alt="insta logo" />
+						<img
+							class="instagram hidden md:block"
+							src="images/insta.png"
+							alt="insta logo"
+							on:click={() => window.open('https://www.instagram.com/munsoc.pesuecc/', '_blank')}
+							on:keydown={() => window.open('https://www.instagram.com/munsoc.pesuecc/', '_blank')}
+						/>
 						<a
 							class="text-lg text-white bg-[#461854] rounded-full mx-8 px-8 py-2.5 text-center transition-all ease-linear duration-100 inline-block no-underline"
 							href="/register">REGISTER</a
