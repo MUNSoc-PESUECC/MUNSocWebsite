@@ -26,14 +26,14 @@
 	rel="stylesheet"
 />
 
-<nav class="md:pl-5 md:pr-5 md:flex md:justify-between md:items-center bg-navbar-slate">
+<nav class="lg:pl-5 lg:pr-5 lg:flex lg:justify-between lg:items-center bg-navbar-slate">
 	<div class="flex items-center justify-between">
 		<a class="" href="/">
 			<img width="100" src={logoAddress} alt="logo" class="m-3 {showMenu ? 'mb-0' : ''}" />
 		</a>
 
 		<a
-			class="font-bold md:text-xl md:hidden no-underline {showMenu
+			class="font-bold lg:text-xl lg:hidden no-underline {showMenu
 				? 'mt-3'
 				: ''} text-munsoc-purple"
 			href="/">MUNSoc PESU-ECC</a
@@ -43,7 +43,7 @@
 		<div
 			on:click={toggleNavbar}
 			on:keydown={toggleNavbar}
-			class="flex md:hidden pr-3 {showMenu ? 'mt-3' : ''}"
+			class="flex lg:hidden pr-3 {showMenu ? 'mt-3' : ''}"
 		>
 			<button
 				type="button"
@@ -69,7 +69,7 @@
 
 	<!-- Mobile Menu open: "flex", Menu closed: "hidden" -->
 	<div
-		class="flex-col mt-8 space-y-4 md:flex md:space-y-0 md:flex-row md:items-center md:space-x-10 md:mt-0 font-semibold {showMenu
+		class="flex-col mt-8 space-y-4 lg:flex lg:space-y-0 lg:flex-row lg:items-center lg:space-x-10 lg:mt-0 font-semibold {showMenu
 			? 'flex pb-5'
 			: 'hidden'}"
 	>

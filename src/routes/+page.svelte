@@ -5,24 +5,24 @@
 <svelte:window bind:innerWidth />
 
 <main>
-	<body class="bg-[#F1EDE7] md:mb-20">
-		<div class="heroSection h-full flex flex-col justify-end mt-2 md:mt-8">
+	<body class="bg-[#F1EDE7] lg:mb-20">
+		<div class="heroSection h-full flex flex-col justify-end mt-2 lg:mt-8">
 			<div
-				class="wrapper grid grid-cols-1 md:grid-cols-3 justify-items-stretch md:ml-16 md:mr-16 md:border border-munsoc-purple"
+				class="wrapper grid grid-cols-1 lg:grid-cols-3 justify-items-stretch lg:ml-16 lg:mr-16 lg:border border-munsoc-purple"
 			>
 				<div class="flex items-center justify-center">
 					<div class="vertical grid justify-items-center">
 						<img
-							class="logo h-20 md:h-28 w-autom md:ml-1 mb-10"
+							class="logo h-20 lg:h-28 w-autom lg:ml-1 mb-10"
 							src="images/logo.png"
 							alt="munsoc logo"
 						/>
-						<div class="text-5xl md:text-8xl text-munsoc-purple font-le-jour-serif ml-1">
+						<div class="text-5xl lg:text-8xl text-munsoc-purple font-le-jour-serif ml-1">
 							UNICON
 						</div>
-						<div class="text-xl md:text-2xl text-munsoc-gold ml-1 mb-2">MUNSoc PESUECC</div>
+						<div class="text-xl lg:text-2xl text-munsoc-gold ml-1 mb-2">MUNSoc PESUECC</div>
 						<img
-							class="instagram hidden md:block"
+							class="instagram hidden lg:block"
 							src="images/insta.png"
 							alt="insta logo"
 							on:click={() => window.open('https://www.instagram.com/munsoc.pesuecc/', '_blank')}
@@ -35,10 +35,10 @@
 					</div>
 				</div>
 
-				<div class="col-span-2 w-full h-full">
+				<div class="col-span-2 w-full h-full flex justify-end">
 					<img
 						src={innerWidth >= 1024 ? 'images/landingBg.png' : 'images/landingBgMobile.png'}
-						class="max-w-full h-auto"
+						class="lg:max-w-full w-screen h-auto"
 						alt="landing-bg"
 						on:click={() => window.open('https://www.instagram.com/munsoc.pesuecc/', '_blank')}
 						on:keydown={() => window.open('https://www.instagram.com/munsoc.pesuecc/', '_blank')}
