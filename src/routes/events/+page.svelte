@@ -30,12 +30,11 @@
 <main>
 	<title>MUNSoc PESU-ECC | EVENTS</title>
 	<body class="bg-body-slate text-white prose prose-invert">
-		<h1 class="px-10 pt-10 text-center">Events</h1>
-		<hr class="ml-10 mr-10" />
+		<h1 class="p-10 text-center">Events</h1>
 		<div class="wrapper">
 			{#each data.events as event}
 				<div
-					class="card md:ml-10 md:mr-10 ml-5 mr-5 rounded-md"
+					class="card md:ml-10 md:mr-10 ml-5 mr-5 rounded-md bg-munsoc-alabaster"
 					onclick="window.location='{event.path}'"
 				>
 					<div class="flex justify-center image-div pt-10">
@@ -64,9 +63,9 @@
 							</a>
 						</h1>
 						<hr class="mr-10 ml-10 mb-5 mt-5" />
-						<h3 class="pl-10 pr-10 text-xl">Date: {event.meta.date}</h3>
-						<h3 class="pl-10 pr-10 text-xl">Time: {event.meta.time}</h3>
-						<h3 class="pl-10 pr-10 text-xl">Venue: {event.meta.venue}</h3>
+						<h3 class="pl-10 pr-10 text-xl text-munsoc-purple">Date: {event.meta.date}</h3>
+						<h3 class="pl-10 pr-10 text-xl text-munsoc-purple">Time: {event.meta.time}</h3>
+						<h3 class="pl-10 pr-10 text-xl text-munsoc-purple">Venue: {event.meta.venue}</h3>
 						{#if isOver(event.meta.date)}
 							<h3 class="text-munsoc-gold">This event is over!</h3>
 						{:else}
@@ -87,7 +86,7 @@
 <style>
 	:root {
 		--munsoc-gold: #c0a960;
-		--body-slate: #531C63;
+		--body-slate: #531c63;
 		font-family: 'Lato', sans-serif;
 	}
 	body {
@@ -112,10 +111,10 @@
 		display: flex;
 		justify-content: center;
 		flex-direction: column;
+		border: 2px solid var(--munsoc-gold);
 	}
 
 	.card:hover {
-		border: 5px solid var(--munsoc-gold);
 		box-shadow: 0 16px 32px rgba(0, 0, 0, 0.5);
 	}
 

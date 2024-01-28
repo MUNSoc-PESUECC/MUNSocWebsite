@@ -33,9 +33,7 @@
 		</a>
 
 		<a
-			class="font-bold md:text-xl md:hidden no-underline {showMenu
-				? 'mt-3'
-				: ''} text-munsoc-purple"
+			class="font-bold md:text-xl text-white md:hidden no-underline {showMenu ? 'mt-3' : ''}"
 			href="/">MUNSoc PESU-ECC</a
 		>
 
@@ -54,7 +52,7 @@
 					fill="none"
 					viewBox="0 0 24 24"
 					stroke-width="1.5"
-					stroke="#461854"
+					stroke="currentColor"
 					class="w-6 h-6"
 				>
 					<path
@@ -74,8 +72,8 @@
 			: 'hidden'}"
 	>
 		<a
-			class="text-lg text-white bg-[#461854] rounded-full mx-8 px-8 py-2.5 text-center transition-all ease-linear duration-100 inline-block no-underline {showMenu
-				? 'mt-5'
+			class="text-lg text-white bg-[#461854] rounded-full px-8 py-2.5 text-center transition-all ease-linear duration-100 inline-block no-underline {showMenu
+				? 'pt-5'
 				: ''}"
 			href="/register"
 			on:click={navBarItemClicked}>REGISTER</a

@@ -19,24 +19,24 @@
 	<title>MUNSoc PESU-ECC | ABOUT</title>
 	<body class="bg-body-slate prose prose-invert">
 		<h1 class="p-10 text-center">About Us</h1>
-		<h4 class="md:pr-32 md:pl-32 pr-10 pl-10 font-normal">
+		<h4 class="md:pr-32 md:pl-32 pr-10 pl-10 font-normal text-black">
 			MUNSoc PESU-ECC was established in 2019, by Ashwathi Jayakumar and Akshaya Visvanathan, who
 			had noticed the lack of any kinds of debating or diplomatic clubs on campus. Since then, we
 			have established ourselves as one of the most happening and reputed club on the campus.
 		</h4>
-		<h4 class="pt-10 pb-10 md:pr-32 md:pl-32 pr-10 pl-10 font-normal">
+		<h4 class="pt-10 pb-10 md:pr-32 md:pl-32 pr-10 pl-10 font-normal text-black">
 			In 2021, the MUNSoc legacy was passed on to two very highly accomplished students, Anurag G
 			and Anirudh Rowjee, the first few people to be recruited into the club as members and bringing
 			awards home for the club. Under their leadership, our members have won awards and accolades in
 			a number of distinguished intercollegiate MUNs.
 		</h4>
-		<hr class="ml-10 mr-10" />
+		<hr class="ml-10 mr-10 bg-munsoc-purple" />
 
 		<!-- AWARDS -->
 		<h1 class="text-center p-10">Our Awards</h1>
 		<div class="wrapper">
 			{#each data.awards as award}
-				<div class="card md:ml-10 md:mr-10 ml-5 mr-5 rounded-md inline-block">
+				<div class="card md:ml-10 md:mr-10 ml-5 mr-5 rounded-md inline-block bg-munsoc-alabaster">
 					<h2 class="pr-10 pl-10 text-center mt-5 font-extrabold text-2xl">
 						{award.meta.conferenceName}
 					</h2>
@@ -67,7 +67,7 @@
 										{person}
 									</h3>
 									<h3
-										class="text-center flex items-center m-0 pt-2 pb-2 md:text-xl text-sm font-normal"
+										class="text-center flex items-center m-0 pt-2 pb-2 md:text-xl text-sm font-normal text-munsoc-purple"
 									>
 										{award}
 									</h3>
@@ -85,7 +85,7 @@
 <style>
 	:root {
 		--munsoc-gold: #c0a960;
-		--body-slate: #531C63;
+		--body-slate: #531c63;
 		font-family: 'Lato', sans-serif;
 	}
 	body {
@@ -111,7 +111,6 @@
 		box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 		transition: 0.5s;
 		margin-bottom: 30px;
-		background-color: var(--body-slate);
 		border: 2px solid var(--munsoc-gold);
 	}
 

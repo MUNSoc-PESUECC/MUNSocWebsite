@@ -102,10 +102,9 @@
 	<title>MUNSoc PESU-ECC | MEMBERS</title>
 	<body class="bg-body-slate prose prose-invert">
 		<h1 class="p-10 text-center">Meet Our Team</h1>
-		<hr class="ml-10 mr-10" />
 		<div class="wrapper mb-12 lg:ml-6 lg:mr-6">
 			{#each coreMembers as person}
-				<div class="card ml-5 mr-5 rounded-md inline-block">
+				<div class="card ml-5 mr-5 rounded-md inline-block bg-munsoc-alabaster">
 					<div class="flex justify-center">
 						{#if person.Name == 'Abhiram Dasika'}
 							<img
@@ -159,7 +158,7 @@
 							{person.Name}
 						</h1>
 
-						<h3 class="pr-10 pl-10 text-center font-medium">
+						<h3 class="pr-10 pl-10 text-center font-medium text-munsoc-purple">
 							{person.Role}
 						</h3>
 					</div>
@@ -172,7 +171,7 @@
 <style>
 	:root {
 		--munsoc-gold: #c0a960;
-		--body-slate: #531C63;
+		--body-slate: #531c63;
 		--navbar-slate: #461854;
 		font-family: 'Lato', sans-serif;
 	}
@@ -181,10 +180,6 @@
 	}
 	.prose {
 		max-width: none;
-	}
-	.prose a {
-		color: var(--munsoc-gold);
-		text-decoration: none;
 	}
 	.prose h1 {
 		color: var(--munsoc-gold);
@@ -195,6 +190,7 @@
 		box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.5);
 		transition: 0.5s;
 		margin-bottom: 30px;
+		border: 2px solid var(--munsoc-gold);
 	}
 
 	/* Add some padding inside the card container */

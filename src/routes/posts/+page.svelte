@@ -12,13 +12,12 @@
 
 <main>
 	<title>MUNSoc PESU-ECC | POSTS</title>
-	<body class="bg-body-slate text-white prose prose-invert">
-		<h1 class="px-10 pt-10 text-center">Posts</h1>
-		<hr class="ml-10 mr-10" />
+	<body class="bg-body-slate text-white prose">
+		<h1 class=" p-10 text-center text-munsoc-purple">Posts</h1>
 		<div class="wrapper lg:ml-12 lg:mr-12 md:ml-10">
 			{#each data.posts as post}
 				<div
-					class="card md:ml-10 md:mr-10  ml-5 mr-5 rounded-md text-center"
+					class="card md:ml-10 md:mr-10 ml-5 mr-5 rounded-md text-center bg-munsoc-alabaster"
 					onclick="window.location='{post.path}'"
 				>
 					<div class="flex justify-center">
@@ -26,15 +25,14 @@
 					</div>
 
 					<div class="card-content">
-						<h1 class="grey mb-1 ml-1 mr-1">
+						<h1 class="grey mb-1 ml-1 mr-1 text-munsoc-purple">
 							<a href={post.path}>
 								{post.meta.title}
 							</a>
 						</h1>
 
-						<div class="pl-10 pr-10">{post.meta.description}</div>
-						<h3 class="mt-3 font-normal">✍️ {post.meta.author}</h3>
-						<div class="pl-10 pr-10 published">Published: {post.meta.date}</div>
+						<h3 class="mt-3 font-normal text-munsoc-purple">✍️ {post.meta.author}</h3>
+						<div class="pl-10 pr-10 published text-munsoc-purple">Published: {post.meta.date}</div>
 					</div>
 				</div>
 			{/each}
@@ -46,7 +44,7 @@
 	:root {
 		--munsoc-gold: #c0a960;
 		--navbar-slate: #461854;
-		--body-slate: #531C63;
+		--body-slate: #531c63;
 		font-family: 'Lato', sans-serif;
 	}
 	body {
@@ -58,9 +56,6 @@
 	.prose a {
 		color: var(--munsoc-gold);
 		text-decoration: none;
-	}
-	.prose h1 {
-		color: var(--munsoc-gold);
 	}
 
 	.card {
@@ -74,11 +69,11 @@
 		display: flex;
 		justify-content: center;
 		flex-direction: column;
+		border: 2px solid var(--munsoc-gold);
 	}
 
 	/* On mouse-over, add a deeper shadow */
 	.card:hover {
-		border: 5px solid var(--munsoc-gold);
 		box-shadow: 0 32px 64px rgba(0, 0, 0, 0.5);
 	}
 

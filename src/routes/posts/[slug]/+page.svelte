@@ -13,8 +13,8 @@
 
 <main>
 	<title>{data.title}</title>
-	<body class="bg-body-slate">
-		<article class="text-white p-10 prose prose-invert">
+	<body class="bg-munsoc-alabaster">
+		<article class="text-munsoc-purple p-10 prose">
 			<div class="flex justify-center">
 				<img src={data.img} alt="post" class="w-11/12 h-auto rounded-md" />
 			</div>
@@ -23,9 +23,9 @@
 				<h3>✍️ {data.author}</h3>
 				<p>Published: {data.date}</p>
 			</div>
-			<hr />
+			<hr class="bg-munsoc-purple h-1" />
 			<div class="content md:pl-32 md:pr-32">
-				<div class="prose prose-invert content">
+				<div class="prose content">
 					<svelte:component this={data.content} />
 				</div>
 			</div>
@@ -36,7 +36,7 @@
 <style>
 	:root {
 		--munsoc-gold: #c0a960;
-		--body-slate: #531C63;
+		--body-slate: #531c63;
 		font-family: 'Lato', sans-serif;
 	}
 	body {
