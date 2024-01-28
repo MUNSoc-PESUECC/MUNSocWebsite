@@ -12,17 +12,15 @@
 			Photo: 'https://i.imgur.com/YFnnr3q.png'
 		}
 	];
-	function isOver(dateString){
+	function isOver(dateString) {
 		const date = new Date(dateString);
 		const today = new Date();
-		if (date <= today){
+		if (date <= today) {
 			return true;
-		} else{
+		} else {
 			return false;
 		}
 	}
-
-
 </script>
 
 <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -32,10 +30,12 @@
 	rel="stylesheet"
 />
 
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+	href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap"
+	rel="stylesheet"
+/>
 <main>
 	<title>MUNSoc PESU-ECC</title>
 	<body class="bg-body-slate prose prose-invert">
@@ -65,11 +65,10 @@
 				</h3>
 			</div>
 		</div>
-		<div class = "text-right md:pr-10 pr-5 text-xl">
+		<div class="text-right md:pr-10 pr-5 text-xl">
 			<a href="/newsletter">See older Newsletters</a>
-			<div class = "inline arrow text-munsoc-gold"> -> </div>
+			<div class="inline arrow text-munsoc-gold">-></div>
 		</div>
-
 
 		<hr class="ml-10 mr-10" />
 
@@ -116,11 +115,11 @@
 				</div>
 			</div>
 		</div>
-		<div class = "text-right md:pr-10 pr-5 text-xl">
+		<div class="text-right md:pr-10 pr-5 text-xl">
 			<a href="/posts">See more Posts</a>
-			<div class = "inline arrow text-munsoc-gold"> -> </div>
+			<div class="inline arrow text-munsoc-gold">-></div>
 		</div>
-		<hr class="ml-10 mr-10 " />
+		<hr class="ml-10 mr-10" />
 
 		<!-- EVENTS -->
 
@@ -146,13 +145,14 @@
 					<h3 class="pl-10 pr-10">Venue: {data.events[0].meta.venue}</h3>
 
 					{#if isOver(data.events[0].meta.date)}
-					<h3 class = "text-munsoc-gold">
-						This event is over!
-					</h3>
+						<h3 class="text-munsoc-gold">This event is over!</h3>
 					{:else}
-					<button class="register-button" onclick="window.open('{data.events[0].meta.registrationLink}', '_blank')">
-						Register Here!
-					  </button>
+						<button
+							class="register-button"
+							onclick="window.open('{data.events[0].meta.registrationLink}', '_blank')"
+						>
+							Register Here!
+						</button>
 					{/if}
 				</div>
 			</div>
@@ -175,28 +175,29 @@
 					<h3 class="pl-10 pr-10">Time: {data.events[1].meta.time}</h3>
 					<h3 class="pl-10 pr-10">Venue: {data.events[1].meta.venue}</h3>
 					{#if isOver(data.events[1].meta.date)}
-					<h3 class = "text-munsoc-gold">
-						This event is over!
-					</h3>
+						<h3 class="text-munsoc-gold">This event is over!</h3>
 					{:else}
-					<button class="register-button" onclick="window.open('{data.events[1].meta.registrationLink}', '_blank')">
-						Register Here!
-					  </button>
+						<button
+							class="register-button"
+							onclick="window.open('{data.events[1].meta.registrationLink}', '_blank')"
+						>
+							Register Here!
+						</button>
 					{/if}
 				</div>
 			</div>
 		</div>
-		<div class = "text-right md:pr-10 pr-5 text-xl">
+		<div class="text-right md:pr-10 pr-5 text-xl">
 			<a href="/events">See more Events</a>
-			<div class = "inline arrow text-munsoc-gold"> -> </div>
+			<div class="inline arrow text-munsoc-gold">-></div>
 		</div>
-		<hr class="ml-10 mr-10 " />
+		<hr class="ml-10 mr-10" />
 
 		<!-- PRESIDENTS -->
 
 		<h1 class="p-10 text-center">Meet Our Heads</h1>
 
-		<div class="wrapper">
+		<div class="wrapper mb-12">
 			{#each presidents as person}
 				<div class="card md:ml-10 md:mr-10 ml-5 mr-5 rounded-md inline-block">
 					<div class="flex justify-center text-xl">
@@ -216,7 +217,8 @@
 <style>
 	:root {
 		--munsoc-gold: #c0a960;
-		--body-slate: #232c3a;
+		--body-slate: #531C63;
+		--navbar-slate: #461854;
 		font-family: 'Lato', sans-serif;
 	}
 	body {
@@ -238,12 +240,10 @@
 		box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.2);
 		transition: 0.5s;
 		margin-bottom: 30px;
-		background-color: var(--body-slate);
-		border: 5px solid var(--body-slate);
 		cursor: pointer;
 		display: flex;
-  		justify-content: center;
-  		flex-direction: column;
+		justify-content: center;
+		flex-direction: column;
 	}
 
 	/* On mouse-over, add a deeper shadow */
@@ -258,7 +258,7 @@
 	}
 	.wrapper {
 		display: grid;
-  		grid-template-columns: 1fr 1fr;
+		grid-template-columns: 1fr 1fr;
 	}
 
 	@media (max-width: 420px) {
@@ -266,30 +266,30 @@
 			display: block;
 			align-items: center;
 		}
-		.card{
+		.card {
 			width: auto;
 		}
 	}
 
-	.arrow{
+	.arrow {
 		font-family: 'JetBrains Mono', monospace;
 	}
 
-	.register-button{
-        width:80%;
-        padding: 8px;
-        color: var(--munsoc-gold);
-        font-size:x-large;
-        font-weight: bold;
-        background-color: var(--button-color);
-        border-radius: 6px;
-        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-        transition: 0.5s;
-        background-color: #202c40;
-        border: 5px solid #202c40;
-      }
-      .register-button:hover{
-        border-color: var(--munsoc-gold);
-        box-shadow: 0 16px 32px rgba(0,0,0,0.5);
-      }
+	.register-button {
+		width: 80%;
+		padding: 8px;
+		color: var(--munsoc-gold);
+		font-size: x-large;
+		font-weight: bold;
+		background-color: var(--button-color);
+		border-radius: 6px;
+		box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+		transition: 0.5s;
+		background-color: var(--body-slate);
+		border: 5px solid var(--body-slate);
+	}
+	.register-button:hover {
+		border-color: var(--munsoc-gold);
+		box-shadow: 0 16px 32px rgba(0, 0, 0, 0.5);
+	}
 </style>

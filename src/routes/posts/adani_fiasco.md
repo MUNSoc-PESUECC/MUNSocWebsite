@@ -1,8 +1,8 @@
 ---
-title: "The Adani Fiasco"
-date: "2023-04-04"
-description: "The rise and fall of Gautam Adani: the scandal that shook markets and politics."
-img: "https://cdn.discordapp.com/attachments/1080892669313699881/1093520539689168906/adani.jpeg"
+title: 'The Adani Fiasco'
+date: '2023-04-04'
+description: 'The rise and fall of Gautam Adani: the scandal that shook markets and politics.'
+img: 'https://cdn.discordapp.com/attachments/1080892669313699881/1093520539689168906/adani.jpeg'
 author: Advaith B & Ajay Bir Singh
 ---
 
@@ -26,14 +26,14 @@ An interesting fact to be noted is that the billionaire business tycoon is known
 The Hindenburg Rebuttal called this out and said that Adani was trying to stoke a nationalist narrative that seeks to conflate his meteoric success and rise in wealth with that to the rise of the country as a whole.
 
 ![Modi and Adani](https://cdn.discordapp.com/attachments/1080892669313699881/1093516872793731092/image.png)
-*Narendra Mode, Prime Minister of India with Gautam Adani*
+_Narendra Mode, Prime Minister of India with Gautam Adani_
 
 ## The Effects
 
 Things have taken a political turn in India as the opposition parties have begun to question and allege the Prime Minister and the ruling party’s agenda of trying and protecting Mr Adani as till now proper enquiries or actions have not been taken from the side of the government. These allegations have been rubbished by the ruling right wing Bharathiya Janata Party(BJP). From a market perspective, investors were alarmed when these reports came out and immediately started offloading their shares as the company’s fortunes unravelled. While Adani shares continued to collapse the Nifty 50, the benchmark index for India’s national stock exchange dipped by only one percent which also led to many analysts concluding that the markets viewed this as an Adani problem more than an Indian problem and this also worked against the nationalist narrative Mr Adani was allegedly trying to stokeHundreds of members of opposition parties are also concerned, taking to the streets in rowdy protests to demand a full investigation into the allegations against the Adani group. Some protesters scaled police barricades and were detained, while others burned suitcases plastered with the images of Adani and Modi.
 
 ![nationwide protests demanding fair investigation](https://cdn.discordapp.com/attachments/1080892669313699881/1093516968914587708/image.png)
-*Nationwide protests demanding a fair investigation into the issue*
+_Nationwide protests demanding a fair investigation into the issue_
 
 The abrupt and dramatic dip in stock prices is raising questions of whether the Adani Group's companies can cover their costs going forward, with their large debt load.After the conglomerate announced it would pay back $1.1 billion US in loans ahead of schedule, in a bid to calm investors, Adani's stock rebounded somewhat this week. The loans weren't due until September 2024, and included shares in Adani's ports business.
 
