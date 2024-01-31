@@ -78,6 +78,12 @@
 			Photo: ' https://i.imgur.com/X5YW6yg.png'
 		},
 		{
+			Name: 'Shreya Gurram',
+			Role: 'Web Developer',
+			Photo:
+				'https://cdn.discordapp.com/attachments/1070378486256124036/1202122131639640064/IMG_20231123_132144_281.jpg'
+		},
+		{
 			Name: 'Anurag Rao',
 			Role: 'Head of Website Development',
 			Photo: 'https://i.imgur.com/VI6ZUhJ.png'
