@@ -31,7 +31,6 @@
 	class="lg:pl-5 lg:pr-5 bg-navbar-slate max-w-screen {$page.url.pathname == '/thankyou'
 		? 'hidden'
 		: 'lg:flex lg:justify-between lg:items-center'}"
-
 >
 	<div class="flex items-center justify-between">
 		<a class="" href="/">
