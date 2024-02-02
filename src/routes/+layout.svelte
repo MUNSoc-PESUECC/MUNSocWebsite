@@ -1,5 +1,6 @@
 <script>
 	//@ts-nocheck
+	import { page } from '$app/stores';
 	const logoAddress = '/images/logo.png';
 	let showMenu = false;
 	function toggleNavbar() {
@@ -26,7 +27,11 @@
 	rel="stylesheet"
 />
 
-<nav class="lg:pl-5 lg:pr-5 lg:flex lg:justify-between lg:items-center bg-navbar-slate">
+<nav
+	class="lg:pl-5 lg:pr-5 bg-navbar-slate max-w-screen {$page.url.pathname == '/thankyou'
+		? 'hidden'
+		: 'lg:flex lg:justify-between lg:items-center'}"
+>
 	<div class="flex items-center justify-between">
 		<a class="" href="/">
 			<img width="100" src={logoAddress} alt="logo" class="m-3 {showMenu ? 'mb-0' : ''}" />
@@ -120,7 +125,11 @@
 
 <slot />
 
-<footer class="bg-munsoc-purple pl-5 pr-5">
+<footer
+	class="bg-munsoc-purple pl-5 pr-5 max-w-screen {$page.url.pathname == '/thankyou'
+		? 'hidden'
+		: 'block'}"
+>
 	<div class="footer-content">
 		<img src="/images/logo.png" class="w-32" alt="" />
 		<h3 class="text-white">MUNSoc PESU-ECC</h3>

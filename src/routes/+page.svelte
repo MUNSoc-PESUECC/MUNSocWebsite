@@ -38,7 +38,7 @@
 				<div class="col-span-2 w-full h-full flex justify-end">
 					<img
 						src={innerWidth >= 1024 ? 'images/landingBg.png' : 'images/landingBgMobile.png'}
-						class="lg:max-w-full w-screen h-auto pb-2"
+						class="lg:max-w-full w-screen h-auto"
 						alt="landing-bg"
 						on:click={() => window.open('https://www.instagram.com/munsoc.pesuecc/', '_blank')}
 						on:keydown={() => window.open('https://www.instagram.com/munsoc.pesuecc/', '_blank')}
