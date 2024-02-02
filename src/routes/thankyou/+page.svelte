@@ -1,38 +1,46 @@
-<main>
-	<div class="flex justify-center items-center h-screen bg-munsoc-alabaster">
-		<div class="grid grid-cols-3 m-24">
-			<div class="flex flex-col justify-center items-center mr-6">
-				<img src="/images/logo.png" class=" w-48 mb-4" alt="" />
-				<h3 class="text-munsoc-purple">MUNSoc PESU-ECC</h3>
-				<p class="text-munsoc-purple">Ad Astra per Aspera</p>
-			</div>
-			<div class="col-span-2 ml-6">
-				<div class="grid grid-cols-1">
-					<div class="text-8xl text-munsoc-gold font-le-jour-serif mt-12">UNICON</div>
-					<div class="text-6xl text-munsoc-purple font-le-jour-serif mt-8">
-						THANK YOU FOR REGISTERING!
-					</div>
-				</div>
-			</div>
-			<ul class="socials m-5 grid grid-cols-3 col-span-3 justify-items-center mt-24">
-				<li>
-					<a href="https://www.instagram.com/munsoc.pesuecc/" target="_blank" rel="noreferrer"
-						><i class="fa fa-instagram" /></a
-					>
-				</li>
-				<li>
-					<a href="mailto:munsocecc@pes.edu" target="_blank" rel="noreferrer"
-						><i class="fa fa-envelope" /></a
-					>
-				</li>
-				<li>
-					<a href="https://github.com/MUNSoc-PESUECC/MUNSocWebsite" target="_blank" rel="noreferrer"
-						><i class="fa fa-github" /></a
-					>
-				</li>
-			</ul>
-		</div>
-	</div>
+<script>
+  import {goto} from '$app/navigation';
+  import {onMount} from 'svelte';
+
+  onMount(() => {
+    // setTimeout(() => {
+    //   goto('/');
+    // }, 5000);
+  });
+</script>
+<main> 
+  <div class="flex justify-center items-center h-screen bg-munsoc-alabaster">
+    <div class="lg:grid lg:grid-cols-3 lg:m-24">
+    <div class="flex flex-col justify-center items-center lg:mr-6">
+		<img src="/images/logo.png" class="w-28 lg:w-48 mb-4" alt="" />
+		<h3 class="text-munsoc-purple">MUNSoc PESU-ECC</h3>
+		<p class="text-munsoc-purple">Ad Astra per Aspera</p>
+    </div>
+        <div class="lg:col-span-2 lg:ml-6">
+    <div class="grid grid-cols-1">
+      <div class="text-7xl text-center lg:text-left lg:text-8xl text-munsoc-gold font-le-jour-serif mt-12">UNICON</div>
+      <div class="text-xl text-center lg:text-left lg:text-6xl text-munsoc-purple font-le-jour-serif mt-8">THANK YOU FOR REGISTERING!</div>
+    </div>
+          </div>
+		<ul class="socials m-5 grid grid-cols-3 col-span-3 justify-items-center lg:mt-24">
+			<li>
+				<a href="https://www.instagram.com/munsoc.pesuecc/" target="_blank" rel="noreferrer"
+					><i class="fa fa-instagram" /></a
+				>
+			</li>
+			<li>
+				<a href="mailto:munsocecc@pes.edu" target="_blank" rel="noreferrer"
+					><i class="fa fa-envelope" /></a
+				>
+			</li>
+			<li>
+				<a href="https://github.com/MUNSoc-PESUECC/MUNSocWebsite" target="_blank" rel="noreferrer"
+					><i class="fa fa-github" /></a
+				>
+			</li>
+		</ul>
+    </div>
+  </div>
 </main>
 
 <style>
@@ -55,7 +63,7 @@
 
 	.socials a {
 		text-decoration: none;
-		color: var(--navbar-slate);
+		color:var(--navbar-slate);
 		padding: 5px;
 		border-radius: 100%;
 	}
