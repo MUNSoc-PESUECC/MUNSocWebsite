@@ -12,9 +12,10 @@
 <main>
 	<body class="bg-body-slate prose prose-invert">
 		<h1 class="p-10 text-center">Accommodation</h1>
-		<h4 class="md:pr-32 md:pl-32 pr-10 pl-10 font-normal text-black">
-		</h4>
-
+		<div class="md:pr-32 md:pl-32 pr-10 pl-10 pb-5 prose content">
+			<svelte:component this={data.content} />
+		</div>
+	</body>
 </main>
 
 <style>
@@ -39,5 +40,15 @@
 	}
 	.prose h3 {
 		margin: 0;
+	}
+
+	.content :global(img) {
+		width: 100%;
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+
+	.content :global(p) {
+		font-size: 20px;
 	}
 </style>

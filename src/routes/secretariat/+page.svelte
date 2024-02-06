@@ -25,7 +25,8 @@
 		{
 			Name: 'Nikhil Girish',
 			Role: 'Undersecretary General - Outreach',
-			Photo:''
+			Photo:
+				'https://cdn.discordapp.com/attachments/1080892669313699881/1204470879489228820/lovelypicture.png'
 		},
 		{
 			Name: 'Srinivaasan N S',
@@ -36,7 +37,7 @@
 			Name: 'Divyansh Vinayak',
 			Role: 'Undersecretary General- Logistics ',
 			Photo: 'https://i.imgur.com/sLjEDXL.png'
-		},
+		}
 		// {
 		// 	Name: 'Garima Bajpayi',
 		// 	Role: 'Head Of Marketing',
@@ -112,7 +113,7 @@
 <main>
 	<title>MUNSoc PESU-ECC | MEMBERS</title>
 	<body class="bg-body-slate prose prose-invert">
-		<h1 class="p-10 text-center">Meet Our Team</h1>
+		<h1 class="p-10 text-center">The Secretariat</h1>
 		<div class="wrapper mb-12 lg:ml-6 lg:mr-6">
 			{#each coreMembers as person}
 				<div class="card ml-5 mr-5 rounded-md inline-block bg-munsoc-alabaster">
