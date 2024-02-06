@@ -17,7 +17,7 @@
 
 <main>
 	<title>MUNSoc PESU-ECC | ABOUT</title>
-	<body class="bg-body-slate prose prose-invert">
+	<body class="bg-body-slate prose prose-invert min-h-screen">
 		<h1 class="p-10 text-center">About Us</h1>
 		<h4 class="md:pr-32 md:pl-32 pr-10 pl-10 font-normal text-black">
 			MUNSoc PESU-ECC was established in 2019, by Ashwathi Jayakumar and Akshaya Visvanathan, who
@@ -30,55 +30,56 @@
 			awards home for the club. Under their leadership, our members have won awards and accolades in
 			a number of distinguished intercollegiate MUNs.
 		</h4>
-		<hr class="ml-10 mr-10 bg-munsoc-purple" />
+		<!-- <hr class="ml-10 mr-10 bg-munsoc-purple" /> -->
 
 		<!-- AWARDS -->
-		<h1 class="text-center p-10">Our Awards</h1>
-		<div class="wrapper">
-			{#each data.awards as award}
-				<div class="card md:ml-10 md:mr-10 ml-5 mr-5 rounded-md inline-block bg-munsoc-alabaster">
-					<h2 class="pr-10 pl-10 text-center mt-5 font-extrabold text-2xl">
-						{award.meta.conferenceName}
-					</h2>
-					<div class="flex justify-center image-div">
-						{#if award.meta.conferenceName == 'BMSMUN 2023'}
-							<img
-								id="easterEggImage"
-								src={award.meta.img}
-								alt="award"
-								class="w-11/12 h-auto rounded-md max-w-md m-0 mb-10"
-								on:click={changeImage}
-								on:keydown={changeImage}
-							/>
-						{:else}
-							<img
-								src={award.meta.img}
-								alt="award"
-								class="w-11/12 h-auto rounded-md max-w-md m-0 mb-10"
-							/>
-						{/if}
-					</div>
-
-					<div class="prizes pl-2 pr-2 md:pr-5 md:pl-5">
-						<div class="h-auto items-center">
-							{#each Object.entries(award.meta.awardeeAward) as [person, award]}
-								<div class="eachPrizes">
-									<h3 class="inline-block m-0 text-right text-munsoc-gold pt-2 md:text-xl text-sm">
-										{person}
-									</h3>
-									<h3
-										class="text-center flex items-center m-0 pt-2 pb-2 md:text-xl text-sm font-normal text-munsoc-purple"
-									>
-										{award}
-									</h3>
-									<hr class="col-span-2 m-0" />
-								</div>
-							{/each}
-						</div>
-					</div>
-				</div>
-			{/each}
-		</div>
+		<!-- HIDDEN FOR UNICON -->
+		<!-- <h1 class="text-center p-10">Our Awards</h1> -->
+		<!-- <div class="wrapper"> -->
+		<!-- 	{#each data.awards as award} -->
+		<!-- 		<div class="card md:ml-10 md:mr-10 ml-5 mr-5 rounded-md inline-block bg-munsoc-alabaster"> -->
+		<!-- 			<h2 class="pr-10 pl-10 text-center mt-5 font-extrabold text-2xl"> -->
+		<!-- 				{award.meta.conferenceName} -->
+		<!-- 			</h2> -->
+		<!-- 			<div class="flex justify-center image-div"> -->
+		<!-- 				{#if award.meta.conferenceName == 'BMSMUN 2023'} -->
+		<!-- 					<img -->
+		<!-- 						id="easterEggImage" -->
+		<!-- 						src={award.meta.img} -->
+		<!-- 						alt="award" -->
+		<!-- 						class="w-11/12 h-auto rounded-md max-w-md m-0 mb-10" -->
+		<!-- 						on:click={changeImage} -->
+		<!-- 						on:keydown={changeImage} -->
+		<!-- 					/> -->
+		<!-- 				{:else} -->
+		<!-- 					<img -->
+		<!-- 						src={award.meta.img} -->
+		<!-- 						alt="award" -->
+		<!-- 						class="w-11/12 h-auto rounded-md max-w-md m-0 mb-10" -->
+		<!-- 					/> -->
+		<!-- 				{/if} -->
+		<!-- 			</div> -->
+		<!---->
+		<!-- 			<div class="prizes pl-2 pr-2 md:pr-5 md:pl-5"> -->
+		<!-- 				<div class="h-auto items-center"> -->
+		<!-- 					{#each Object.entries(award.meta.awardeeAward) as [person, award]} -->
+		<!-- 						<div class="eachPrizes"> -->
+		<!-- 							<h3 class="inline-block m-0 text-right text-munsoc-gold pt-2 md:text-xl text-sm"> -->
+		<!-- 								{person} -->
+		<!-- 							</h3> -->
+		<!-- 							<h3 -->
+		<!-- 								class="text-center flex items-center m-0 pt-2 pb-2 md:text-xl text-sm font-normal text-munsoc-purple" -->
+		<!-- 							> -->
+		<!-- 								{award} -->
+		<!-- 							</h3> -->
+		<!-- 							<hr class="col-span-2 m-0" /> -->
+		<!-- 						</div> -->
+		<!-- 					{/each} -->
+		<!-- 				</div> -->
+		<!-- 			</div> -->
+		<!-- 		</div> -->
+		<!-- 	{/each} -->
+		<!-- </div> -->
 	</body>
 </main>
 

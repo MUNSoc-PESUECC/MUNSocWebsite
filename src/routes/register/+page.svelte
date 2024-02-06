@@ -8,36 +8,53 @@
 		</div>
 		<div class="flex justify-center items-center mb-24 p-4 h-full">
 			<div class="wrapper min-h-[80vh] justify-items-center">
-				<img
-					class="max-h-[40vh] card mb-1 rounded-xl lg:rounded-none lg:rounded-tl-lg lg:mb-1 lg:mr-1"
-					src="images/0.jpg"
-					alt="UN Security Council"
-				/>
-				<img
-					class="max-h-[40vh] card mb-1 rounded-xl lg:rounded-none lg:mb-1 lg:mr-1"
-					src="images/1.jpg"
-					alt="UNGA DISEC"
-				/>
-				<img
-					class="max-h-[40vh] card mb-1 rounded-xl lg:rounded-none lg:rounded-tr-lg lg:mb-1 lg:mr-1"
-					src="images/2.jpg"
-					alt="Human Rights Council"
-				/>
-				<img
-					class="max-h-[40vh] card mb-1 rounded-xl lg:rounded-none lg:rounded-bl-lg lg:mr-1"
-					src="images/3.jpg"
-					alt="Historical Crisis Committee"
-				/>
-				<img
-					class="max-h-[40vh] card mb-1 rounded-xl lg:rounded-none lg:mr-1"
-					src="images/4.jpg"
-					alt="Lok Sabha"
-				/>
-				<img
-					class="max-h-[40vh] card mb-1 rounded-xl lg:rounded-none lg:rounded-br-lg lg:mr-1"
-					src="images/5.jpg"
-					alt="International Press Corps"
-				/>
+				<a href="/register/UNSC">
+					<img
+						class="max-h-[40vh] card mb-1 rounded-xl lg:rounded-none lg:rounded-tl-lg lg:mb-1 lg:mr-1"
+						src="images/0.jpg"
+						alt="UN Security Council"
+					/>
+				</a>
+
+				<a href="/register/DISEC">
+					<img
+						class="max-h-[40vh] card mb-1 rounded-xl lg:rounded-none lg:mb-1 lg:mr-1"
+						src="images/1.jpg"
+						alt="UNGA DISEC"
+					/>
+				</a>
+
+				<a href="/register/HRC">
+					<img
+						class="max-h-[40vh] card mb-1 rounded-xl lg:rounded-none lg:rounded-tr-lg lg:mb-1 lg:mr-1"
+						src="images/2.jpg"
+						alt="Human Rights Council"
+					/>
+				</a>
+
+				<a href="/register/HCC">
+					<img
+						class="max-h-[40vh] card mb-1 rounded-xl lg:rounded-none lg:rounded-bl-lg lg:mr-1"
+						src="images/3.jpg"
+						alt="Historical Crisis Committee"
+					/>
+				</a>
+
+				<a href="/register/LokSabha">
+					<img
+						class="max-h-[40vh] card mb-1 rounded-xl lg:rounded-none lg:mr-1"
+						src="images/4.jpg"
+						alt="Lok Sabha"
+					/>
+				</a>
+
+				<a href="/register/IPC">
+					<img
+						class="max-h-[40vh] card mb-1 rounded-xl lg:rounded-none lg:rounded-br-lg lg:mr-1"
+						src="images/5.jpg"
+						alt="International Press Corps"
+					/>
+				</a>
 			</div>
 		</div>
 	</body>
