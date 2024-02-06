@@ -30,11 +30,11 @@
 <nav
 	class="lg:pl-5 lg:pr-5 bg-navbar-slate max-w-screen {$page.url.pathname == '/thankyou'
 		? 'hidden'
-		: 'lg:flex lg:justify-between lg:items-center'}"
+		: 'lg:flex lg:justify-between lg:items-center'} border-b border-b-munsoc-purple"
 >
 	<div class="flex items-center justify-between">
 		<a class="" href="/">
-			<img width="100" src={logoAddress} alt="logo" class="m-3 {showMenu ? 'mb-0' : ''}" />
+			<img width="120" src={logoAddress} alt="logo" class="m-3 {showMenu ? 'mb-0' : ''}" />
 		</a>
 
 		<a
@@ -81,9 +81,9 @@
 		<a
 			class="text-lg text-white bg-[#461854] rounded-full mx-8 px-8 py-2.5 text-center transition-all ease-linear duration-100 inline-block no-underline {showMenu
 				? 'mt-5'
-				: ''}"
-			href="/register"
-			on:click={navBarItemClicked}>REGISTER</a
+				: ''} {$page.url.pathname == '/' ? 'hidden' : ''}"
+			href="/"
+			on:click={navBarItemClicked}>UNICON</a
 		>
 		<a
 			class="text-lg text-[#643572] hover:text-white hover:bg-[#461854] rounded-full px-8 py-2.5 text-center transition-all ease-linear duration-100 inline-block no-underline {showMenu
@@ -92,27 +92,30 @@
 			href="/posts"
 			on:click={navBarItemClicked}>POSTS</a
 		>
-		<a
-			class="text-lg text-[#643572] hover:text-white hover:bg-[#461854] rounded-full px-8 py-2.5 text-center transition-all ease-linear duration-100 inline-block no-underline {showMenu
-				? 'pt-5'
-				: ''}"
-			href="/newsletter"
-			on:click={navBarItemClicked}>NEWSLETTERS</a
-		>
+
+		<!-- REMOVED FOR UNICON -->
+		<!-- <a -->
+		<!-- 	class="text-lg text-[#643572] hover:text-white hover:bg-[#461854] rounded-full px-8 py-2.5 text-center transition-all ease-linear duration-100 inline-block no-underline {showMenu -->
+		<!-- 		? 'pt-5' -->
+		<!-- 		: ''}" -->
+		<!-- 	href="/newsletter" -->
+		<!-- 	on:click={navBarItemClicked}>NEWSLETTERS</a -->
+		<!-- > -->
 		<a
 			class="text-lg text-[#643572] hover:text-white hover:bg-[#461854] rounded-full px-8 py-2.5 text-center transition-all ease-linear duration-100 inline-block no-underline {showMenu
 				? 'pt-5'
 				: ''}"
 			href="/members"
-			on:click={navBarItemClicked}>MEMBERS</a
+			on:click={navBarItemClicked}>THE SECRETARIAT</a
 		>
-		<a
-			class=" text-lg text-[#643572] hover:text-white hover:bg-[#461854] rounded-full px-8 py-2.5 text-center transition-all ease-linear duration-100 inline-block no-underline {showMenu
-				? 'pt-5'
-				: ''}"
-			href="/events"
-			on:click={navBarItemClicked}>EVENTS</a
-		>
+		<!-- REMOVED FOR UNICON -->
+		<!-- <a -->
+		<!-- 	class=" text-lg text-[#643572] hover:text-white hover:bg-[#461854] rounded-full px-8 py-2.5 text-center transition-all ease-linear duration-100 inline-block no-underline {showMenu -->
+		<!-- 		? 'pt-5' -->
+		<!-- 		: ''}" -->
+		<!-- 	href="/events" -->
+		<!-- 	on:click={navBarItemClicked}>EVENTS</a -->
+		<!-- > -->
 		<a
 			class="text-lg text-[#643572] hover:text-white hover:bg-[#461854] rounded-full px-8 py-2.5 text-center transition-all ease-linear duration-100 inline-block no-underline {showMenu
 				? 'pt-5'
