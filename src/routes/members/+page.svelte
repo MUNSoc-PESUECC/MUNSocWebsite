@@ -3,91 +3,96 @@
 
 	const coreMembers = [
 		{
-			Name: 'Abhiram Dasika',
-			Role: 'President',
+			Name: 'Abhiram Gopala Dasika',
+			Role: 'Secretary General',
 			Photo: 'https://i.imgur.com/SdChrcL.png'
 		},
 		{
 			Name: 'Harsh Somvanshi',
-			Role: 'President',
+			Role: 'Director General',
 			Photo: 'https://i.imgur.com/YFnnr3q.png'
 		},
 		{
 			Name: 'Hemanth V',
-			Role: 'Head Of Events',
+			Role: 'Charge D’affaires',
 			Photo: 'https://i.imgur.com/ECFqzKF.png'
 		},
 		{
-			Name: 'Divyansh Vinayak',
-			Role: 'Head Of Events',
-			Photo: 'https://i.imgur.com/sLjEDXL.png'
-		},
-		{
 			Name: 'Sukruthi Sanampudi',
-			Role: 'Head Of Operations',
+			Role: 'Undersecretary General - Delegate Affairs',
 			Photo: 'https://i.imgur.com/4r2a1eR.png'
 		},
 		{
+			Name: 'Nikhil Girish',
+			Role: 'Undersecretary General - Outreach',
+			Photo:''
+		},
+		{
 			Name: 'Srinivaasan N S',
-			Role: 'Head Of Finance',
+			Role: 'Undersecretary General - Finance',
 			Photo: 'https://i.imgur.com/P6MnSpZ.png'
 		},
 		{
-			Name: 'Garima Bajpayi',
-			Role: 'Head Of Marketing',
-			Photo: 'https://i.imgur.com/Jeh5Bwj.png'
+			Name: 'Divyansh Vinayak',
+			Role: 'Undersecretary General- Logistics ',
+			Photo: 'https://i.imgur.com/sLjEDXL.png'
 		},
-		{
-			Name: 'Sphurthi Yandamuri',
-			Role: 'Head Of Social Media',
-			Photo: 'https://i.imgur.com/HauEJy7.png'
-		},
-		{
-			Name: 'Disha Kiran',
-			Role: 'Editor-In-Chief',
-			Photo: 'https://i.imgur.com/M9SIPEY.png'
-		},
-		{
-			Name: 'Avani Dhagam',
-			Role: 'Membership Chair',
-			Photo: 'https://i.imgur.com/PBFX060.jpg'
-		},
-		{
-			Name: 'Anurag G',
-			Role: 'Training And Development',
-			Photo: 'https://i.imgur.com/HfP0Lv4.png'
-		},
-		{
-			Name: 'Babu B',
-			Role: 'Training And Development',
-			Photo: 'https://i.imgur.com/mEblgB7.png'
-		},
-		{
-			Name: 'Shreyas',
-			Role: 'Head Of Design',
-			Photo: 'https://i.imgur.com/p92FAuC.png'
-		},
-		{
-			Name: 'Sarthak S Kumar',
-			Role: 'Head Of Design',
-			Photo: 'https://i.imgur.com/jGBAj5K.png'
-		},
-		{
-			Name: 'Jova Varghese',
-			Role: 'Content Designer',
-			Photo: ' https://i.imgur.com/X5YW6yg.png'
-		},
-		{
-			Name: 'Shreya Gurram',
-			Role: 'Web Developer',
-			Photo:
-				'https://cdn.discordapp.com/attachments/1070378486256124036/1202122131639640064/IMG_20231123_132144_281.jpg'
-		},
-		{
-			Name: 'Anurag Rao',
-			Role: 'Head of Website Development',
-			Photo: 'https://i.imgur.com/VI6ZUhJ.png'
-		}
+		// {
+		// 	Name: 'Garima Bajpayi',
+		// 	Role: 'Head Of Marketing',
+		// 	Photo: 'https://i.imgur.com/Jeh5Bwj.png'
+		// },
+		// {
+		// 	Name: 'Sphurthi Yandamuri',
+		// 	Role: 'Head Of Social Media',
+		// 	Photo: 'https://i.imgur.com/HauEJy7.png'
+		// },
+		// {
+		// 	Name: 'Disha Kiran',
+		// 	Role: 'Editor-In-Chief',
+		// 	Photo: 'https://i.imgur.com/M9SIPEY.png'
+		// },
+		// {
+		// 	Name: 'Avani Dhagam',
+		// 	Role: 'Membership Chair',
+		// 	Photo: 'https://i.imgur.com/PBFX060.jpg'
+		// },
+		// {
+		// 	Name: 'Anurag G',
+		// 	Role: 'Training And Development',
+		// 	Photo: 'https://i.imgur.com/HfP0Lv4.png'
+		// },
+		// {
+		// 	Name: 'Babu B',
+		// 	Role: 'Training And Development',
+		// 	Photo: 'https://i.imgur.com/mEblgB7.png'
+		// },
+		// {
+		// 	Name: 'Shreyas',
+		// 	Role: 'Head Of Design',
+		// 	Photo: 'https://i.imgur.com/p92FAuC.png'
+		// },
+		// {
+		// 	Name: 'Sarthak S Kumar',
+		// 	Role: 'Head Of Design',
+		// 	Photo: 'https://i.imgur.com/jGBAj5K.png'
+		// },
+		// {
+		// 	Name: 'Jova Varghese',
+		// 	Role: 'Content Designer',
+		// 	Photo: ' https://i.imgur.com/X5YW6yg.png'
+		// },
+		// {
+		// 	Name: 'Shreya Gurram',
+		// 	Role: 'Web Developer',
+		// 	Photo:
+		// 		'https://cdn.discordapp.com/attachments/1070378486256124036/1202122131639640064/IMG_20231123_132144_281.jpg'
+		// },
+		// {
+		// 	Name: 'Anurag Rao',
+		// 	Role: 'Head of Website Development',
+		// 	Photo: 'https://i.imgur.com/VI6ZUhJ.png'
+		// }
 	];
 
 	function changeImage(id, src) {
