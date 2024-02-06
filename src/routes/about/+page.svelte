@@ -19,12 +19,12 @@
 	<title>MUNSoc PESU-ECC | ABOUT</title>
 	<body class="bg-body-slate prose prose-invert min-h-screen">
 		<h1 class="p-10 text-center">About Us</h1>
-		<h4 class="md:pr-32 md:pl-32 pr-10 pl-10 font-normal text-black">
+		<h4 class="md:pr-32 md:pl-32 pr-10 pl-10 font-normal text-black lg:text-lg">
 			MUNSoc PESU-ECC was established in 2019, by Ashwathi Jayakumar and Akshaya Visvanathan, who
 			had noticed the lack of any kinds of debating or diplomatic clubs on campus. Since then, we
 			have established ourselves as one of the most happening and reputed club on the campus.
 		</h4>
-		<h4 class="pt-10 pb-10 md:pr-32 md:pl-32 pr-10 pl-10 font-normal text-black">
+		<h4 class="pt-10 pb-10 md:pr-32 md:pl-32 pr-10 pl-10 font-normal text-black lg:text-lg">
 			In 2021, the MUNSoc legacy was passed on to two very highly accomplished students, Anurag G
 			and Anirudh Rowjee, the first few people to be recruited into the club as members and bringing
 			awards home for the club. Under their leadership, our members have won awards and accolades in

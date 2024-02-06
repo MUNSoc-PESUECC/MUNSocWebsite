@@ -26,6 +26,7 @@
 	href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&display=swap"
 	rel="stylesheet"
 />
+<meta name="darkreader-lock" />
 
 <nav
 	class="lg:pl-5 lg:pr-5 bg-navbar-slate max-w-screen {$page.url.pathname == '/thankyou'
@@ -81,10 +82,21 @@
 		<a
 			class="text-lg text-white bg-[#461854] rounded-full mx-8 px-8 py-2.5 text-center transition-all ease-linear duration-100 inline-block no-underline {showMenu
 				? 'mt-5'
-				: ''} {$page.url.pathname == '/' ? 'hidden' : ''}"
+				: ''} {['/posts', '/secretariat', '/about', '/accommodation'].includes($page.url.pathname)
+				? ''
+				: 'hidden'}"
 			href="/"
 			on:click={navBarItemClicked}>UNICON</a
 		>
+
+		<a
+			class="text-lg text-[#643572] hover:text-white hover:bg-[#461854] rounded-full px-8 py-2.5 text-center transition-all ease-linear duration-100 inline-block no-underline {showMenu
+				? 'pt-5'
+				: ''}"
+			href="/accommodation"
+			on:click={navBarItemClicked}>UNICON ACCOMMODATION</a
+		>
+
 		<a
 			class="text-lg text-[#643572] hover:text-white hover:bg-[#461854] rounded-full px-8 py-2.5 text-center transition-all ease-linear duration-100 inline-block no-underline {showMenu
 				? 'pt-5'
@@ -105,7 +117,7 @@
 			class="text-lg text-[#643572] hover:text-white hover:bg-[#461854] rounded-full px-8 py-2.5 text-center transition-all ease-linear duration-100 inline-block no-underline {showMenu
 				? 'pt-5'
 				: ''}"
-			href="/members"
+			href="/secretariat"
 			on:click={navBarItemClicked}>THE SECRETARIAT</a
 		>
 		<!-- REMOVED FOR UNICON -->

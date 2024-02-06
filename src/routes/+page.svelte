@@ -13,7 +13,7 @@
 				<div class="flex items-center justify-center">
 					<div class="vertical grid justify-items-center lg:justify-items-start">
 						<img
-							class="logo h-20 lg:h-28 w-autom lg:ml-1 mb-10"
+							class="logo h-20 mt-5 lg:mt-0 lg:h-28 w-autom lg:ml-1 mb-10"
 							src="images/logo.png"
 							alt="munsoc logo"
 						/>
@@ -29,7 +29,7 @@
 							on:keydown={() => window.open('https://www.instagram.com/munsoc.pesuecc/', '_blank')}
 						/>
 						<a
-							class="text-lg text-white bg-[#461854] rounded-full mx-8 lg:mx-0 px-8 py-2.5 text-center transition-all ease-linear duration-100 inline-block no-underline"
+							class="text-lg text-white bg-[#461854] rounded-full mx-8 lg:mx-0 px-8 py-2.5 my-4 text-center transition-all ease-linear duration-100 inline-block no-underline"
 							href="/register">REGISTER</a
 						>
 					</div>
