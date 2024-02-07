@@ -31,7 +31,7 @@
 			a number of distinguished intercollegiate MUNs.
 		</h4>
 		<hr class="ml-10 mr-10 bg-munsoc-purple" />
-		<h1>Awards</h1>
+		<h1 class="text-center">Awards</h1>
 		<div class="wrapper">
 			{#each data.awards as award}
 				<div class="card md:ml-10 md:mr-10 ml-5 mr-5 rounded-md inline-block bg-munsoc-alabaster">
