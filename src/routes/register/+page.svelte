@@ -1,3 +1,7 @@
+<script>
+	const LOKSABHA_ENABLE = false; // change this to true when you want to enable lok sabha
+</script>
+
 <main class="min-h-screen">
 	<body class="bg-body-slate min-h-screen">
 		<div class="heading flex flex-col justify-center items-center lg:mt-6 m-4">
@@ -5,6 +9,10 @@
 				Select Committee
 			</h1>
 			<div><img class="h-10" src="/images/line.png" alt="line" /></div>
+			<a
+				class="lg:m-4 text-2xl lg:text-3xl text-white bg-[#461854] rounded-full lg:mx-8 lg:px-8 px-4 py-2.5 text-center transition-all ease-linear duration-100 inline-block no-underline"
+				href={'https://pages.razorpay.com/UniCon2024-Delegation'}>Register as a Delegation</a
+			>
 		</div>
 		<div class="flex justify-center items-center mb-24 p-4 h-full">
 			<div class="wrapper min-h-[80vh] justify-items-center">
@@ -39,14 +47,23 @@
 						alt="Historical Crisis Committee"
 					/>
 				</a>
-
-				<a href="/register/LokSabha">
-					<img
-						class="max-h-[40vh] card mb-1 rounded-xl lg:rounded-none lg:mr-1"
-						src="images/4.jpg"
-						alt="Lok Sabha"
-					/>
-				</a>
+				{#if LOKSABHA_ENABLE}
+					<a href="/register/LokSabha">
+						<img
+							class="max-h-[40vh] card mb-1 rounded-xl lg:rounded-none lg:mr-1"
+							src="images/4.jpg"
+							alt="Lok Sabha"
+						/>
+					</a>
+				{:else}
+					<div class="disabled-card">
+						<img
+							class="max-h-[40vh] card mb-1 rounded-xl lg:rounded-none lg:mr-1"
+							src="images/4.jpg"
+							alt="Lok Sabha"
+						/>
+					</div>
+				{/if}
 
 				<a href="/register/IPC">
 					<img
@@ -104,5 +121,11 @@
 	}
 	.font-le-jour-serif {
 		font-family: Le Jour Serif;
+	}
+
+	.disabled-card {
+		opacity: 0.5;
+		filter: grayscale(70%);
+		cursor: not-allowed;
 	}
 </style>
