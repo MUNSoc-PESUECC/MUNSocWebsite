@@ -25,8 +25,7 @@
 		{
 			Name: 'Nikhil Girish',
 			Role: 'Undersecretary General - Outreach',
-			Photo:
-				'https://cdn.discordapp.com/attachments/1080892669313699881/1204470879489228820/lovelypicture.png'
+			Photo: 'https://i.imgur.com/5GSOHXn.png'
 		},
 		{
 			Name: 'Srinivaasan N S',

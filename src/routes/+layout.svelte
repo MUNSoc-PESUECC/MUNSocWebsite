@@ -29,7 +29,7 @@
 <meta name="darkreader-lock" />
 
 <nav
-	class="lg:pl-5 lg:pr-5 bg-navbar-slate max-w-screen {$page.url.pathname == '/thankyou'
+	class="lg:pl-5 lg:pr-5 bg-body-slate max-w-screen {$page.url.pathname == '/thankyou'
 		? 'hidden'
 		: 'lg:flex lg:justify-between lg:items-center'} border-b border-b-munsoc-purple"
 >

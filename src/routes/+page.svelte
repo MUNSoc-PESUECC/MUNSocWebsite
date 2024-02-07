@@ -5,7 +5,7 @@
 <svelte:window bind:innerWidth />
 
 <main>
-	<body class="bg-[#F1EDE7] mb-5 lg:mb-20">
+	<body class="bg-body-slate mb-5 lg:mb-20">
 		<div class="heroSection h-full flex flex-col justify-end mt-2 lg:mt-8">
 			<div
 				class="wrapper grid grid-cols-1 lg:grid-cols-3 justify-items-stretch lg:ml-16 lg:mr-16 lg:border border-munsoc-purple"
