@@ -1,5 +1,6 @@
 <script>
 	//@ts-nocheck
+
 	import { page } from '$app/stores';
 	const logoAddress = '/images/logo.png';
 	let showMenu = false;
@@ -12,9 +13,12 @@
 			toggleNavbar();
 		}
 	}
-
+	let innerWidth;
 	import '../app.postcss';
 </script>
+
+
+<svelte:window bind:innerWidth />
 
 <link
 	rel="stylesheet"
@@ -31,7 +35,7 @@
 <nav
 	class="lg:pl-5 lg:pr-5 bg-body-slate max-w-screen {$page.url.pathname == '/thankyou'
 		? 'hidden'
-		: 'lg:flex lg:justify-between lg:items-center'} border-b border-b-munsoc-purple"
+		: 'lg:flex lg:justify-between lg:items-center'}"
 >
 	<div class="flex items-center justify-between">
 		<a class="" href="/">
@@ -89,13 +93,6 @@
 			on:click={navBarItemClicked}>UNICON</a
 		>
 
-		<a
-			class="text-lg text-[#643572] hover:text-white hover:bg-[#461854] rounded-full px-8 py-2.5 text-center transition-all ease-linear duration-100 inline-block no-underline {showMenu
-				? 'pt-5'
-				: ''}"
-			href="/accommodation"
-			on:click={navBarItemClicked}>UNICON ACCOMMODATION</a
-		>
 
 		<a
 			class="text-lg text-[#643572] hover:text-white hover:bg-[#461854] rounded-full px-8 py-2.5 text-center transition-all ease-linear duration-100 inline-block no-underline {showMenu
@@ -138,6 +135,10 @@
 	</div>
 </nav>
 
+<div class="bottom-long-line">
+	<img src={innerWidth >= 1024 ? "/images/longiLine.svg" : "/images/line.png"} alt="divider" class="w-full p-5 lg:p-0">
+</div>
+
 <slot />
 
 <footer
@@ -173,6 +174,7 @@
 <style>
 	:root {
 		font-family: 'Lato', sans-serif;
+		background-color: #f1ede7;
 	}
 
 	footer {

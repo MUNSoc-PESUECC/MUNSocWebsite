@@ -18,20 +18,39 @@
 <main>
 	<title>MUNSoc PESU-ECC | ABOUT</title>
 	<body class="bg-body-slate prose prose-invert min-h-screen">
-		<h1 class="p-10 text-center">About Us</h1>
-		<h4 class="md:pr-32 md:pl-32 pr-10 pl-10 font-normal text-black lg:text-lg">
-			MUNSoc PESU-ECC was established in 2019, by Ashwathi Jayakumar and Akshaya Visvanathan, who
-			had noticed the lack of any kinds of debating or diplomatic clubs on campus. Since then, we
-			have established ourselves as one of the most happening and reputed club on the campus.
+		<h1 class="p-6 text-center">About Us</h1>
+		<h4 class="md:pr-32 md:pl-32 pr-10 pl-10 mb-6 font-normal text-black lg:text-lg">
+			UniCon is the inaugural Model United Nations Conference hosted by MUNSoc PESUECC. We are
+			dedicated to paving the way for the leaders of tomorrow, empowering them to navigate the
+			complexities of our ever-evolving world.
 		</h4>
-		<h4 class="pt-10 pb-10 md:pr-32 md:pl-32 pr-10 pl-10 font-normal text-black lg:text-lg">
-			In 2021, the MUNSoc legacy was passed on to two very highly accomplished students, Anurag G
-			and Anirudh Rowjee, the first few people to be recruited into the club as members and bringing
-			awards home for the club. Under their leadership, our members have won awards and accolades in
-			a number of distinguished intercollegiate MUNs.
+		<h4 class="md:pr-32 md:pl-32 pr-10 pl-10 mb-6 font-normal text-black lg:text-lg">
+			Since its foundation in 2019, MUNSoc PESU-ECC has grown into a well established and reputed
+			organisation within the MUN circuit. With a remarkable track record of success, the society
+			has maintained an impressive placement record at the inter-collegiate level and aims to reach
+			greater heights in the years to come.
+		</h4>
+		<h4 class="md:pr-32 md:pl-32 pr-10 pl-10 mb-6 font-normal text-black lg:text-lg">
+			UniCon heralds the debut of our society’s efforts at such a level, welcoming hundreds of
+			delegates across 6 committees to engage with pertinent agendas. Guided by an outstanding
+			Executive Board, our conference prioritizes fair and meaningful deliberation.
+		</h4>
+		<h4 class="md:pr-32 md:pl-32 pr-10 pl-10 mb-6 font-normal text-black lg:text-lg">
+			To represent all the values that UniCon stands for, we have chosen the Triskele, a Celtic
+			symbol that holds profound significance. This emblem embodies the constant evolution and the
+			transformative nature of existence; it’s dynamic spirals reflecting the journey of
+			development, strength and progress.
+		</h4>
+		<h4 class="md:pr-32 md:pl-32 pr-10 pl-10 mb-6 font-normal text-black lg:text-lg">
+			We hope that these values pervade all levels of our conference, and provide an exceptional and
+			well rounded experience.
+		</h4>
+		<h4 class="md:pr-32 md:pl-32 pr-10 pl-10 mb-6 font-normal text-black lg:text-lg">
+			On that note, Team UniCon cordially invites you to participate, engage in discourse, and
+			collaborate to craft solutions that leave an enduring imprint on tomorrow.
 		</h4>
 		<hr class="ml-10 mr-10 bg-munsoc-purple" />
-		<h1 class="text-center">Awards</h1>
+		<h1 class="text-center mb-10">Awards</h1>
 		<div class="wrapper">
 			{#each data.awards as award}
 				<div class="card md:ml-10 md:mr-10 ml-5 mr-5 rounded-md inline-block bg-munsoc-alabaster">
