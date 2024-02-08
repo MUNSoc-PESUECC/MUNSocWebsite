@@ -142,7 +142,7 @@
 		>
 		<a
 			class="lg:m-2 text-2xl lg:text-3xl text-white bg-[#461854] rounded-full my-3 lg:mx-8 lg:px-8 px-4 py-2.5 text-center transition-all ease-linear duration-100 inline-block no-underline"
-			href={'https://pages.razorpay.com/UniCon2024-' + data.redirect}>Register as Delegate</a
+			href={'https://pages.razorpay.com/UniCon2024-' + data.redirect}>Register as {data.redirect == 'Delegation' ? 'Delegation' : 'Delegate'}</a
 		>
 	</div>
 </main>
