@@ -17,7 +17,6 @@
 	import '../app.postcss';
 </script>
 
-
 <svelte:window bind:innerWidth />
 
 <link
@@ -93,7 +92,6 @@
 			on:click={navBarItemClicked}>UNICON</a
 		>
 
-
 		<a
 			class="text-lg text-[#643572] hover:text-white hover:bg-[#461854] rounded-full px-8 py-2.5 text-center transition-all ease-linear duration-100 inline-block no-underline {showMenu
 				? 'pt-5'
@@ -136,7 +134,11 @@
 </nav>
 
 <div class="bottom-long-line">
-	<img src={innerWidth >= 1024 ? "/images/longiLine.svg" : "/images/line.png"} alt="divider" class="w-full p-5 lg:p-0">
+	<img
+		src={innerWidth >= 1024 ? '/images/longiLine.svg' : '/images/line.png'}
+		alt="divider"
+		class="w-full p-5 lg:p-0"
+	/>
 </div>
 
 <slot />
