@@ -117,7 +117,7 @@
 			{#each coreMembers as person}
 				<div class="card ml-5 mr-5 rounded-md inline-block bg-munsoc-alabaster">
 					<div class="flex justify-center">
-						{#if person.Name == 'Abhiram Dasika'}
+						{#if person.Name == 'Abhiram Gopala Dasika'}
 							<img
 								src={person.Photo}
 								id={person.Name}

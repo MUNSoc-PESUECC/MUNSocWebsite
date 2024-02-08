@@ -13,9 +13,9 @@
 				<div class="flex items-center justify-center">
 					<div class="vertical grid justify-items-center lg:justify-items-start">
 						<img
-							class="logo h-20 mt-5 lg:mt-0 lg:h-28 w-autom lg:ml-1 mb-10"
-							src="images/logo.png"
-							alt="munsoc logo"
+							class="logo h-24 mt-5 lg:mt-0 lg:h-32 w-autom lg:ml-1 mb-6"
+							src="images/UniConLogo.png"
+							alt="unicon logo"
 						/>
 						<div class="text-5xl lg:text-8xl text-munsoc-purple font-le-jour-serif ml-1">
 							UNICON
@@ -37,7 +37,9 @@
 
 				<div class="col-span-2 w-full h-full flex justify-end">
 					<img
-						src={innerWidth >= 1024 ? 'images/landingBg.png' : 'images/landingBgMobile.png'}
+						src={innerWidth >= 1024
+							? 'images/landingBgWithDude.png'
+							: 'images/landingBgMobileWithDude.png'}
 						class="lg:max-w-full w-screen h-auto"
 						alt="landing-bg"
 						on:click={() => window.open('https://www.instagram.com/munsoc.pesuecc/', '_blank')}
@@ -45,6 +47,20 @@
 					/>
 				</div>
 			</div>
+		</div>
+		<div class="three-buttons flex flex-wrap items-center justify-around mt-10">
+			<a
+				class="m-4 lg:m-2 text-2xl lg:text-3xl text-white bg-[#461854] rounded-full lg:mx-8 lg:px-8 px-4 py-2.5 text-center transition-all ease-linear duration-100 inline-block no-underline"
+				href="/accommodation">Accommodation</a
+			>
+			<a
+				class="m-4 lg:m-2 text-2xl lg:text-3xl text-white bg-[#696969] cursor-not-allowed rounded-full lg:mx-8 lg:px-8 px-4 py-2.5 text-center transition-all ease-linear duration-100 inline-block no-underline"
+				href="/">Guidelines</a
+			>
+			<!-- <a
+				class="m-4 lg:m-2 text-2xl lg:text-3xl text-white bg-[#461854] rounded-full lg:mx-8 lg:px-8 px-4 py-2.5 text-center transition-all ease-linear duration-100 inline-block no-underline"
+				href="/">Unga Bunga</a
+			> -->
 		</div>
 	</body>
 </main>
