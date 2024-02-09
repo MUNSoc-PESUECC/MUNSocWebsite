@@ -151,11 +151,11 @@
 						8. Once you've filled in the duplicated sheet, make it visible to everyone for viewing
 						and copy the link.
 					</h4>
-					<div class="font-extrabold">
-						9. UniCon 2024 mandates each delegation to have at least one delegate in each committee,
-						including IPC (International Press Corps). Failure to comply with this rule will result
-						in non-acceptance of the registration, and a refund will not be processed. Please
-						carefully consider this requirement and ensure that your delegation meets the committee
+					<div class="font-extrabold">9.UniCon 2024 mandates each delegation to have at least one 
+						delegate in each committee, including IPC (International Press Corps). Failure to
+						comply with this rule will result in non-acceptance of the delegation and all delegates
+						who have paid through said delegation will be considered individual delegates. Please 
+						carefully consider this requirement and ensure that your delegation meets the committee 
 						representation criteria before proceeding with the registration process.
 					</div>
 					<h4>10. Paste the link in the space provided on the Razorpay page.</h4>

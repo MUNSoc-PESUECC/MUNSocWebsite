@@ -35,7 +35,7 @@
 					non-acceptance of the registration, and a refund will not be processed. Please carefully
 					consider this requirement and ensure that your delegation meets the committee
 					representation criteria before proceeding with the registration process.
-                </div>
+				</div>
 				<h4>10. Paste the link in the space provided on the Razorpay page.</h4>
 				<h4>
 					11. Sum up the total number of delegates for whom you've filled in the details on the
@@ -72,5 +72,4 @@
 		font-weight: normal;
 		margin: 6px;
 	}
-	
 </style>
