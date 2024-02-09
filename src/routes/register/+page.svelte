@@ -1,5 +1,5 @@
 <script>
-	const LOKSABHA_ENABLE = false; // change this to true when you want to enable lok sabha
+	const LOKSABHA_ENABLE = true;
 	const UNSC_ENABLE = true;
 	const DISEC_ENABLE = true;
 	const HRC_ENABLE = true;
