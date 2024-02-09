@@ -1,6 +1,7 @@
 <script>
 	// @ts-nocheck
-	let LOKSABHA_AGENDA = 'To Be Announced';
+	let LOKSABHA_AGENDA =
+		'Discussion on the implications of implementing the Uniform Civil Code in India';
 	export let data;
 	let GIDs = {
 		DISEC: '78860240',
@@ -18,14 +19,14 @@
 		{data.redirect}
 	</div>
 	{#if data.redirect == 'DISEC'}
-		<div class="grid grid-cols-1 lg:grid-cols-3 ml-24 mr-24 justify-items-center">
+		<div class="grid grid-cols-1 lg:grid-cols-3 ml-12 mr-12 justify-items-center">
 			<img
 				class="max-h-[50vh] card mb-1 rounded-xl lg:rounded-none lg:mb-1 lg:mr-1"
 				src="/images/1.1.jpg"
 				alt="UNGA DISEC"
 			/>
 			<div
-				class="lg:col-span-2 flex flex-col justify-center items-center text-center text-xl text-munsoc-purple px-2 lg:px-10 uppercase"
+				class="lg:col-span-2 flex flex-col justify-center items-center text-center text-xl text-munsoc-purple lg:px-10"
 			>
 				<div
 					class="font-le-jour-serif text-munsoc-gold font-semibold m-3 mb-5 lg:text-5xl text-3xl"
@@ -37,14 +38,14 @@
 			</div>
 		</div>
 	{:else if data.redirect == 'UNSC'}
-		<div class="grid grid-cols-1 lg:grid-cols-3 ml-24 mr-24 justify-items-center">
+		<div class="grid grid-cols-1 lg:grid-cols-3 mx-12 justify-items-center">
 			<img
-				class="max-h-[40vh] card mb-1 rounded-xl lg:rounded-none lg:rounded-tl-lg lg:mb-1 lg:mr-1"
+				class="max-h-[50vh] card mb-1 rounded-xl lg:rounded-none lg:rounded-tl-lg lg:mb-1 lg:mr-1"
 				src="/images/0.1.jpg"
 				alt="UN Security Council"
 			/>
 			<div
-				class="col-span-2 flex flex-col justify-center items-center text-center text-xl text-munsoc-purple lg:px-10 uppercase"
+				class="col-span-2 flex flex-col justify-center items-center text-center text-xl text-munsoc-purple lg:px-10"
 			>
 				<div
 					class="font-le-jour-serif text-munsoc-gold font-semibold m-3 mb-5 lg:text-5xl text-3xl"
@@ -55,14 +56,14 @@
 			</div>
 		</div>
 	{:else if data.redirect == 'HRC'}
-		<div class="grid grid-cols-1 lg:grid-cols-3 ml-24 mr-24 justify-items-center">
+		<div class="grid grid-cols-1 lg:grid-cols-3 mx-12 justify-items-center">
 			<img
-				class="max-h-[40vh] card mb-1 rounded-xl lg:rounded-none lg:rounded-tr-lg lg:mb-1 lg:mr-1"
+				class="max-h-[50vh] card mb-1 rounded-xl lg:rounded-none lg:rounded-tr-lg lg:mb-1 lg:mr-1"
 				src="/images/2.1.jpg"
 				alt="Human Rights Council"
 			/>
 			<div
-				class="col-span-2 flex flex-col justify-center items-center text-center text-xl text-munsoc-purple lg:px-10 uppercase"
+				class="col-span-2 flex flex-col justify-center items-center text-center text-xl text-munsoc-purple lg:px-10"
 			>
 				<div
 					class="font-le-jour-serif text-munsoc-gold font-semibold m-3 mb-5 lg:text-5xl text-3xl"
@@ -74,14 +75,14 @@
 			</div>
 		</div>
 	{:else if data.redirect == 'HCC'}
-		<div class="grid grid-cols-1 lg:grid-cols-3 ml-24 mr-24 justify-items-center">
+		<div class="grid grid-cols-1 lg:grid-cols-3 mx-12 justify-items-center">
 			<img
-				class="max-h-[40vh] card mb-1 rounded-xl lg:rounded-none lg:rounded-bl-lg lg:mr-1"
+				class="max-h-[50vh] card mb-1 rounded-xl lg:rounded-none lg:rounded-bl-lg lg:mr-1"
 				src="/images/3.1.jpg"
 				alt="Historical Crisis Committee"
 			/>
 			<div
-				class="col-span-2 flex flex-col justify-center items-center text-center text-xl text-munsoc-purple lg:px-10 uppercase"
+				class="col-span-2 flex flex-col justify-center items-center text-center text-xl text-munsoc-purple lg:px-10"
 			>
 				<div
 					class="font-le-jour-serif text-munsoc-gold font-semibold m-3 mb-5 lg:text-5xl text-3xl"
@@ -92,14 +93,14 @@
 			</div>
 		</div>
 	{:else if data.redirect == 'LokSabha'}
-		<div class="grid grid-cols-1 lg:grid-cols-3 ml-24 mr-24 justify-items-center">
+		<div class="grid grid-cols-1 lg:grid-cols-3 mx-12 justify-items-center">
 			<img
-				class="max-h-[40vh] card mb-1 rounded-xl lg:rounded-none lg:mr-1"
+				class="max-h-[50vh] card mb-1 rounded-xl lg:rounded-none lg:mr-1"
 				src="/images/4.1.jpg"
 				alt="Lok Sabha"
 			/>
 			<div
-				class="col-span-2 flex flex-col justify-center items-center text-center text-xl text-munsoc-purple lg:px-10 uppercase"
+				class="col-span-2 flex flex-col justify-center items-center text-center text-xl text-munsoc-purple lg:px-10"
 			>
 				<div
 					class="font-le-jour-serif text-munsoc-gold font-semibold m-3 mb-5 lg:text-5xl text-3xl"
@@ -112,7 +113,7 @@
 	{:else if data.redirect == 'IPC'}
 		<div class="flex justify-center items-center">
 			<img
-				class="max-h-[40vh] card mb-1 rounded-xl lg:rounded-none lg:mr-1"
+				class="max-h-[50vh] card mb-1 rounded-xl lg:rounded-none lg:mr-1"
 				src="/images/5.1.jpg"
 				alt="IPC"
 			/>
