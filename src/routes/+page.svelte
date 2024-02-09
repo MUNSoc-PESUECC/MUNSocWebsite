@@ -54,8 +54,8 @@
 				href="/accommodation">Accommodation</a
 			>
 			<a
-				class="m-4 lg:m-2 text-2xl lg:text-3xl text-white bg-[#696969] cursor-not-allowed rounded-full lg:mx-8 lg:px-8 px-4 py-2.5 text-center transition-all ease-linear duration-100 inline-block no-underline"
-				href="/">Guidelines</a
+				class="m-4 lg:m-2 text-2xl lg:text-3xl text-white bg-[#461854] rounded-full lg:mx-8 lg:px-8 px-4 py-2.5 text-center transition-all ease-linear duration-100 inline-block no-underline"
+				href="/guidelines">Guidelines</a
 			>
 			<!-- <a
 				class="m-4 lg:m-2 text-2xl lg:text-3xl text-white bg-[#461854] rounded-full lg:mx-8 lg:px-8 px-4 py-2.5 text-center transition-all ease-linear duration-100 inline-block no-underline"
