@@ -141,34 +141,28 @@
 					</h4>
 					<h4>
 						6. Make a public view-only copy of the following sheet and fill in details of all
-						delegates: <a target="_blank"
-							href="https://docs.google.com/spreadsheets/d/1vDVAvyb0QXVt_tLh7jJWw-pkzaOxoYkbQC7ukxooWFY/edit?usp=sharing" 
-							> link here</a
+						delegates: <a
+							target="_blank"
+							href="https://docs.google.com/spreadsheets/d/1vDVAvyb0QXVt_tLh7jJWw-pkzaOxoYkbQC7ukxooWFY/edit?usp=sharing"
+							class="text-munsoc-purple"
+						>
+							link here</a
 						>. Submit the link to the filled sheet in the Razorpay page.
 					</h4>
-					<h4>
-						7. Duplicate the given sheet and complete the information for your delegation on each
-						committee's page.
-					</h4>
-					<h4>
-						8. Once you've filled in the duplicated sheet, make it visible to everyone for viewing
-						and copy the link.
-					</h4>
 					<div class="font-extrabold">
-						9. UniCon 2024 mandates each delegation to have at least 7 delegates. Failure to comply
+						7. UniCon 2024 mandates each delegation to have at least 7 delegates. Failure to comply
 						with this rule will result in non-acceptance of the delegation and all delegates who
 						have paid through said delegation will be considered individual delegates. Please
 						carefully consider this requirement and ensure that your delegation meets the committee
 						representation criteria before proceeding with the registration process.
 					</div>
-					<h4>10. Paste the link in the space provided on the Razorpay page.</h4>
 					<h4>
-						11. Sum up the total number of delegates for whom you've filled in the details on the
+						8. Sum up the total number of delegates for whom you've filled in the details on the
 						sheet. Enter this count as the number of delegates you are paying for.
 					</h4>
-					<h4>12. Click "Pay" and proceed to the payment.</h4>
+					<h4>9. Click "Pay" and proceed to the payment.</h4>
 					<h4>
-						13. After the payment is successful, you will receive a confirmation email from
+						10. After the payment is successful, you will receive a confirmation email from
 						Razorpay.
 					</h4>
 					<p>
@@ -191,7 +185,8 @@
 		>
 		<a
 			class="lg:m-2 text-2xl lg:text-3xl text-white bg-[#461854] rounded-full my-3 lg:mx-8 lg:px-8 px-4 py-2.5 text-center transition-all ease-linear duration-100 inline-block no-underline"
-			href={'https://pages.razorpay.com/UniCon2024-' + data.redirect}
+			href={'https://pages.razorpay.com/UniCon2024-' +
+				(data.redirect == 'Delegation' ? 'Delegation' : 'Delegate')}
 			>Register as {data.redirect == 'Delegation' ? 'Delegation' : 'Delegate'}</a
 		>
 	</div>
