@@ -140,8 +140,11 @@
 						consult with your delegation to finalize preferred allocation requests.
 					</h4>
 					<h4>
-						6. Access the Google Sheet in the Payment Details tab questions provided on the Razorpay
-						page.
+						6. Make a public view-only copy of the following sheet and fill in details of all
+						delegates: <a target="_blank"
+							href="https://docs.google.com/spreadsheets/d/1vDVAvyb0QXVt_tLh7jJWw-pkzaOxoYkbQC7ukxooWFY/edit?usp=sharing" 
+							> link here</a
+						>. Submit the link to the filled sheet in the Razorpay page.
 					</h4>
 					<h4>
 						7. Duplicate the given sheet and complete the information for your delegation on each
@@ -151,11 +154,11 @@
 						8. Once you've filled in the duplicated sheet, make it visible to everyone for viewing
 						and copy the link.
 					</h4>
-					<div class="font-extrabold">9.UniCon 2024 mandates each delegation to have at least one 
-						delegate in each committee, including IPC (International Press Corps). Failure to
-						comply with this rule will result in non-acceptance of the delegation and all delegates
-						who have paid through said delegation will be considered individual delegates. Please 
-						carefully consider this requirement and ensure that your delegation meets the committee 
+					<div class="font-extrabold">
+						9. UniCon 2024 mandates each delegation to have at least 7 delegates. Failure to comply
+						with this rule will result in non-acceptance of the delegation and all delegates who
+						have paid through said delegation will be considered individual delegates. Please
+						carefully consider this requirement and ensure that your delegation meets the committee
 						representation criteria before proceeding with the registration process.
 					</div>
 					<h4>10. Paste the link in the space provided on the Razorpay page.</h4>
