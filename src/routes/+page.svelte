@@ -28,9 +28,17 @@
 							on:click={() => window.open('https://www.instagram.com/munsoc.pesuecc/', '_blank')}
 							on:keydown={() => window.open('https://www.instagram.com/munsoc.pesuecc/', '_blank')}
 						/>
+						<!-- <a -->
+						<!-- 	class="text-lg text-white bg-[#461854] rounded-full mx-8 lg:mx-0 px-8 py-2.5 my-4 text-center transition-all ease-linear duration-100 inline-block no-underline" -->
+						<!-- 	href="/register">REGISTER</a -->
+						<!-- > -->
+						<!-- <a -->
+						<!-- 	class="text-lg text-white bg-[#461854] rounded-full mx-8 lg:mx-0 px-8 py-2.5 my-1 text-center transition-all ease-linear duration-100 inline-block no-underline" -->
+						<!-- 	href="/accommodation">ACCOMMODATION</a -->
+						<!-- > -->
 						<a
-							class="text-lg text-white bg-[#461854] rounded-full mx-8 lg:mx-0 px-8 py-2.5 my-4 text-center transition-all ease-linear duration-100 inline-block no-underline"
-							href="/register">REGISTER</a
+							class="text-lg text-white bg-[#461854] rounded-full mx-8 lg:mx-0 px-8 py-2.5 my-1 text-center transition-all ease-linear duration-100 inline-block no-underline"
+							href="/unicon-info">CONFERENCE INFORMATION</a
 						>
 					</div>
 				</div>
@@ -49,13 +57,13 @@
 			</div>
 		</div>
 		<div class="three-buttons flex flex-wrap items-center justify-around mt-10">
-			<a
-				class="m-4 lg:m-2 text-2xl lg:text-3xl text-white bg-[#461854] rounded-full lg:mx-8 lg:px-8 px-4 py-2.5 text-center transition-all ease-linear duration-100 inline-block no-underline"
-				href="/accommodation">Accommodation</a
-			>
 			<!-- <a -->
-			<!-- 	class="m-4 lg:m-2 text-2xl lg:text-3xl text-white bg-[#696969] cursor-not-allowed rounded-full lg:mx-8 lg:px-8 px-4 py-2.5 text-center transition-all ease-linear duration-100 inline-block no-underline" -->
-			<!-- 	href="/">Guidelines</a -->
+			<!-- 	class="m-4 lg:m-2 text-2xl lg:text-3xl text-white bg-[#461854] rounded-full lg:mx-8 lg:px-8 px-4 py-2.5 text-center transition-all ease-linear duration-100 inline-block no-underline" -->
+			<!-- 	href="/accommodation">Accommodation</a -->
+			<!-- > -->
+			<!-- <a -->
+			<!-- 	class="m-4 lg:m-2 text-2xl lg:text-3xl text-white bg-[#461854] rounded-full lg:mx-8 lg:px-8 px-4 py-2.5 text-center transition-all ease-linear duration-100 inline-block no-underline" -->
+			<!-- 	href="/unicon-info">Itinerary & Guides</a -->
 			<!-- > -->
 			<!-- <a
 				class="m-4 lg:m-2 text-2xl lg:text-3xl text-white bg-[#461854] rounded-full lg:mx-8 lg:px-8 px-4 py-2.5 text-center transition-all ease-linear duration-100 inline-block no-underline"
