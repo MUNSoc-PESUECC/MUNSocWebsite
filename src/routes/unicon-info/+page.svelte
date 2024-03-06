@@ -1,7 +1,7 @@
 <main>
 	<body class="bg-body-slate prose prose-invert">
 		<div class="flex flex-col justify-center items-center text-xl lg:px-10">
-			<div class="font-le-jour-serif text-munsoc-purple m-4 lg:text-6xl text-3xl">Itenerary</div>
+			<div class="font-le-jour-serif text-munsoc-purple m-4 lg:text-6xl text-3xl">Itinerary</div>
 			<div
 				class="m-4 px-10 lg:px-4 text-munsoc-purple prose flex flex-col lg:flex-row justify-center lg:justify-around w-full text-center lg:text-left"
 			>
@@ -51,7 +51,7 @@
 			</ul>
 		</div>
 
-		<div class="flex justify-evenly items-center">
+		<div class="flex justify-evenly items-center m-4">
 			<a
 				class="lg:m-4 text-white bg-[#461854] rounded-full lg:mx-8 lg:px-8 px-4 py-2.5 text-center transition-all ease-linear duration-100 inline-block no-underline"
 				href={'https://drive.google.com/file/d/1PdjDYmCancZAJeRrSiKmCOWVXYH4qGoY/view?usp=sharing'}
