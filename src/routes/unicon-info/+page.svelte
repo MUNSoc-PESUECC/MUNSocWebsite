@@ -10,7 +10,7 @@
 					<ol>
 						<li>8:30 am: Registration Desk Opens</li>
 						<li>9:00 am: Opening Ceremony</li>
-						<li>10:00 am: Committee Session 1</li>
+						<li>10:30 am: Committee Session 1</li>
 						<li>12:00 noon: Lunch</li>
 						<li>1:15 PM: Committee Session 2</li>
 						<li>3:45 PM: Tea Break</li>
@@ -24,11 +24,10 @@
 					<ol>
 						<li>8:30 AM: Security Check</li>
 						<li>9:00 AM: Committee Session 1</li>
-						<li>10:25 AM: Short Break</li>
-						<li>10:35 AM: Committee Session 2</li>
 						<li>12:00 Noon: Lunch</li>
-						<li>1:15 PM: Committee Session 3</li>
-						<li>4:15 PM: Tea Break</li>
+						<li>1:15 PM: Committee Session 2</li>
+						<li>3:30 PM: Tea Break</li>
+						<li>3:45 PM: Committee Session 3</li>
 						<li>4:45 PM: Awards Ceremony</li>
 						<li>6:00 PM: End of Conference</li>
 					</ol>
