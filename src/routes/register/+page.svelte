@@ -1,10 +1,20 @@
 <script>
-	const LOKSABHA_ENABLE = true;
-	const UNSC_ENABLE = true;
-	const DISEC_ENABLE = true;
-	const HRC_ENABLE = true;
-	const HCC_ENABLE = true;
-	const IPC_ENABLE = true;
+	//import { div } from "three/tsl";
+
+	//const LOKSABHA_ENABLE = false;
+	//const HRC_ENABLE = false;
+	//const HCC_ENABLE = false;
+	
+	// 2025 Committees
+	
+	const UNSC_ENABLE = true; 
+	const DISEC_ENABLE = true; 
+	const IPC_ENABLE = true;   
+	const JCC_ENABLE = true;
+	const AIPPM_ENABLE = true;
+	const UNHRC_ENABLE = true;
+	const UNODC_ENABLE = true;
+
 </script>
 
 <main class="min-h-screen">
@@ -18,7 +28,7 @@
 				href={'/register/Delegation'}>Register as a Delegation</a
 			>
 		</div>
-		<div class="flex justify-center items-center mb-24 p-4 h-full">
+		<!-- <div class="flex justify-center items-center mb-24 p-4 h-full">
 			<div class="wrapper min-h-[80vh] justify-items-center">
 				{#if UNSC_ENABLE}
 					<a href="/register/UNSC">
@@ -122,6 +132,152 @@
 							alt="International Press Corps"
 						/>
 					</div>
+				{/if}
+			</div>
+		</div> -->
+		<div class="my-24">
+			<div class="flex items-center justify-center flex-wrap gap-0">
+				{#if UNSC_ENABLE}
+				<a
+					href="/register/UNSC"
+				>
+					<img
+						class="max-h-[40vh] card m-1 rounded-xl lg:rounded-xl lg:mb-1 lg:mr-1"
+						src="images/2025/1.png"
+						alt="UN Security Council"
+					/>
+				</a>
+				{:else}
+				<div
+					class="disabled-card"
+				>
+					<img
+						class="max-h-[40vh] card m-1 rounded-xl lg:rounded-xl lg:mb-1 lg:mr-1"
+						src="images/2025/1.png"
+						alt="UN Security Council"
+					/>
+					</div>
+				{/if}
+				{#if JCC_ENABLE}
+				<a
+					href="/register/JCC"
+				>
+					<img
+						class="max-h-[40vh] card m-1 rounded-xl lg:rounded-xl lg:mb-1 lg:mr-1"
+						src="images/2025/2.png"
+						alt="Join Crisis Committee"
+					/>
+				</a>
+				{:else}
+				<div
+					class="disabled-card"
+				>
+				<img
+				class="max-h-[40vh] card m-1 rounded-xl lg:rounded-xl lg:mb-1 lg:mr-1"
+				src="images/2025/2.png"
+				alt="Join Crisis Committee"
+			/>
+				</div>
+				{/if}
+			</div>
+			<div class="flex items-center justify-center flex-wrap">
+				{#if AIPPM_ENABLE}
+				<a
+				href="/register/AIPPM"
+			>
+				<img
+					class="max-h-[40vh] card m-1 rounded-xl lg:rounded-xl lg:mb-1 lg:mr-1"
+					src="images/2025/3.png"
+					alt="All India Political Parties Meet"
+				/>
+			</a>
+
+				{:else}
+				<div class="disabled-card">
+					<img
+					class="max-h-[40vh] card m-1 rounded-xl lg:rounded-xl lg:mb-1 lg:mr-1"
+					src="images/2025/3.png"
+					alt="All India Political Parties Meet"
+				/>
+				</div>
+				{/if}
+				{#if IPC_ENABLE}
+				<a
+					href="/register/IPC"
+				>
+					<img
+						class="max-h-[40vh] card m-1 rounded-xl lg:rounded-xl lg:mb-1 lg:mr-1"
+						src="images/2025/4.png"
+						alt="International Press Corps"
+					/>
+				</a>
+				{:else}
+					<div class="disabled-card">
+						<img
+						class="max-h-[40vh] card m-1 rounded-xl lg:rounded-xl lg:mb-1 lg:mr-1"
+						src="images/2025/4.png"
+						alt="International Press Corps"
+					/>
+					</div>
+				{/if}
+				{#if DISEC_ENABLE}
+				<a
+					href="/register/DISEC"
+				>
+					<img
+						class="max-h-[40vh] card m-1 rounded-xl lg:rounded-xl lg:mb-1 lg:mr-1"
+						src="images/2025/5.png"
+						alt="Disarmament and International Security Committee"
+					/>
+				</a>
+				{:else}
+				<div class="disabled-card">
+					<img
+						class="max-h-[40vh] card m-1 rounded-xl lg:rounded-xl lg:mb-1 lg:mr-1"
+						src="images/2025/5.png"
+						alt="Disarmament and International Security Committee"
+					/>
+				</div>
+				{/if}
+			</div>
+			<div class="flex items-center justify-center flex-wrap">
+				{#if UNHRC_ENABLE}
+				<a
+					href="https://drive.google.com/file/d/1FduKr6rrzoJz7IkB3z_dJywNToPFB4t1/view?usp=sharing"
+				>
+					<img
+						class="max-h-[40vh] card m-1 rounded-xl lg:rounded-xl lg:mb-1 lg:mr-1"
+						src="images/2025/6.png"
+						alt="United Nations Human Rights Committee"
+					/>
+				</a>
+				{:else}
+					<div class="disabled-card">
+						<img
+						class="max-h-[40vh] card m-1 rounded-xl lg:rounded-xl lg:mb-1 lg:mr-1"
+						src="images/2025/6.png"
+						alt="United Nations Human Rights Committee"
+					/>
+					</div>
+				{/if}
+				{#if UNODC_ENABLE}
+				<a
+					href="https://drive.google.com/file/d/1xtnd88R1roztW2P-slDTJJfZFYDsZUjQ/view?usp=drive_link"
+				>
+					<img
+						class="max-h-[40vh] card m-1 rounded-xl lg:rounded-xl lg:mb-1 lg:mr-1"
+						src="images/2025/7.png"
+						alt="United Nation Office on Drugs and Crime"
+					/>
+				</a>
+				{:else}
+				<div class="disabled-card">
+					<img
+						class="max-h-[40vh] card m-1 rounded-xl lg:rounded-xl lg:mb-1 lg:mr-1"
+						src="images/2025/7.png"
+						alt="United Nation Office on Drugs and Crime"
+					/>
+				</div>
 				{/if}
 			</div>
 		</div>

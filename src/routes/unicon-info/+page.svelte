@@ -72,7 +72,7 @@
 			</h1>
 		</div>
 
-		<div class="flex justify-center items-center mb-24 p-4 h-full w-screen">
+		<!-- <div class="flex justify-center items-center mb-24 p-4 h-full w-screen">
 			<div class="wrapper min-h-[80vh] justify-items-center">
 				<a
 					href="https://drive.google.com/file/d/1FduKr6rrzoJz7IkB3z_dJywNToPFB4t1/view?usp=sharing"
@@ -129,6 +129,108 @@
 					/>
 				</a>
 			</div>
+		</div> -->
+
+
+		<!-- 2025 Version -->
+
+		<div class="my-24">
+			<div class="flex items-center justify-center flex-wrap gap-0">
+				<a
+					href="https://drive.google.com/file/d/1FduKr6rrzoJz7IkB3z_dJywNToPFB4t1/view?usp=sharing"
+				>
+					<img
+						class="max-h-[40vh] card m-1 rounded-xl lg:rounded-xl lg:mb-1 lg:mr-1"
+						src="images/2025/1.png"
+						alt="UN Security Council"
+					/>
+				</a>
+				<a
+					href="https://drive.google.com/file/d/1xtnd88R1roztW2P-slDTJJfZFYDsZUjQ/view?usp=drive_link"
+				>
+					<img
+						class="max-h-[40vh] card m-1 rounded-xl lg:rounded-xl lg:mb-1 lg:mr-1"
+						src="images/2025/2.png"
+						alt="Join Crisis Committee"
+					/>
+				</a>
+			</div>
+			<div class="flex items-center justify-center flex-wrap">
+				<a
+					href="https://drive.google.com/file/d/1FduKr6rrzoJz7IkB3z_dJywNToPFB4t1/view?usp=sharing"
+				>
+					<img
+						class="max-h-[40vh] card m-1 rounded-xl lg:rounded-xl lg:mb-1 lg:mr-1"
+						src="images/2025/3.png"
+						alt="All India Political Parties Meet"
+					/>
+				</a>
+				<a
+					href="https://drive.google.com/file/d/1xtnd88R1roztW2P-slDTJJfZFYDsZUjQ/view?usp=drive_link"
+				>
+					<img
+						class="max-h-[40vh] card m-1 rounded-xl lg:rounded-xl lg:mb-1 lg:mr-1"
+						src="images/2025/4.png"
+						alt="International Press Corps"
+					/>
+				</a>
+				<a
+					href="https://drive.google.com/file/d/1xtnd88R1roztW2P-slDTJJfZFYDsZUjQ/view?usp=drive_link"
+				>
+					<img
+						class="max-h-[40vh] card m-1 rounded-xl lg:rounded-xl lg:mb-1 lg:mr-1"
+						src="images/2025/5.png"
+						alt="Disarmament and International Security Committee"
+					/>
+				</a>
+			</div>
+			<div class="flex items-center justify-center flex-wrap">
+				<a
+					href="https://drive.google.com/file/d/1FduKr6rrzoJz7IkB3z_dJywNToPFB4t1/view?usp=sharing"
+				>
+					<img
+						class="max-h-[40vh] card m-1 rounded-xl lg:rounded-xl lg:mb-1 lg:mr-1"
+						src="images/2025/6.png"
+						alt="United Nations Human Rights Committee"
+					/>
+				</a>
+				<a
+					href="https://drive.google.com/file/d/1xtnd88R1roztW2P-slDTJJfZFYDsZUjQ/view?usp=drive_link"
+				>
+					<img
+						class="max-h-[40vh] card m-1 rounded-xl lg:rounded-xl lg:mb-1 lg:mr-1"
+						src="images/2025/7.png"
+						alt="United Nation Office on Drugs and Crime"
+					/>
+				</a>
+			</div>
+		</div>
+		<div class="bottom-long-line">
+			<img
+				src={innerWidth >= 1024 ? '/images/longiLine.svg' : '/images/line.png'}
+				alt="divider"
+				class="w-full p-5 lg:p-0"
+			/>
+		</div>
+		<div class="m-5 flex justify-center">
+			<span class="text-munsoc-purple lg:text-6xl text-3xl font-le-jour-serif">REGISTRATION</span>
+			
+		</div>
+		<div class="m-5 flex justify-center">
+			<span class="text-munsoc-purple lg:text-2xl text-sm">ROUND 1 REGISTRATIONS ARE OPEN !!!</span>
+		</div>
+		
+		<div class="m-5 flex justify-center">
+			<a class="text-lg text-white bg-[#461854] rounded-full mx-8 lg:mx-0 px-8 py-2.5 my-4 text-center transition-all ease-linear duration-100 inline-block no-underline" href="/register">
+				REGISTER NOW
+			</a>
+		</div>
+		<div class="bg-munsoc-gold p-5 lg:w-100">
+			<span class="mx-10 text-munsoc-purple font-extrabold text-xl lg:text-4xl">Contact Us</span><br/>
+			<span class="mx-10 text-white font-bold text-sm lg:text-xl">Email: unicon.pesu@gmail.com</span><br/>
+			<span class="mx-10 text-white font-semibold text-sm lg:text-xl">Abhishek RR: +91 63660 73444</span><br/>
+			<span class="mx-10 text-white font-semibold text-sm lg:text-xl">Sriharshita V: +91 85558 91214</span>
+
 		</div>
 	</body>
 </main>
