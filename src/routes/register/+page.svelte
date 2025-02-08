@@ -25,8 +25,12 @@
 			</h1>
 			<a
 				class="lg:m-4 text-2xl lg:text-3xl text-white bg-[#461854] rounded-full lg:mx-8 lg:px-8 px-4 py-2.5 text-center transition-all ease-linear duration-100 inline-block no-underline"
-				href={'/register/Delegation'}>Register as a Delegation</a
+				href={'/register/Delegation'}>Register as Delegate</a
 			>
+			<a
+			class="lg:m-4 text-2xl lg:text-3xl text-white bg-[#461854] rounded-full lg:mx-8 lg:px-8 px-4 py-2.5 text-center transition-all ease-linear duration-100 inline-block no-underline"
+			href={'/register/Delegation'}>Register as a Delegation</a
+		>
 		</div>
 		<!-- <div class="flex justify-center items-center mb-24 p-4 h-full">
 			<div class="wrapper min-h-[80vh] justify-items-center">
@@ -243,7 +247,7 @@
 			<div class="flex items-center justify-center flex-wrap">
 				{#if UNHRC_ENABLE}
 				<a
-					href="https://drive.google.com/file/d/1FduKr6rrzoJz7IkB3z_dJywNToPFB4t1/view?usp=sharing"
+					href="/register/UNHRC"
 				>
 					<img
 						class="max-h-[40vh] card m-1 rounded-xl lg:rounded-xl lg:mb-1 lg:mr-1"
@@ -262,7 +266,7 @@
 				{/if}
 				{#if UNODC_ENABLE}
 				<a
-					href="https://drive.google.com/file/d/1xtnd88R1roztW2P-slDTJJfZFYDsZUjQ/view?usp=drive_link"
+					href="/register/UNODC"
 				>
 					<img
 						class="max-h-[40vh] card m-1 rounded-xl lg:rounded-xl lg:mb-1 lg:mr-1"

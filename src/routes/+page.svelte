@@ -47,8 +47,8 @@
 				<div class="col-span-2 w-full h-full flex justify-end">
 					<img
 						src={innerWidth >= 1024
-							? 'images/landingBgWithDude.png'
-							: 'images/landingBgMobileWithDude.png'}
+							? 'images/LandingPage2025.png'
+							: 'images/2025/landingBgMobileWithDude.png'}
 						class="lg:max-w-full w-screen h-auto"
 						alt="landing-bg"
 						onclick={() => window.open('https://www.instagram.com/munsoc.pesuecc/', '_blank')}

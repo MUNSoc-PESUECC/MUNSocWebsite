@@ -22,7 +22,7 @@
 		<div class="grid grid-cols-1 lg:grid-cols-3 ml-12 mr-12 justify-items-center">
 			<img
 				class="max-h-[50vh] card mb-1 rounded-xl lg:rounded-none lg:mb-1 lg:mr-1"
-				src="/images/1.1.jpg"
+				src="/images/2025/5.png"
 				alt="UNGA DISEC"
 			/>
 			<div
@@ -41,7 +41,7 @@
 		<div class="grid grid-cols-1 lg:grid-cols-3 mx-12 justify-items-center">
 			<img
 				class="max-h-[50vh] card mb-1 rounded-xl lg:rounded-none lg:rounded-tl-lg lg:mb-1 lg:mr-1"
-				src="/images/0.1.jpg"
+				src="/images/2025/1.png"
 				alt="UN Security Council"
 			/>
 			<div
@@ -114,7 +114,7 @@
 		<div class="flex justify-center items-center">
 			<img
 				class="max-h-[50vh] card mb-1 rounded-xl lg:rounded-none lg:mr-1"
-				src="/images/5.1.jpg"
+				src="/images/2025/4.png"
 				alt="IPC"
 			/>
 		</div>
@@ -183,11 +183,11 @@
 				GIDs[data.redirect]}
 			target="_blank">View Allocation Matrix</a
 		>
-		<a
+		<!-- <a
 			class="lg:m-2 text-2xl lg:text-3xl text-white bg-[#461854] rounded-full my-3 lg:mx-8 lg:px-8 px-4 py-2.5 text-center transition-all ease-linear duration-100 inline-block no-underline"
 			href={'https://pages.razorpay.com/UniCon2024-' + data.redirect}
 			>Register as {data.redirect == 'Delegation' ? 'Delegation' : 'Delegate'}</a
-		>
+		> -->
 	</div>
 </main>
 
