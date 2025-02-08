@@ -123,13 +123,13 @@
 								id={person.Name}
 								alt="core member"
 								class="w-11/12 h-auto rounded-md max-w-md"
-								on:click={() => {
+								onclick={() => {
 									changeImage(
 										person.Name,
 										'https://cdn.discordapp.com/attachments/1080892669313699881/1080904223790739606/16.png'
 									);
 								}}
-								on:keydown={() => {
+								onkeydown={() => {
 									changeImage(
 										person.Name,
 										'https://cdn.discordapp.com/attachments/1080892669313699881/1080904223790739606/16.png'
@@ -142,13 +142,13 @@
 								id={person.Name}
 								alt="core member"
 								class="w-11/12 h-auto rounded-md max-w-md"
-								on:click={() => {
+								onclick={() => {
 									changeImage(
 										person.Name,
 										'https://cdn.discordapp.com/attachments/1080892669313699881/1080904224113709168/17.png'
 									);
 								}}
-								on:keydown={() => {
+								onkeydown={() => {
 									changeImage(
 										person.Name,
 										'https://cdn.discordapp.com/attachments/1080892669313699881/1080904224113709168/17.png'

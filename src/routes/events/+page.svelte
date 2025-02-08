@@ -42,8 +42,8 @@
 							<img
 								src={event.meta.img}
 								id="easterEggImage"
-								on:click={changeImage}
-								on:keydown={changeImage}
+								onclick={changeImage}
+								onkeydown={changeImage}
 								alt="event"
 								class="w-11/12 h-auto rounded-md max-w-md m-0 mb-10"
 							/>

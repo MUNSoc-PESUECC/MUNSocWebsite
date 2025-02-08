@@ -50,8 +50,8 @@
 
 		<!-- Mobile menu button -->
 		<div
-			on:click={toggleNavbar}
-			on:keydown={toggleNavbar}
+			onclick={toggleNavbar}
+			onkeydown={toggleNavbar}
 			class="flex lg:hidden pr-3 {showMenu ? 'mt-3' : ''}"
 		>
 			<button
@@ -89,7 +89,7 @@
 				? ''
 				: 'hidden'}"
 			href="/"
-			on:click={navBarItemClicked}>UNICON</a
+			onclick={navBarItemClicked}>UNICON</a
 		>
 
 		<a
@@ -97,7 +97,7 @@
 				? 'pt-5'
 				: ''}"
 			href="/posts"
-			on:click={navBarItemClicked}>POSTS</a
+			onclick={navBarItemClicked}>POSTS</a
 		>
 
 		<!-- REMOVED FOR UNICON -->
@@ -113,7 +113,7 @@
 				? 'pt-5'
 				: ''}"
 			href="/secretariat"
-			on:click={navBarItemClicked}>THE SECRETARIAT</a
+			onclick={navBarItemClicked}>THE SECRETARIAT</a
 		>
 		<!-- REMOVED FOR UNICON -->
 		<!-- <a -->
@@ -128,7 +128,7 @@
 				? 'pt-5'
 				: ''}"
 			href="/about"
-			on:click={navBarItemClicked}>ABOUT</a
+			onclick={navBarItemClicked}>ABOUT</a
 		>
 	</div>
 </nav>
