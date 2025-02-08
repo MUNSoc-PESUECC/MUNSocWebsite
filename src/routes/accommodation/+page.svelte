@@ -10,12 +10,12 @@
 	rel="stylesheet"
 />
 <main>
-	<body class="bg-body-slate prose prose-invert">
+	<div class="bg-body-slate prose prose-invert">
 		<h1 class="p-10 text-center">Accommodation</h1>
 		<div class="md:pr-32 md:pl-32 pr-10 pl-10 pb-5 prose content">
 			<svelte:component this={data.content} />
 		</div>
-	</body>
+	</div>
 </main>
 
 <style>

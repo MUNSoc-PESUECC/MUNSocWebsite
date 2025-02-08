@@ -9,7 +9,7 @@
 	rel="stylesheet"
 />
 
-<body class="bg-body-slate">
+<div class="bg-body-slate">
 	<div class="main">
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
@@ -124,7 +124,7 @@
 	<div class="text-munsoc-purple text-center text-2xl pb-32">
 		The BunSamosa is missing Samosa :(
 	</div>
-</body>
+</div>
 
 <style>
 	:root {

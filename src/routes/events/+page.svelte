@@ -29,7 +29,7 @@
 
 <main>
 	<title>MUNSoc PESU-ECC | EVENTS</title>
-	<body class="bg-body-slate text-white prose prose-invert">
+	<div class="bg-body-slate text-white prose prose-invert">
 		<h1 class="p-10 text-center">Events</h1>
 		<div class="wrapper">
 			{#each data.events as event}
@@ -80,7 +80,7 @@
 				</div>
 			{/each}
 		</div>
-	</body>
+	</div>
 </main>
 
 <style>

@@ -39,7 +39,7 @@
 <main>
 	<title>MUNSoc PESU-ECC</title>
 
-	<body class="bg-body-slate prose prose-invert">
+	<div class="bg-body-slate prose prose-invert">
 		<!-- HERO SECTION -->
 		<div class="bg-[#F1EDE7] h-screen">
 			<div class="heroSection h-full flex flex-col items-center mt-8">
@@ -234,7 +234,7 @@
 				</div>
 			{/each}
 		</div>
-	</body>
+	</div>
 </main>
 
 <style>

@@ -12,7 +12,7 @@
 
 <main>
 	<title>MUNSoc PESU-ECC | NEWSLETTERS</title>
-	<body class="bg-body-slate text-white prose prose-invert">
+	<div class="bg-body-slate text-white prose prose-invert">
 		<h1 class="p-10 text-center">Newsletters</h1>
 
 		{#each data.newsletters as newsletter}
@@ -39,7 +39,7 @@
 				</div>
 			</div>
 		{/each}
-	</body>
+	</div>
 </main>
 
 <style>

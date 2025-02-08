@@ -111,7 +111,7 @@
 
 <main>
 	<title>MUNSoc PESU-ECC | MEMBERS</title>
-	<body class="bg-body-slate prose prose-invert">
+	<div class="bg-body-slate prose prose-invert">
 		<h1 class="p-10 text-center">The Secretariat</h1>
 		<div class="wrapper mb-12 lg:ml-6 lg:mr-6">
 			{#each coreMembers as person}
@@ -176,7 +176,7 @@
 				</div>
 			{/each}
 		</div>
-	</body>
+	</div>
 </main>
 
 <style>

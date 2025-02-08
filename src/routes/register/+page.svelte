@@ -18,7 +18,7 @@
 </script>
 
 <main class="min-h-screen">
-	<body class="bg-body-slate min-h-screen">
+	<div class="bg-body-slate min-h-screen">
 		<div class="heading flex flex-col justify-center items-center lg:mt-6 m-4">
 			<h1 class="lg:text-6xl text-3xl my-4 text-munsoc-purple font-le-jour-serif">
 				Select Committee
@@ -281,7 +281,7 @@
 				{/if}
 			</div>
 		</div>
-	</body>
+	</div>
 </main>
 
 <style>

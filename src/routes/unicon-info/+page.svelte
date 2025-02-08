@@ -1,5 +1,5 @@
 <main>
-	<body class="bg-body-slate prose prose-invert">
+	<div class="bg-body-slate prose prose-invert">
 		<div class="flex flex-col justify-center items-center text-xl lg:px-10">
 			<div class="font-le-jour-serif text-munsoc-purple m-4 lg:text-6xl text-3xl">Itinerary</div>
 			<div
@@ -232,7 +232,7 @@
 			<span class="mx-10 text-white font-semibold text-sm lg:text-xl">Sriharshita V: +91 85558 91214</span>
 
 		</div>
-	</body>
+	</div>
 </main>
 
 <style>

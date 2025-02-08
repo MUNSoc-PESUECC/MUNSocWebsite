@@ -13,7 +13,7 @@
 
 <main>
 	<title>{data.title}</title>
-	<body class="bg-body-slate">
+	<div class="bg-body-slate">
 		<article class="text-munsoc-purple p-10 prose">
 			<div class="flex justify-center">
 				<img src={data.img} alt="post" class="w-11/12 h-auto rounded-md" />
@@ -30,7 +30,7 @@
 				</div>
 			</div>
 		</article>
-	</body>
+	</div>
 </main>
 
 <style>

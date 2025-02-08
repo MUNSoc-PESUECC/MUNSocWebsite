@@ -18,7 +18,7 @@
 
 <main>
 	<title>{'NEWSLETTER | ' + formattedDate.toUpperCase()}</title>
-	<body class="bg-body-slate">
+	<div class="bg-body-slate">
 		<div class="wrapper">
 			<div class="canvaEmbed mr-1 ml-1 md:ml-3 md:mr-3">
 				<iframe
@@ -32,7 +32,7 @@
 				/>
 			</div>
 		</div>
-	</body>
+	</div>
 </main>
 
 <style>
