@@ -10,7 +10,7 @@
 	const UNSC_ENABLE = true; 
 	const DISEC_ENABLE = true; 
 	const IPC_ENABLE = true;   
-	const JCC_ENABLE = true;
+	const CCC_ENABLE = true;
 	const AIPPM_ENABLE = true;
 	const UNHRC_ENABLE = true;
 	const UNODC_ENABLE = true;
@@ -162,14 +162,14 @@
 					/>
 					</div>
 				{/if}
-				{#if JCC_ENABLE}
+				{#if CCC_ENABLE}
 				<a
-					href="/register/JCC"
+					href="/register/CCC"
 				>
 					<img
 						class="max-h-[40vh] card m-1 rounded-xl lg:rounded-xl lg:mb-1 lg:mr-1"
-						src="images/2025/2.png"
-						alt="Join Crisis Committee"
+						src="images/2025/ccc.png"
+						alt="Continuous Crisis Committee"
 					/>
 				</a>
 				{:else}

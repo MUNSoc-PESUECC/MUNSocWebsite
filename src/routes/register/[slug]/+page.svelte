@@ -4,13 +4,14 @@
 		'Discussion on the implications of implementing the Uniform Civil Code in India';
 	export let data;
 	let GIDs = {
-		DISEC: '78860240',
-		UNSC: '0',
-		HRC: '1071050547',
-		HCC: '1985252569',
-		LokSabha: '132684112',
-		IPC: '900234641',
-		Delegation: '0'
+		DISEC: '1507689500',
+		UNSC: '1379504494',
+		UNHRC: '0',
+		CCC: '1180994174',
+		AIPPM: '1530097759',
+		IPC: '1479207330',
+		UNODC: '173368057',
+		Delegation: 'null'
 	};
 </script>
 
@@ -55,11 +56,11 @@
 				Deliberating Solutions for the South China Sea Conflict
 			</div>
 		</div>
-	{:else if data.redirect == 'HRC'}
+	{:else if data.redirect == 'UNHRC'}
 		<div class="grid grid-cols-1 lg:grid-cols-3 mx-12 justify-items-center">
 			<img
 				class="max-h-[50vh] card mb-1 rounded-xl lg:rounded-none lg:rounded-tr-lg lg:mb-1 lg:mr-1"
-				src="/images/2.1.jpg"
+				src="/images/2025/6.png"
 				alt="Human Rights Council"
 			/>
 			<div
@@ -74,11 +75,29 @@
 				to Gaza and Yemen
 			</div>
 		</div>
-	{:else if data.redirect == 'HCC'}
+	{:else if data.redirect == 'UNODC'}
+		<div class="grid grid-cols-1 lg:grid-cols-3 mx-12 justify-items-center">
+			<img
+				class="max-h-[50vh] card mb-1 rounded-xl lg:rounded-none lg:rounded-tr-lg lg:mb-1 lg:mr-1"
+				src="/images/2025/7.png"
+				alt="Human Rights Council"
+			/>
+			<div
+				class="col-span-2 flex flex-col justify-center items-center text-center text-xl text-munsoc-purple lg:px-10"
+			>
+				<div
+					class="font-le-jour-serif text-munsoc-gold font-semibold m-3 mb-5 lg:text-5xl text-3xl"
+				>
+					AGENDA
+				</div>
+				Something?
+			</div>
+		</div>
+	{:else if data.redirect == 'CCC'}
 		<div class="grid grid-cols-1 lg:grid-cols-3 mx-12 justify-items-center">
 			<img
 				class="max-h-[50vh] card mb-1 rounded-xl lg:rounded-none lg:rounded-bl-lg lg:mr-1"
-				src="/images/3.1.jpg"
+				src="/images/2025/ccc.png"
 				alt="Historical Crisis Committee"
 			/>
 			<div
@@ -92,11 +111,11 @@
 				Operation Barbarossa
 			</div>
 		</div>
-	{:else if data.redirect == 'LokSabha'}
+	{:else if data.redirect == 'AIPPM'}
 		<div class="grid grid-cols-1 lg:grid-cols-3 mx-12 justify-items-center">
 			<img
 				class="max-h-[50vh] card mb-1 rounded-xl lg:rounded-none lg:mr-1"
-				src="/images/4.1.jpg"
+				src="/images/2025/3.png"
 				alt="Lok Sabha"
 			/>
 			<div
@@ -107,17 +126,27 @@
 				>
 					AGENDA
 				</div>
-				{LOKSABHA_AGENDA}
+				Something
 			</div>
 		</div>
 	{:else if data.redirect == 'IPC'}
-		<div class="flex justify-center items-center">
-			<img
-				class="max-h-[50vh] card mb-1 rounded-xl lg:rounded-none lg:mr-1"
-				src="/images/2025/4.png"
-				alt="IPC"
-			/>
+	<div class="grid grid-cols-1 lg:grid-cols-3 mx-12 justify-items-center">
+		<img
+			class="max-h-[50vh] card mb-1 rounded-xl lg:rounded-none lg:mr-1"
+			src="/images/2025/4.png"
+			alt="Lok Sabha"
+		/>
+		<div
+			class="col-span-2 flex flex-col justify-center items-center text-center text-xl text-munsoc-purple lg:px-10"
+		>
+			<div
+				class="font-le-jour-serif text-munsoc-gold font-semibold m-3 mb-5 lg:text-5xl text-3xl"
+			>
+				AGENDA
+			</div>
+			Something
 		</div>
+	</div>
 	{:else if data.redirect == 'Delegation'}
 		<div
 			class="col-span-1 flex flex-col justify-center items-center text-center text-xl text-munsoc-purple lg:px-10"
@@ -179,7 +208,7 @@
 	<div class="flex flex-col lg:flex-row items-center justify-center m-8 pb-4 pl-4 pr-4]">
 		<a
 			class="lg:m-2 text-2xl lg:text-3xl text-white bg-[#461854] rounded-full lg:mx-8 lg:px-8 px-4 py-2.5 text-center transition-all ease-linear duration-100 inline-block no-underline"
-			href={'https://docs.google.com/spreadsheets/d/1D1AgYFibXWpm3zFWOuHluX5sxkwzl48mPDrsCqN5rkQ/edit#gid=' +
+			href={' https://docs.google.com/spreadsheets/d/1bP1pF4N9WGOK8g5IVYce3y9FzijFEMWrGCONQ6w75Ks/edit#gid=' +
 				GIDs[data.redirect]}
 			target="_blank">View Allocation Matrix</a
 		>

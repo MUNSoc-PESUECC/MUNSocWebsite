@@ -150,8 +150,8 @@
 				>
 					<img
 						class="max-h-[40vh] card m-1 rounded-xl lg:rounded-xl lg:mb-1 lg:mr-1"
-						src="images/2025/2.png"
-						alt="Join Crisis Committee"
+						src="images/2025/ccc.png"
+						alt="Continuous Crisis Committee"
 					/>
 				</a>
 			</div>
