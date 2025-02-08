@@ -29,21 +29,21 @@
 
 <main>
 	<title>MUNSoc PESU-ECC | EVENTS</title>
-	<body class="bg-body-slate text-white prose prose-invert">
+	<div class="bg-body-slate text-white prose prose-invert">
 		<h1 class="p-10 text-center">Events</h1>
 		<div class="wrapper">
 			{#each data.events as event}
 				<div
 					class="card md:ml-10 md:mr-10 ml-5 mr-5 rounded-md bg-munsoc-alabaster"
-					onclick="window.location='{event.path}'"
+					onclick={window.location=event.path}
 				>
 					<div class="flex justify-center image-div pt-10">
 						{#if event.meta.title == 'Orientation MUNDay'}
 							<img
 								src={event.meta.img}
 								id="easterEggImage"
-								on:click={changeImage}
-								on:keydown={changeImage}
+								onclick={changeImage}
+								onkeydown={changeImage}
 								alt="event"
 								class="w-11/12 h-auto rounded-md max-w-md m-0 mb-10"
 							/>
@@ -71,7 +71,7 @@
 						{:else}
 							<button
 								class="register-button"
-								onclick="window.open('{event.meta.registrationLink}', '_blank')"
+								onclick={window.open(event.meta.registrationLink, '_blank')}
 							>
 								Register Here!
 							</button>
@@ -80,7 +80,7 @@
 				</div>
 			{/each}
 		</div>
-	</body>
+	</div>
 </main>
 
 <style>

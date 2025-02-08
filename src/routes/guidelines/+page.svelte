@@ -1,5 +1,5 @@
 <main>
-	<body class="bg-body-slate prose prose-invert">
+	<div class="bg-body-slate prose prose-invert">
 		<div class="flex flex-col justify-center items-center text-center text-xl lg:px-10">
 			<div class="font-le-jour-serif text-munsoc-purple m-4 lg:text-4xl text-3xl">
 				GUIDELINES FOR DELEGATION REGISTRATION
@@ -53,7 +53,7 @@
 				</p>
 			</div>
 		</div>
-	</body>
+	</div>
 </main>
 
 <style>

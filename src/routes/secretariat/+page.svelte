@@ -111,7 +111,7 @@
 
 <main>
 	<title>MUNSoc PESU-ECC | MEMBERS</title>
-	<body class="bg-body-slate prose prose-invert">
+	<div class="bg-body-slate prose prose-invert">
 		<h1 class="p-10 text-center">The Secretariat</h1>
 		<div class="wrapper mb-12 lg:ml-6 lg:mr-6">
 			{#each coreMembers as person}
@@ -123,13 +123,13 @@
 								id={person.Name}
 								alt="core member"
 								class="w-11/12 h-auto rounded-md max-w-md"
-								on:click={() => {
+								onclick={() => {
 									changeImage(
 										person.Name,
 										'https://cdn.discordapp.com/attachments/1080892669313699881/1080904223790739606/16.png'
 									);
 								}}
-								on:keydown={() => {
+								onkeydown={() => {
 									changeImage(
 										person.Name,
 										'https://cdn.discordapp.com/attachments/1080892669313699881/1080904223790739606/16.png'
@@ -142,13 +142,13 @@
 								id={person.Name}
 								alt="core member"
 								class="w-11/12 h-auto rounded-md max-w-md"
-								on:click={() => {
+								onclick={() => {
 									changeImage(
 										person.Name,
 										'https://cdn.discordapp.com/attachments/1080892669313699881/1080904224113709168/17.png'
 									);
 								}}
-								on:keydown={() => {
+								onkeydown={() => {
 									changeImage(
 										person.Name,
 										'https://cdn.discordapp.com/attachments/1080892669313699881/1080904224113709168/17.png'
@@ -176,7 +176,7 @@
 				</div>
 			{/each}
 		</div>
-	</body>
+	</div>
 </main>
 
 <style>

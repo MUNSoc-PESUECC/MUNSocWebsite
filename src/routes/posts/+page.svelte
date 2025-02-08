@@ -12,13 +12,13 @@
 
 <main>
 	<title>MUNSoc PESU-ECC | POSTS</title>
-	<body class="bg-body-slate text-white prose">
+	<div class="bg-body-slate text-white prose">
 		<h1 class=" p-10 text-center text-munsoc-purple">Posts</h1>
 		<div class="wrapper lg:ml-12 lg:mr-12 md:ml-10">
 			{#each data.posts as post}
 				<div
 					class="card md:ml-10 md:mr-10 ml-5 mr-5 rounded-md text-center bg-munsoc-alabaster"
-					onclick="window.location='{post.path}'"
+					onclick={window.location=post.path}
 				>
 					<div class="flex justify-center">
 						<img src={post.meta.img} alt="" class="w-11/12 h-auto rounded-md max-w-md" />
@@ -37,7 +37,7 @@
 				</div>
 			{/each}
 		</div>
-	</body>
+	</div>
 </main>
 
 <style>

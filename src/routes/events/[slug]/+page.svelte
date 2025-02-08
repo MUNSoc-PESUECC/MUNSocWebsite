@@ -22,7 +22,7 @@
 
 <main>
 	<title>{data.title}</title>
-	<body class="bg-body-slate">
+	<div class="bg-body-slate">
 		<article class="text-white p-10 prose prose-invert">
 			<div class="flex justify-center">
 				<img src={data.img} alt="" class="w-11/12 h-auto rounded-md" />
@@ -32,7 +32,7 @@
 			<h3 class="text-center">Time: {data.time}</h3>
 			<h3 class="text-center">Venue: {data.venue}</h3>
 			{#if !isOver(data.date)}
-				<button class="register-button" onclick="window.open('{data.registrationLink}', '_blank')">
+				<button class="register-button" onclick={window.open(data.registrationLink, '_blank')}>
 					Register Here!
 				</button>
 			{/if}
@@ -41,7 +41,7 @@
 				<svelte:component this={data.content} class="content" />
 			</div>
 		</article>
-	</body>
+	</div>
 </main>
 
 <style>

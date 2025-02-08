@@ -17,7 +17,7 @@
 
 <main>
 	<title>MUNSoc PESU-ECC | ABOUT</title>
-	<body class="bg-body-slate prose prose-invert min-h-screen">
+	<div class="bg-body-slate prose prose-invert min-h-screen">
 		<h1 class="p-6 text-center">About Us</h1>
 		<h4 class="md:pr-32 md:pl-32 pr-10 pl-10 mb-6 font-normal text-black lg:text-lg">
 			UniCon is the inaugural Model United Nations Conference hosted by MUNSoc PESUECC. We are
@@ -64,8 +64,8 @@
 								src={award.meta.img}
 								alt="award"
 								class="w-11/12 h-auto rounded-md max-w-md m-0 mb-10"
-								on:click={changeImage}
-								on:keydown={changeImage}
+								onclick={changeImage}
+								onkeydown={changeImage}
 							/>
 						{:else if award.meta.img}
 							<img
@@ -96,7 +96,7 @@
 				</div>
 			{/each}
 		</div>
-	</body>
+	</div>
 </main>
 
 <style>
