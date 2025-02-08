@@ -34,8 +34,7 @@
 				>
 					AGENDA
 				</div>
-				Reviewing the role of semiconductor-based microchips in global security with special emphasis
-				on it's manufacture and use in modern-day weapons systems
+				Deliberating on Strengthening the Arms Trade Treaty
 			</div>
 		</div>
 	{:else if data.redirect == 'UNSC'}
@@ -53,7 +52,7 @@
 				>
 					AGENDA
 				</div>
-				Deliberating Solutions for the South China Sea Conflict
+				Situation in Haiti
 			</div>
 		</div>
 	{:else if data.redirect == 'UNHRC'}
@@ -71,8 +70,7 @@
 				>
 					AGENDA
 				</div>
-				Preparing an action plan for access of humanitarian aid in conflict zones with specific reference
-				to Gaza and Yemen
+				Deliberating on Migration rights at the US-Mexico Border with special emphasis on child protection
 			</div>
 		</div>
 	{:else if data.redirect == 'UNODC'}
@@ -90,7 +88,7 @@
 				>
 					AGENDA
 				</div>
-				Something?
+				Ensuring access to justice in Sub Saharan Africa
 			</div>
 		</div>
 	{:else if data.redirect == 'CCC'}
@@ -108,7 +106,7 @@
 				>
 					AGENDA
 				</div>
-				Operation Barbarossa
+				Soviet Invasion of Afghanistan Freeze Date: December 24, 1979
 			</div>
 		</div>
 	{:else if data.redirect == 'AIPPM'}
@@ -126,7 +124,7 @@
 				>
 					AGENDA
 				</div>
-				Something
+				Examining the practicality of a nationwide caste-based census in India, and analyzing its impact on policy, social justice, and resource distribution
 			</div>
 		</div>
 	{:else if data.redirect == 'IPC'}
@@ -144,7 +142,7 @@
 			>
 				AGENDA
 			</div>
-			Something
+			Reporting on Conference proceedings and offering a distinctive journalistic perspective on diplomatic debates and resolutions
 		</div>
 	</div>
 	{:else if data.redirect == 'Delegation'}
