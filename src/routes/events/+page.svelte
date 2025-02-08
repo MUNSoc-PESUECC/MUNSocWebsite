@@ -35,7 +35,7 @@
 			{#each data.events as event}
 				<div
 					class="card md:ml-10 md:mr-10 ml-5 mr-5 rounded-md bg-munsoc-alabaster"
-					onclick="window.location='{event.path}'"
+					onclick={window.location=event.path}
 				>
 					<div class="flex justify-center image-div pt-10">
 						{#if event.meta.title == 'Orientation MUNDay'}
@@ -71,7 +71,7 @@
 						{:else}
 							<button
 								class="register-button"
-								onclick="window.open('{event.meta.registrationLink}', '_blank')"
+								onclick={window.open(event.meta.registrationLink, '_blank')}
 							>
 								Register Here!
 							</button>

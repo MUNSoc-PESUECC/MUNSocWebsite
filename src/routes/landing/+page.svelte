@@ -68,7 +68,7 @@
 		<div
 			class="card md:ml-10 md:mr-10 ml-5 mr-5 rounded-md text-center"
 			style="width: auto; height: 50%; "
-			onclick="window.location='{data.newsletters[0].path}'"
+			onclick={window.location=data.newsletters[0].path}
 		>
 			<div class="flex justify-center">
 				<img src={data.newsletters[0].meta.img} alt="" class="w-11/12 h-auto rounded-md max-w-md" />
@@ -100,7 +100,7 @@
 		<div class="wrapper">
 			<div
 				class="card md:ml-10 md:mr-10 ml-5 mr-5 rounded-md text-center inline-block"
-				onclick="window.location='{data.posts[0].path}'"
+				onclick={window.location=data.posts[0].path}
 			>
 				<div class="flex justify-center">
 					<img src={data.posts[0].meta.img} alt="" class="w-11/12 h-auto rounded-md max-w-md" />
@@ -120,7 +120,7 @@
 
 			<div
 				class="card md:ml-10 md:mr-10 ml-5 mr-5 rounded-md text-center inline-block"
-				onclick="window.location='{data.posts[1].path}'"
+				onclick={window.location=data.posts[1].path}
 			>
 				<div class="flex justify-center">
 					<img src={data.posts[1].meta.img} alt="" class="w-11/12 h-auto rounded-md max-w-md" />
@@ -151,7 +151,7 @@
 		<div class="wrapper">
 			<div
 				class="card md:ml-10 md:mr-10 ml-5 mr-5 rounded-md text-center inline-block"
-				onclick="window.location='{data.events[0].path}'"
+				onclick={window.location=data.events[0].path}
 			>
 				<div class="flex justify-center">
 					<img src={data.events[0].meta.img} alt="" class="w-11/12 h-auto rounded-md max-w-md" />
@@ -172,7 +172,7 @@
 					{:else}
 						<button
 							class="register-button"
-							onclick="window.open('{data.events[0].meta.registrationLink}', '_blank')"
+							onclick={window.open(data.events[0].meta.registrationLink, '_blank')}
 						>
 							Register Here!
 						</button>
@@ -182,7 +182,7 @@
 
 			<div
 				class="card md:ml-10 md:mr-10 ml-5 mr-5 rounded-md text-center inline-block"
-				onclick="window.location='{data.events[1].path}'"
+				onclick={window.location=data.events[1].path}
 			>
 				<div class="flex justify-center">
 					<img src={data.events[1].meta.img} alt="" class="w-11/12 h-auto rounded-md max-w-md" />
@@ -202,7 +202,7 @@
 					{:else}
 						<button
 							class="register-button"
-							onclick="window.open('{data.events[1].meta.registrationLink}', '_blank')"
+							onclick={window.open(data.events[1].meta.registrationLink, '_blank')}
 						>
 							Register Here!
 						</button>

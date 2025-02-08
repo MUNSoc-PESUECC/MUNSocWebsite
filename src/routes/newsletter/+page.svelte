@@ -18,7 +18,7 @@
 		{#each data.newsletters as newsletter}
 			<div
 				class="card md:ml-10 md:mr-10 ml-5 mr-5 rounded-md text-center bg-munsoc-alabaster"
-				onclick="window.location='{newsletter.path}'"
+				onclick={window.location=newsletter.path}
 			>
 				<div class="flex justify-center">
 					<img src={newsletter.meta.img} alt="" class="w-11/12 h-auto rounded-md max-w-md" />

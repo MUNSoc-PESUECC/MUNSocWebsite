@@ -32,7 +32,7 @@
 			<h3 class="text-center">Time: {data.time}</h3>
 			<h3 class="text-center">Venue: {data.venue}</h3>
 			{#if !isOver(data.date)}
-				<button class="register-button" onclick="window.open('{data.registrationLink}', '_blank')">
+				<button class="register-button" onclick={window.open({data.registrationLink}, '_blank')}>
 					Register Here!
 				</button>
 			{/if}
