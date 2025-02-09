@@ -1,3 +1,7 @@
+<script>
+	let x = 'Hello World'
+</script>
+
 <main>
 	<div class="bg-body-slate prose prose-invert">
 		<div class="flex flex-col justify-center items-center text-xl lg:px-10">

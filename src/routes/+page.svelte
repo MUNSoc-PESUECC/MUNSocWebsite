@@ -48,7 +48,7 @@
 					<img
 						src={innerWidth >= 1024
 							? 'images/LandingPage2025.png'
-							: 'images/2025/landingBgMobileWithDude.png'}
+							: 'images/LandingPageM2025.png'}
 						class="lg:max-w-full w-screen h-auto"
 						alt="landing-bg"
 						onclick={() => window.open('https://www.instagram.com/munsoc.pesuecc/', '_blank')}

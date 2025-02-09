@@ -108,13 +108,19 @@
 		<!-- 	href="/newsletter" -->
 		<!-- 	on:click={navBarItemClicked}>NEWSLETTERS</a -->
 		<!-- > -->
-		<a
+
+
+
+		<!-- <a
 			class="text-lg text-[#643572] hover:text-white hover:bg-[#461854] rounded-full px-8 py-2.5 text-center transition-all ease-linear duration-100 inline-block no-underline {showMenu
 				? 'pt-5'
 				: ''}"
 			href="/secretariat"
 			onclick={navBarItemClicked}>THE SECRETARIAT</a
-		>
+		> -->
+
+
+		
 		<!-- REMOVED FOR UNICON -->
 		<!-- <a -->
 		<!-- 	class=" text-lg text-[#643572] hover:text-white hover:bg-[#461854] rounded-full px-8 py-2.5 text-center transition-all ease-linear duration-100 inline-block no-underline {showMenu -->

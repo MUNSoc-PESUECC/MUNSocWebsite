@@ -159,7 +159,7 @@
 							>MUNSoc ECC</a
 						>
 					</h4>
-					<h4>2. Navigate to the UniCon home page and click on the "Register" button.</h4>
+					<h4>2. Navigate to the UniCon home page and click on the "Register Now" button.</h4>
 					<h4>3. Select "Register as Delegation" to begin the registration process.</h4>
 					<h4>4. On the bottom of this page, locate the "Register Now as Delegation" button.</h4>
 					<h4>
@@ -170,26 +170,31 @@
 						6. Make a public view-only copy of the following sheet and fill in details of all
 						delegates: <a
 							target="_blank"
-							href="https://docs.google.com/spreadsheets/d/1vDVAvyb0QXVt_tLh7jJWw-pkzaOxoYkbQC7ukxooWFY/edit?usp=sharing"
+							href="https://docs.google.com/spreadsheets/d/1DXTaiCNLMIKL1ez98MtbhGOrJ0e1QeJX7eeE2XyrARU/edit?usp=sharing"
 							class="text-munsoc-purple"
 						>
 							link here</a
 						>. Submit the link to the filled sheet in the Razorpay page.
 					</h4>
 					<div class="font-extrabold">
-						7. UniCon 2024 mandates each delegation to have at least 7 delegates. Failure to comply
+						7. UniCon 2025 mandates each delegation to have at least 10 delegates with a minimum of 1 Delegate in each committee with additional delegates taking part in any other committee of choice. Failure to comply
 						with this rule will result in non-acceptance of the delegation and all delegates who
 						have paid through said delegation will be considered individual delegates. Please
 						carefully consider this requirement and ensure that your delegation meets the committee
 						representation criteria before proceeding with the registration process.
 					</div>
 					<h4>
-						8. Sum up the total number of delegates for whom you've filled in the details on the
-						sheet. Enter this count as the number of delegates you are paying for.
+						8. The maximum delegation size is of 30 delegates. 
 					</h4>
-					<h4>9. Click "Pay" and proceed to the payment.</h4>
 					<h4>
-						10. After the payment is successful, you will receive a confirmation email from
+						9. Sum up the total number of delegates for whom you've filled in the details on the
+						sheet. Enter this count as the number of delegates you are paying for. By default, the number of delegates has been set to 10 delegates on the razorpay page.
+						</h4>
+					<h4>
+						10. Click "Pay" and proceed to the payment.
+					</h4>
+					<h4>
+						11. After the payment is successful, you will receive a confirmation email from
 						Razorpay.
 					</h4>
 					<p>
@@ -204,12 +209,20 @@
 	{/if}
 
 	<div class="flex flex-col lg:flex-row items-center justify-center m-8 pb-4 pl-4 pr-4]">
+		{#if data.redirect == 'Delegation'}
+		<a
+			class="lg:m-2 text-2xl lg:text-3xl text-white bg-[#461854] rounded-full lg:mx-8 lg:px-8 px-4 py-2.5 text-center transition-all ease-linear duration-100 inline-block no-underline"
+			href={'https://rzp.io/rzp/uzRd8sJ'}
+			target="_blank">Register Now as Delegation</a
+		>
+		{:else}
 		<a
 			class="lg:m-2 text-2xl lg:text-3xl text-white bg-[#461854] rounded-full lg:mx-8 lg:px-8 px-4 py-2.5 text-center transition-all ease-linear duration-100 inline-block no-underline"
 			href={' https://docs.google.com/spreadsheets/d/1bP1pF4N9WGOK8g5IVYce3y9FzijFEMWrGCONQ6w75Ks/edit#gid=' +
 				GIDs[data.redirect]}
 			target="_blank">View Allocation Matrix</a
 		>
+		{/if}
 		<!-- <a
 			class="lg:m-2 text-2xl lg:text-3xl text-white bg-[#461854] rounded-full my-3 lg:mx-8 lg:px-8 px-4 py-2.5 text-center transition-all ease-linear duration-100 inline-block no-underline"
 			href={'https://pages.razorpay.com/UniCon2024-' + data.redirect}
