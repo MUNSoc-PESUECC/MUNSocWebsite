@@ -1,6 +1,7 @@
 <script>
-	let x = 'Hello World'
+	let innerWidth;
 </script>
+<svelte:window bind:innerWidth />
 
 <main>
 	<div class="bg-body-slate prose prose-invert">
