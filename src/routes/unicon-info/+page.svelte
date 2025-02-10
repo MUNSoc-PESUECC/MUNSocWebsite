@@ -75,6 +75,9 @@
 			<h1 class="lg:text-6xl text-3xl my-4 text-munsoc-purple font-le-jour-serif font-normal">
 				Background Guides
 			</h1>
+			<h5 class="text-munsoc-gold text-xl">
+				The guides are yet to be released
+			</h5>
 		</div>
 
 		<!-- <div class="flex justify-center items-center mb-24 p-4 h-full w-screen">
@@ -141,18 +144,14 @@
 
 		<div class="my-24">
 			<div class="flex items-center justify-center flex-wrap gap-0">
-				<a
-					href="https://drive.google.com/file/d/1FduKr6rrzoJz7IkB3z_dJywNToPFB4t1/view?usp=sharing"
-				>
+				<a>
 					<img
 						class="max-h-[40vh] card m-1 rounded-xl lg:rounded-xl lg:mb-1 lg:mr-1"
 						src="images/2025/1.png"
 						alt="UN Security Council"
 					/>
 				</a>
-				<a
-					href="https://drive.google.com/file/d/1xtnd88R1roztW2P-slDTJJfZFYDsZUjQ/view?usp=drive_link"
-				>
+				<a>
 					<img
 						class="max-h-[40vh] card m-1 rounded-xl lg:rounded-xl lg:mb-1 lg:mr-1"
 						src="images/2025/ccc.png"
@@ -162,7 +161,7 @@
 			</div>
 			<div class="flex items-center justify-center flex-wrap">
 				<a
-					href="https://drive.google.com/file/d/1FduKr6rrzoJz7IkB3z_dJywNToPFB4t1/view?usp=sharing"
+					
 				>
 					<img
 						class="max-h-[40vh] card m-1 rounded-xl lg:rounded-xl lg:mb-1 lg:mr-1"
@@ -171,7 +170,7 @@
 					/>
 				</a>
 				<a
-					href="https://drive.google.com/file/d/1xtnd88R1roztW2P-slDTJJfZFYDsZUjQ/view?usp=drive_link"
+					
 				>
 					<img
 						class="max-h-[40vh] card m-1 rounded-xl lg:rounded-xl lg:mb-1 lg:mr-1"
@@ -180,7 +179,7 @@
 					/>
 				</a>
 				<a
-					href="https://drive.google.com/file/d/1xtnd88R1roztW2P-slDTJJfZFYDsZUjQ/view?usp=drive_link"
+					
 				>
 					<img
 						class="max-h-[40vh] card m-1 rounded-xl lg:rounded-xl lg:mb-1 lg:mr-1"
@@ -191,7 +190,7 @@
 			</div>
 			<div class="flex items-center justify-center flex-wrap">
 				<a
-					href="https://drive.google.com/file/d/1FduKr6rrzoJz7IkB3z_dJywNToPFB4t1/view?usp=sharing"
+					
 				>
 					<img
 						class="max-h-[40vh] card m-1 rounded-xl lg:rounded-xl lg:mb-1 lg:mr-1"
@@ -200,7 +199,7 @@
 					/>
 				</a>
 				<a
-					href="https://drive.google.com/file/d/1xtnd88R1roztW2P-slDTJJfZFYDsZUjQ/view?usp=drive_link"
+					
 				>
 					<img
 						class="max-h-[40vh] card m-1 rounded-xl lg:rounded-xl lg:mb-1 lg:mr-1"
