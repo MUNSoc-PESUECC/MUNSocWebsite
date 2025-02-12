@@ -1,7 +1,7 @@
-- UniCon 2024 is set to take place at PES University Electronic City Campus. For more information about the college, please visit <a href="https://maps.app.goo.gl/HRgRPoBTENmNFHw98" target="_blank">PES University Electronic City Campus</a>
+- UniCon 2025 is set to take place at PES University Electronic City Campus. For more information about the college, please visit <a href="https://maps.app.goo.gl/HRgRPoBTENmNFHw98" target="_blank">PES University Electronic City Campus</a>
 - Accommodation is not provided on campus.
 
-- Participants are informed that accommodation arrangements for UniCon 2024 are not included in the registration fee.
+- Participants are informed that accommodation arrangements for UniCon 2025 are not included in the registration fee.
 - While securing accommodation is the exclusive responsibility of the participants, assistance will be provided in locating and contacting suitable options.
 - Please note that UniCon is NOT responsible for accommodation. We provide support to facilitate participants in finding suitable accommodation.
 

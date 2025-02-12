@@ -198,7 +198,7 @@
 						Razorpay.
 					</h4>
 					<p>
-						By following these steps, your delegation will successfully register for UniCon 2024. If
+						By following these steps, your delegation will successfully register for UniCon 2025. If
 						you have any questions or concerns, feel free to reach out to <a
 							href="mailto:unicon.pesu@gmail.com">unicon.pesu@gmail.com</a
 						> for assistance.

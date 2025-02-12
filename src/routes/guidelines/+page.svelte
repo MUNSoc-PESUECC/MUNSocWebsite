@@ -30,7 +30,7 @@
 					copy the link.
 				</h4>
 				<div class="font-bold">
-					9. UniCon 2024 mandates each delegation to have at least one delegate in each committee,
+					9. UniCon 2025 mandates each delegation to have at least one delegate in each committee,
 					including IPC (International Press Corps). Failure to comply with this rule will result in
 					non-acceptance of the registration, and a refund will not be processed. Please carefully
 					consider this requirement and ensure that your delegation meets the committee
@@ -46,7 +46,7 @@
 					13. After the payment is successful, you will receive a confirmation email from Razorpay.
 				</h4>
 				<p>
-					By following these steps, your delegation will successfully register for UniCon 2024. If
+					By following these steps, your delegation will successfully register for UniCon 2025. If
 					you have any questions or concerns, feel free to reach out to <a
 						href="mailto:unicon.pesu@gmail.com">unicon.pesu@gmail.com</a
 					> for assistance.
