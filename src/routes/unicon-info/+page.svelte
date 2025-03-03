@@ -144,14 +144,14 @@
 
 		<div class="my-24">
 			<div class="flex items-center justify-center flex-wrap gap-0">
-				<a>
+				<a href="https://drive.google.com/file/d/17zJdGNACijpDwb96jS-MAWiWxoQC6ehU/view?usp=drive_link" target="_blank">
 					<img
 						class="max-h-[40vh] card m-1 rounded-xl lg:rounded-xl lg:mb-1 lg:mr-1"
 						src="images/2025/1.png"
 						alt="UN Security Council"
 					/>
 				</a>
-				<a>
+				<a href="https://drive.google.com/file/d/1hKylxX4VkUsmy8GSzDL0h17B1-95laJ0/view?usp=drive_link" target="_blank">
 					<img
 						class="max-h-[40vh] card m-1 rounded-xl lg:rounded-xl lg:mb-1 lg:mr-1"
 						src="images/2025/ccc.png"
@@ -161,7 +161,7 @@
 			</div>
 			<div class="flex items-center justify-center flex-wrap">
 				<a
-					
+					href="https://drive.google.com/file/d/1jMl5RveKu_Srev7ZCErjSehKCf6D2r3b/view?usp=drive_link" target="_blank"	
 				>
 					<img
 						class="max-h-[40vh] card m-1 rounded-xl lg:rounded-xl lg:mb-1 lg:mr-1"
@@ -170,7 +170,7 @@
 					/>
 				</a>
 				<a
-					
+					href="https://drive.google.com/file/d/1MfoA3eJmSyoG75iGmfR5ps-zo9A9LhFk/view?usp=drive_link" target="_blank"
 				>
 					<img
 						class="max-h-[40vh] card m-1 rounded-xl lg:rounded-xl lg:mb-1 lg:mr-1"
@@ -179,7 +179,7 @@
 					/>
 				</a>
 				<a
-					
+					href="https://drive.google.com/file/d/1hZYkiZrxg2Y9wPgky1Ij-zM5MedZyVnF/view?usp=drive_link" target="_blank"
 				>
 					<img
 						class="max-h-[40vh] card m-1 rounded-xl lg:rounded-xl lg:mb-1 lg:mr-1"
@@ -199,7 +199,7 @@
 					/>
 				</a>
 				<a
-					
+					href="https://drive.google.com/file/d/1V4E9U0NruaO97KbnCNIaZB1eTK1QJjdQ/view?usp=drive_link" target="_blank"
 				>
 					<img
 						class="max-h-[40vh] card m-1 rounded-xl lg:rounded-xl lg:mb-1 lg:mr-1"
