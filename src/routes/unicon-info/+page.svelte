@@ -190,7 +190,7 @@
 			</div>
 			<div class="flex items-center justify-center flex-wrap">
 				<a
-					
+					href="https://drive.google.com/file/d/1DNlqfnH9Dggcron__-O9P9TxmWxf7m3H/view?usp=drive_link" target="_blank"
 				>
 					<img
 						class="max-h-[40vh] card m-1 rounded-xl lg:rounded-xl lg:mb-1 lg:mr-1"
