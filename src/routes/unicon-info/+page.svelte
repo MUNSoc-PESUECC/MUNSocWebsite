@@ -75,9 +75,6 @@
 			<h1 class="lg:text-6xl text-3xl my-4 text-munsoc-purple font-le-jour-serif font-normal">
 				Background Guides
 			</h1>
-			<h5 class="text-munsoc-gold text-xl">
-				The guides are yet to be released
-			</h5>
 		</div>
 
 		<!-- <div class="flex justify-center items-center mb-24 p-4 h-full w-screen">
