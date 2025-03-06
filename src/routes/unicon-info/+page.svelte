@@ -59,12 +59,12 @@
 		<div class="flex justify-evenly items-center m-4">
 			<a
 				class="lg:m-4 text-white bg-[#461854] rounded-full lg:mx-8 lg:px-8 px-4 py-2.5 text-center transition-all ease-linear duration-100 inline-block no-underline"
-				href={'https://drive.google.com/file/d/1PdjDYmCancZAJeRrSiKmCOWVXYH4qGoY/view?usp=sharing'}
+				href={'https://drive.google.com/file/d/1Nv39iQIjoHLZE8xexIvN-stBpIQIV5Cw/view?usp=sharing'}
 				target="_blank">Delegate Manual</a
 			>
 			<a
 				class="lg:m-4 text-white bg-[#461854] rounded-full lg:mx-8 lg:px-8 px-4 py-2.5 text-center transition-all ease-linear duration-100 inline-block no-underline"
-				href={'https://drive.google.com/file/d/1nVX8FroqQKaUs2WFnv4WXqYhZS9N0GJd/view?usp=sharing'}
+				href={'https://drive.google.com/file/d/1oHvFtMvXuwqeIl5w5jUpdard-4pvXEz7/view?usp=sharing'}
 				target="_blank">Equity Policy</a
 			>
 		</div>
@@ -176,7 +176,7 @@
 					/>
 				</a>
 				<a
-					href="https://drive.google.com/file/d/1hZYkiZrxg2Y9wPgky1Ij-zM5MedZyVnF/view?usp=drive_link" target="_blank"
+					href="https://drive.google.com/file/d/1GVA4jpKQpPoippYSDMxZuIaf4_rZsIsj/view?usp=sharing" target="_blank"
 				>
 					<img
 						class="max-h-[40vh] card m-1 rounded-xl lg:rounded-xl lg:mb-1 lg:mr-1"
