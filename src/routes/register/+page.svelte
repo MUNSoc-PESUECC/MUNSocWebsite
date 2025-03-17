@@ -25,12 +25,11 @@
 				Select Committee
 			</h1>
 			<a
-				class="lg:m-4 text-2xl lg:text-3xl text-white bg-[#461854] rounded-full lg:mx-8 lg:px-8 px-4 py-2.5 text-center transition-all ease-linear duration-100 inline-block no-underline"
-				href={'https://rzp.io/rzp/6DpUplLQ'} target="_blank">Register as Delegate</a
+				class="lg:m-4 text-2xl lg:text-3xl text-white bg-[#461854] rounded-full lg:mx-8 lg:px-8 px-4 py-2.5 text-center transition-all ease-linear duration-100 inline-block no-underline">Register as Delegate (Closed)</a
 			>
-			<a
+			<a 
 			class="lg:m-4 text-2xl lg:text-3xl text-white bg-[#461854] rounded-full lg:mx-8 lg:px-8 px-4 py-2.5 text-center transition-all ease-linear duration-100 inline-block no-underline"
-			href={'/register/Delegation'}>Register as Delegation</a
+			>Register as Delegation (Closed)</a
 		>
 		</div>
 		<!-- <div class="flex justify-center items-center mb-24 p-4 h-full">

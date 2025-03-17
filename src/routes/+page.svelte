@@ -34,9 +34,9 @@
 							class="text-lg text-white bg-[#461854] rounded-full mx-8 lg:mx-0 px-8 py-2.5 my-1 text-center transition-all ease-linear duration-100 inline-block no-underline"
 							href="/unicon-info">CONFERENCE INFORMATION</a
 						>
-						<a
+						<button
 						 	class="text-lg text-white bg-[#461854] rounded-full mx-8 lg:mx-0 px-8 py-2.5 my-4 text-center transition-all ease-linear duration-100 inline-block no-underline"
-							href="/register">REGISTER NOW</a>
+							on:click={()=>alert("Arrey bola na, its closed >_<")}>REGISTRATIONS CLOSED</button>
 						<!-- <a
 							class="text-lg text-white bg-[#461854] rounded-full mx-8 lg:mx-0 px-8 py-2.5 my-1 text-center transition-all ease-linear duration-100 inline-block no-underline" 
 							href="/accommodation">ACCOMMODATION</a> -->
