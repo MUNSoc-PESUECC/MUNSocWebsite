@@ -26,7 +26,7 @@
 			Since its foundation in 2019, MUNSoc PESU-ECC has grown into a well established and reputed organisation within the MUN circuit. With a remarkable track record of success, the society has maintained an impressive placement record at the inter-collegiate level and aims to reach greater heights in the years to come.
 		</h4>
 		<h4 class="md:pr-32 md:pl-32 pr-10 pl-10 mb-6 font-normal text-black lg:text-lg">
-			UniCon heralds the debut of our society’s efforts at such a level, welcoming hundreds of delegates across 7 committees to engage with pertinent agendas. Guided by an outstanding Executive Board, our conference prioritizes fair and meaningful deliberation.
+			UniCon heralds the debut of our society’s efforts at such a level, welcoming hundreds of delegates across 6 committees to engage with pertinent agendas. Guided by an outstanding Executive Board, our conference prioritizes fair and meaningful deliberation.
 		</h4>
 		<h4 class="md:pr-32 md:pl-32 pr-10 pl-10 mb-6 font-normal text-black lg:text-lg">
 			To represent all the values that UniCon stands for, we have chosen the Triskele, a Celtic symbol that holds profound significance. This emblem embodies the constant evolution and the transformative nature of existence; it’s dynamic spirals reflecting the journey of development, strength and progress.

@@ -8,7 +8,7 @@ author: Himanshu Kumar & Ayushmaan Singh
 
 It's time for the First Edition of MUNSOC Newsletter, and this time we're taking a closer look at the Union Budget 2023. The Finance Minister, NirmalaSitharaman , presented the budget on 1st Feb 2023, and there are several key highlights that we think are worth sharing with you. The union budget is the most important political statement that a government makes on the economy of a country and it sets the theme for the central direction of the countryʼs growth. The 2023 Union Budget is rather significant since it is the last full budget of the second Modi government and sets the theme for the 2024 Lok Sabha Elections. The 2023 Union Budget presented by India's Finance Minister Nirmala Sitharaman focuses on seven key areas : inclusive development, reaching thelast mile, infrastructure and investment, unleashing potential, green growth, youth power, and the financial sector. The Indian government's revenue in 2023-24 comes mainly from taxes (58 paise in every rupee) and borrowings (34 paise in every rupee). The largest expenses are interest payments (20 paise in every rupee) and the states' share of taxes and duties (18 paise in every rupee).
 
-![image-002.png](https://i.postimg.cc/zBsB3j5b/image-002.png)
+![Infographic showing how every rupee of government revenue and expenditure is allocated in Union Budget 2023](https://i.postimg.cc/zBsB3j5b/image-002.png)
 
 Allocation for defence stands at 8 paise.Expenditure on central sector schemes will be 17 paise out of every rupee, while the allocation for centrally-sponsored schemes is 9 paise.The expenditure on 'Finance Commission and other transfers' is pegged at 9 paise. Subsidies and pension will account for 9 paise and 4 paise, respectively.The government will spend 8 paise out of every rupee on 'other expenditures'.
 
@@ -118,7 +118,7 @@ Overall, these initiatives are expected to make it easier for businesses to oper
 
 ### OPINION:
 
-![image-010.png](https://i.postimg.cc/85Jc138g/image-010.png)
+![Cartoon illustration highlighting differing political reactions to Union Budget 2023](https://i.postimg.cc/85Jc138g/image-010.png)
 
 The opposition parties and Chief Ministers of non-BJP-ruled states have criticised the Union Budget 2023 presented by the Modi government. The Budget has been criticized as "anti-poor" and offering no solution to address thecountry's economic concerns such as unemployment, rising inflation, and growing inequality between the rich and poor. Mamata
 

@@ -20,7 +20,7 @@ _Church of the Holy Sepulchure_
 
 In the year 636 AD, the holy city was conquered by the Muslims for the first time. Jerusalem is the last city visited by Prophet Muhammed and houses the third holiest site in Islam, the Al-Aqsa Mosque which is said to be the second mosque ever constructed. The Muslims would keep a stronghold of the city till the year 1099 AD.
 
-![A picure of the Al-Aqsa Mosque](https://cdn.discordapp.com/attachments/1035514365278957660/1096452568198160485/1200px-Jerusalem-2013-Temple_Mount-Al-Aqsa_Mosque_28NE_exposure29.png)
+![A picture of the Al-Aqsa Mosque](https://cdn.discordapp.com/attachments/1035514365278957660/1096452568198160485/1200px-Jerusalem-2013-Temple_Mount-Al-Aqsa_Mosque_28NE_exposure29.png)
 _Al-Aqsa Mosque_
 
 While Jerusalem was under Christian rule, the Jews were heavily persecuted whereas, under Muslim rule, they experienced tolerance and integration. Some historians even refer to this period as the “Golden Age” for the Jews. By the year 1850 AD, the city was equally divided between the Jews and the Muslims along with a significant Christian minority.
@@ -40,7 +40,7 @@ The 1936-1939 Arab revolt in Palestine however, was bloodily repressed by the Br
 
 On 29th November 1947, the General Assembly of the United Nations adopted Resolution 181(II) recommending the adoption and implementation of a plan to partition Palestine into an Arab state, a Jewish state and the City of Jerusalem. Following the Declaration of the Establishment of the State of Israel on 14th May 1948, the Arab League decided to intervene on behalf of Palestinian Arabs, marching their forces into former British Palestine, beginning the main phase of the 1948 Arab–Israeli War.
 
-![A picture showing the 1949 Armistice Lines](https://cdn.discordapp.com/attachments/1035514365278957660/1096452042861596702/114380422_03_1949_armistice_line_640-nc.png)
+![A map showing the 1949 Armistice Lines](https://cdn.discordapp.com/attachments/1035514365278957660/1096452042861596702/114380422_03_1949_armistice_line_640-nc.png)
 
 The overall fighting, leading to around 15,000 casualties, resulted in cease-fire and armistice agreements of 1949, with Israel holding much of the former Mandate territory, Jordan occupying and later annexing the West Bank and Egypt taking over the Gaza Strip, where the All-Palestine Government was declared by the Arab League on 22 September 1948.
 

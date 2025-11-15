@@ -130,7 +130,7 @@
 	:root {
 		font-family: 'Lato', sans-serif;
 	}
-	body {
+	:global(body) {
 		overflow-x: hidden; /* to fix a weird bug of horizontal scroll bar appearing out of nowhere */
 	}
 

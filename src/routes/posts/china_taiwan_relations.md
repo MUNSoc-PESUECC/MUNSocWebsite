@@ -74,15 +74,15 @@ Taiwan.
 
 #### Former Leaders:
 
-![image-001.png](https://i.postimg.cc/W3YdWhWw/image-001.png)
+![Portraits of former leaders of China and Taiwan side by side](https://i.postimg.cc/W3YdWhWw/image-001.png)
 
 #### Current Leaders:
 
-![image-002.png](https://i.postimg.cc/rmHpG7sh/image-002.png)
+![Portraits of current leaders of China and Taiwan](https://i.postimg.cc/rmHpG7sh/image-002.png)
 
 ## Current Situation
 
-![image-006.jpg](https://i.postimg.cc/Sx9tm9cj/imgonline-com-ua-twotoone-74-Kawj-JXKPyw43.jpg)
+![Composite image showing Chinese and Taiwanese military assets in the Taiwan Strait](https://i.postimg.cc/Sx9tm9cj/imgonline-com-ua-twotoone-74-Kawj-JXKPyw43.jpg)
 
 In recent months, the American Chamber of Commerce in Taiwan has reported
 that the number of companies in Taiwan experiencing business disruptions due to
@@ -112,7 +112,7 @@ national infrastructure followed by a large-scale invasion. While these scenario
 are possible, the blockade scenario is considered unlikely as it may backfire,
 potentially severely damaging the Chinese economy without delivering a victory.
 
-![image-005.png](https://i.postimg.cc/vHq25VRH/image-005.png)
+![Map highlighting Taiwan and surrounding first island chain in East Asia](https://i.postimg.cc/vHq25VRH/image-005.png)
 
 In case of a military confrontation, China's armed forces would significantly dwarf
 those of Taiwan. A Chinese takeover in Taiwan would give Beijing control over one

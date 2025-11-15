@@ -15,7 +15,7 @@ author: Nikhil Girish & Tanishka Pasarad
 On mention of the United Kingdom or England, the first thought of many worldwide is no doubt the Royal Family. This is no surprise; to many tourists, the monarchy is synonymous with Britain itself and this is evidenced by the numbers. Nearly 3.5 million visits were paid to the establishments of the Royal Estate in 2019-20 [^1]. VisitBritain, the official site for UK tourism, states that over a third of tourists visiting London consider Buckingham Palace a must-visit[^2].
 Britons share this approval too, with an estimated average of 60% in favour of the monarchy - support being the highest among the older generation (68% among 50-64 & 77% among 65+)[^3]. For a significant portion of British history, the monarchy has been a constant presence and so for many, it is hard to conceive the idea of a Britain without its royals. However, few Britons are aware of the brutal and bloody history of this institution.
 
-![](https://media.architecturaldigest.com/photos/58a5e7223f84553147ddc784/2:1/w_3000,h_1500,c_limit/Buckingham%20Palace%201.jpg)
+![Wide view of Buckingham Palace with crowds of tourists outside](https://media.architecturaldigest.com/photos/58a5e7223f84553147ddc784/2:1/w_3000,h_1500,c_limit/Buckingham%20Palace%201.jpg)
 
 [^1]: [Statista](https://www.statista.com/statistics/373081/uk-royal-tourism-admission-numbers-by-establishment/)
 [^2]: [VisitBritain](https://www.visitbritain.com/en)
@@ -34,7 +34,7 @@ From its conception, the monarchy has been embroiled in conflict: numerous wars 
 
 Not even the common folk of England itself were spared from the strife of their monarchy. Feudalism, the numerous wars (both international and civil), religious persecution and extreme wealth inequality had devastating effects on the English peasantry. Through the years, social strata became more clearly defined and harder to move between as a result of the feudal system and the presence of the monarchy and the nobility became an unfair aspect of life that the common folk had to make peace with.
 
-![](https://www.medievalists.net/wp-content/uploads/2018/03/borders-british-isles.png)
+![Map showing borders of the British Isles during the medieval period](https://www.medievalists.net/wp-content/uploads/2018/03/borders-british-isles.png)
 
 ---
 
@@ -58,7 +58,7 @@ The Treaty of London, signed in 1604, laid the cornerstone for future British ex
 
 ### Late Modern to Contemporary:
 
-![](https://images.hindustantimes.com/rf/image_size_630x354/HT/p2/2017/12/23/Pictures/_10f9d892-e7fa-11e7-bb33-29502a427e3f.jpg)
+![Photograph of Queen Elizabeth II waving from a carriage during a royal event](https://images.hindustantimes.com/rf/image_size_630x354/HT/p2/2017/12/23/Pictures/_10f9d892-e7fa-11e7-bb33-29502a427e3f.jpg)
 
 ---
 
@@ -83,7 +83,7 @@ In more recent times, post de-colonisation especially, the powers and duties of 
 
 ### Colonisation:
 
-![british-empire](https://www.washingtonpost.com/graphics/world/british-empire/img/7-1919.jpg?c=cb8de0d)
+![Map of the British Empire in 1919 highlighting colonies across the world](https://www.washingtonpost.com/graphics/world/british-empire/img/7-1919.jpg?c=cb8de0d)
 
 ---
 
@@ -114,7 +114,7 @@ Throughout history, the British empire, and thus the monarchy, has been associat
 During the occupation of India, the British East India Company, and later the British government imposed systems of economic exploitation and political control which led to widespread poverty and human rights abuses, including the widespread use of forced labour, imposition of unjust taxes, and the use of violence to suppress dissent.
 
 In other parts of the British Empire, like Africa and the Caribbean, the British monarchy is responsible for the trans-Atlantic slave trade: the piece of history that has left deeps scars on Africa and has shaped the modern day culture and people of the Caribbean. Violations in North America include numerous massacres of natives, and the destruction of their cultures and imposition of European culture and religion.
-![](https://i.guim.co.uk/img/media/bafe18f691c9d66572ee1f644d985de5cc47d648/0_707_5181_3109/master/5181.jpg?width=1200&quality=85&auto=format&fit=max&s=0b6722f6d69d6248029e23307edbb09d)
+![Black and white photograph of Indian workers laying railway tracks during British rule](https://i.guim.co.uk/img/media/bafe18f691c9d66572ee1f644d985de5cc47d648/0_707_5181_3109/master/5181.jpg?width=1200&quality=85&auto=format&fit=max&s=0b6722f6d69d6248029e23307edbb09d)
 
 ---
 
@@ -134,7 +134,7 @@ Wars are extremely expensive and have a significant impact on a country’s econ
 
 The monarchy’s lack of understanding of the common folk and their desire for expansion and personal gain have come at great cost to the many who must carry that burden.
 
-![5.jpg](https://i.postimg.cc/wBbBS2cJ/5.jpg)
+![Illustration of soldiers marching with the British flag in the background](https://i.postimg.cc/wBbBS2cJ/5.jpg)
 
 ---
 
@@ -150,7 +150,7 @@ The monarchy’s lack of understanding of the common folk and their desire for e
 
 ### The Modern Monarchy:
 
-![6.jpg](https://i.postimg.cc/Pxg5qq75/6.jpg)
+![Photograph of modern British royal family members standing on a balcony](https://i.postimg.cc/Pxg5qq75/6.jpg)
 
 The British monarchy until recently was headed by Queen Elizabeth II who had reigned since 1952 making her the longest ruling British monarch. After her death, King Charles ascended the throne. Although their political powers are virtually non-existent and their existence itself is ceremonial, the monarch is still the head of state and must take up various constitutional and representational duties. The modern monarchy is more of a cultural icon than anything else, drawing in hundreds of thousands of curious tourists hoping to capture a glimpse of the royals.
 

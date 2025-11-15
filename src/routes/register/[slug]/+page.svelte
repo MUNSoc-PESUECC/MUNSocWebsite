@@ -34,7 +34,7 @@
 				>
 					AGENDA
 				</div>
-				Deliberating on Strengthening the Arms Trade Treaty
+				Coming Soon
 			</div>
 		</div>
 	{:else if data.redirect == 'UNSC'}
@@ -52,7 +52,7 @@
 				>
 					AGENDA
 				</div>
-				Situation in Haiti
+				Coming Soon
 			</div>
 		</div>
 	{:else if data.redirect == 'UNHRC'}
@@ -70,7 +70,7 @@
 				>
 					AGENDA
 				</div>
-				Deliberating on Migration rights at the US-Mexico Border with special emphasis on child protection
+				Coming Soon
 			</div>
 		</div>
 	{:else if data.redirect == 'UNODC'}
@@ -88,7 +88,7 @@
 				>
 					AGENDA
 				</div>
-				Ensuring access to justice in Sub Saharan Africa
+				Coming Soon
 			</div>
 		</div>
 	{:else if data.redirect == 'CCC'}
@@ -106,7 +106,7 @@
 				>
 					AGENDA
 				</div>
-				Soviet Invasion of Afghanistan Freeze Date: December 24, 1979
+				Coming Soon
 			</div>
 		</div>
 	{:else if data.redirect == 'AIPPM'}
@@ -124,7 +124,7 @@
 				>
 					AGENDA
 				</div>
-				Examining the practicality of a nationwide caste-based census in India, and analyzing its impact on policy, social justice, and resource distribution
+				Coming Soon
 			</div>
 		</div>
 	{:else if data.redirect == 'IPC'}
@@ -142,7 +142,7 @@
 			>
 				AGENDA
 			</div>
-			Reporting on Conference proceedings and offering a distinctive journalistic perspective on diplomatic debates and resolutions
+			Coming Soon
 		</div>
 	</div>
 	{:else if data.redirect == 'Delegation'}
@@ -216,12 +216,12 @@
 			>Registrations Closed</button
 		>
 		{:else}
-		<a
+		<!--<a
 			class="lg:m-2 text-2xl lg:text-3xl text-white bg-[#461854] rounded-full lg:mx-8 lg:px-8 px-4 py-2.5 text-center transition-all ease-linear duration-100 inline-block no-underline"
 			href={' https://docs.google.com/spreadsheets/d/1bP1pF4N9WGOK8g5IVYce3y9FzijFEMWrGCONQ6w75Ks/edit#gid=' +
 				GIDs[data.redirect]}
 			target="_blank">View Allocation Matrix</a
-		>
+		>-->
 		{/if}
 		<!-- <a
 			class="lg:m-2 text-2xl lg:text-3xl text-white bg-[#461854] rounded-full my-3 lg:mx-8 lg:px-8 px-4 py-2.5 text-center transition-all ease-linear duration-100 inline-block no-underline"

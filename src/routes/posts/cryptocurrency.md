@@ -20,7 +20,7 @@ Cryptocurrency operates on a decentralized network called a blockchain. A blockc
 
 Each transaction is verified by a network of computers, and once it is confirmed, it is added to the blockchain. This makes the transaction immutable, meaning it cannot be altered or deleted.
 
-![](https://media.discordapp.net/attachments/1080892669313699881/1089484764945317898/Aspose.Words.b3b92a46-7766-4b70-ad57-94f1584e01bd.002.jpeg?width=471&height=340)
+![Illustration explaining how blockchain transactions are linked](https://media.discordapp.net/attachments/1080892669313699881/1089484764945317898/Aspose.Words.b3b92a46-7766-4b70-ad57-94f1584e01bd.002.jpeg?width=471&height=340)
 To own cryptocurrency, one must have a digital wallet, which is a software application that stores and manages the private keys that allow access to the currency. Transactions are made between digital wallets, and the blockchain network ensures that the transaction is secure and valid.
 
 ## The Pros
@@ -41,7 +41,7 @@ Hence governments are finding it difficult to make legislation for it. Some coun
 
 ## The Rise and Fall of UST & LUNA – A $300 billion Issue
 
-![](https://media.discordapp.net/attachments/1080892669313699881/1089484765188608010/Aspose.Words.b3b92a46-7766-4b70-ad57-94f1584e01bd.003.jpeg?width=442&height=249)
+![Chart showing the dramatic rise and fall of UST and LUNA prices](https://media.discordapp.net/attachments/1080892669313699881/1089484765188608010/Aspose.Words.b3b92a46-7766-4b70-ad57-94f1584e01bd.003.jpeg?width=442&height=249)
 
 Cryptocurrencies are not tied to any physical asset or entity, meaning that its value can fluctuate rapidly and is impossible to predict. This has led to significant losses to investors.
 
@@ -59,7 +59,7 @@ The value of Bitcoin increased from $18,000 in Nov 2020 to $36,000 in Jan 2021; 
 
 ## FTX: A Cryptocurrency Giant Gone Too Soon
 
-![](https://media.discordapp.net/attachments/1080892669313699881/1089484765465419786/Aspose.Words.b3b92a46-7766-4b70-ad57-94f1584e01bd.004.jpeg?width=518&height=329)
+![Graphic showing FTX logo and cryptocurrency symbols](https://media.discordapp.net/attachments/1080892669313699881/1089484765465419786/Aspose.Words.b3b92a46-7766-4b70-ad57-94f1584e01bd.004.jpeg?width=518&height=329)
 Another major incident is the Bankruptcy of FTX. FTX was a company which operated a cryptocurrency exchange and hedge fund founded by Sam Bankman-Fried who also was its CEO and Gary Wang. At its peak it was the third largest cryptocurrency exchange by volume.
 
 In November 2022 an article stated that FTX's partner firm Alameda Research held a significant portion of its assets in FTX's native token (FTT).
@@ -71,7 +71,7 @@ All these events combined was dubbed as the “Great Crypto Crash”.
 
 ## Pump and Dump
 
-![](https://media.discordapp.net/attachments/1080892669313699881/1089484765733867530/Aspose.Words.b3b92a46-7766-4b70-ad57-94f1584e01bd.007.jpeg?width=653&height=367)
+![Diagram illustrating a typical pump and dump price spike](https://media.discordapp.net/attachments/1080892669313699881/1089484765733867530/Aspose.Words.b3b92a46-7766-4b70-ad57-94f1584e01bd.007.jpeg?width=653&height=367)
 The relative easiness in creating a new cryptocurrency has also lead to a large no of scams in the space. A Common scam is a “pump and dump scheme”. Here an organizer gathers influencers privately and would coordinate in buying the target crypto asset to avoid price spikes (this is generally a new crypto asset).
 
 The influencers then share information about the trade with their social media followers, resulting in the public investing in the asset. The organizers will then coordinate the sale in order to get everyone paid, leaving the public investors in loss.

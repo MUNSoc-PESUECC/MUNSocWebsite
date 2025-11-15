@@ -50,13 +50,22 @@
 
 		<!-- Mobile menu button -->
 		<div
+			role="button"
+			aria-label="Toggle navigation menu"
+			tabindex="0"
 			onclick={toggleNavbar}
-			onkeydown={toggleNavbar}
+			onkeydown={(event) => {
+				if (event.key === 'Enter' || event.key === ' ') {
+					event.preventDefault();
+					toggleNavbar();
+				}
+			}}
 			class="flex lg:hidden pr-3 {showMenu ? 'mt-3' : ''}"
 		>
 			<button
 				type="button"
 				class="text-white hover:text-munsoc-gold focus:outline-none focus:text-munsoc-gold"
+				aria-label="Open navigation menu"
 			>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
@@ -160,18 +169,30 @@
 		<p>Ad Astra per Aspera</p>
 		<ul class="socials m-5">
 			<li>
-				<a href="https://www.instagram.com/munsoc.pesuecc/" target="_blank" rel="noreferrer"
-					><i class="fa fa-instagram" /></a
+				<a
+					href="https://www.instagram.com/munsoc.pesuecc/"
+					target="_blank"
+					rel="noreferrer"
+					aria-label="Visit MUNSoc PESU-ECC on Instagram"
+					><i class="fa fa-instagram"></i></a
 				>
 			</li>
 			<li>
-				<a href="mailto:munsocecc@pes.edu" target="_blank" rel="noreferrer"
-					><i class="fa fa-envelope" /></a
+				<a
+					href="mailto:munsocecc@pes.edu"
+					target="_blank"
+					rel="noreferrer"
+					aria-label="Send an email to MUNSoc PESU-ECC"
+					><i class="fa fa-envelope"></i></a
 				>
 			</li>
 			<li>
-				<a href="https://github.com/MUNSoc-PESUECC/MUNSocWebsite" target="_blank" rel="noreferrer"
-					><i class="fa fa-github" /></a
+				<a
+					href="https://github.com/MUNSoc-PESUECC/MUNSocWebsite"
+					target="_blank"
+					rel="noreferrer"
+					aria-label="View MUNSoc PESU-ECC GitHub repository"
+					><i class="fa fa-github"></i></a
 				>
 			</li>
 		</ul>

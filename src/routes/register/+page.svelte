@@ -5,11 +5,12 @@
 	//const HRC_ENABLE = false;
 	//const HCC_ENABLE = false;
 	
+	
 	// 2025 Committees
 	
 	const UNSC_ENABLE = true; 
 	const DISEC_ENABLE = true; 
-	const IPC_ENABLE = true;   
+	const IPC_ENABLE = false;  
 	const CCC_ENABLE = true;
 	const AIPPM_ENABLE = true;
 	const UNHRC_ENABLE = true;
@@ -25,7 +26,7 @@
 				Select Committee
 			</h1>
 			<a
-				class="lg:m-4 text-2xl lg:text-3xl text-white bg-[#461854] rounded-full lg:mx-8 lg:px-8 px-4 py-2.5 text-center transition-all ease-linear duration-100 inline-block no-underline">Register as Delegate (Closed)</a
+				class="lg:m-4 text-2xl lg:text-3xl text-white bg-[#461854] rounded-full lg:mx-8 lg:px-8 px-4 py-2.5 text-center transition-all ease-linear duration-100 inline-block no-underline" href="https://rzp.io/rzp/oaktSN6o" target="_blank">Register as Delegate</a
 			>
 			<a 
 			class="lg:m-4 text-2xl lg:text-3xl text-white bg-[#461854] rounded-full lg:mx-8 lg:px-8 px-4 py-2.5 text-center transition-all ease-linear duration-100 inline-block no-underline"
@@ -204,25 +205,6 @@
 					alt="All India Political Parties Meet"
 				/>
 				</div>
-				{/if}
-				{#if IPC_ENABLE}
-				<a
-					href="/register/IPC"
-				>
-					<img
-						class="max-h-[40vh] card m-1 rounded-xl lg:rounded-xl lg:mb-1 lg:mr-1"
-						src="images/2025/4.png"
-						alt="International Press Corps"
-					/>
-				</a>
-				{:else}
-					<div class="disabled-card">
-						<img
-						class="max-h-[40vh] card m-1 rounded-xl lg:rounded-xl lg:mb-1 lg:mr-1"
-						src="images/2025/4.png"
-						alt="International Press Corps"
-					/>
-					</div>
 				{/if}
 				{#if DISEC_ENABLE}
 				<a

@@ -14,7 +14,7 @@ This all began in 1945. As World War II ended, a new realisation dawned upon the
 
 Twice rejected before, the UK did not earn acceptance into the EU by other member states until 1973. Although finally accepted into the EU, the UK could never reconcile with its membership status, for effective functioning as a whole in a union always entails losing certain aspects of one’s identity, which the UK was not ready to compromise on. This is evident from the fact that within 2 years of joining the union, the UK had to hold a stay-or-leave referendum to resolve its still persisting dilemma on whether it should remain in the EU. Also, the UK never adopted the common euro currency nor did it open its borders for free movement within the union, unlike its other members. Many in UK felt that the influx of EU migrants was putting a strain on public services and job opportunities, leading to eurosceptic sentiments.
 
-![9b0b35da-505b-11e7-a1f2-db19572361bb.jpg](https://i.postimg.cc/mDQwcZcQ/9b0b35da-505b-11e7-a1f2-db19572361bb.jpg)
+![Illustration showing EU and UK flags symbolising Brexit negotiations](https://i.postimg.cc/mDQwcZcQ/9b0b35da-505b-11e7-a1f2-db19572361bb.jpg)
 
 A new turning point came when David Cameron, the Conservative party prime ministerial candidate facing a tough reelection in 2013, in a desperate attempt to win minority votes, promised that he would hold an “in-or-out referendum” to decide Britain’s membership of the EU. Eurosceptics, who had already been complaining that the EU had too much control over Britain’s national policies and that the UK, being one of the wealthier countries in the union, was contributing too much money to the EU budget, began to skew in Cameron’s favour.
 
@@ -28,7 +28,7 @@ Under Article 50 of the Treaty on EU, after three years of negotiations the UK o
 
 The effects of Brexit have been significant and far-reaching. As an immediate consequence of the deal, the value of the pound sterling plummeted. With fears of job losses and economic instability, businesses started to feel uncertain about their future.
 
-![image-002.jpg](https://i.postimg.cc/5N2hM8z8/image-002.jpg)
+![Graph showing economic indicators before and after Brexit vote](https://i.postimg.cc/5N2hM8z8/image-002.jpg)
 
 Soon the EU started to impose border restrictions. A hard border between Northern Ireland - part of UK- and Ireland - an EU member - required custom clearances for goods moving from England, Wales, and Scotland. The UK's trading relationship with the EU was thrown into chaos.
 
