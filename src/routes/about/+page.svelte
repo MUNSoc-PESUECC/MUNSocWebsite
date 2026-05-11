@@ -2,6 +2,19 @@
 	//@ts-nocheck
 	export let data;
 
+	const formatAwardDate = (date) => {
+		if (!date) return '';
+		const [year, month, day] = date.split('-').map(Number);
+		const awardDate = new Date(Date.UTC(year, month - 1, day));
+
+		return new Intl.DateTimeFormat('en-IN', {
+			day: 'numeric',
+			month: 'long',
+			timeZone: 'UTC',
+			year: 'numeric'
+		}).format(awardDate);
+	};
+
 	function changeImage() {
 		const image = document.getElementById('easterEggImage');
 		image.src = 'https://i.postimg.cc/JzRrdvJt/easter.jpg';
@@ -45,6 +58,11 @@
 					<h2 class="pr-10 pl-10 text-center mt-5 font-extrabold text-2xl">
 						{award.meta.conferenceName}
 					</h2>
+					{#if award.meta.date}
+						<p class="award-date text-center text-munsoc-purple">
+							<time datetime={award.meta.date}>{formatAwardDate(award.meta.date)}</time>
+						</p>
+					{/if}
 					<div class="flex justify-center image-div">
 						{#if award.meta.conferenceName == 'BMSMUN 2023'}
 							<img
@@ -110,6 +128,11 @@
 	.prose h3 {
 		margin: 0;
 	}
+	.award-date {
+		font-weight: 700;
+		margin: 0 1.5rem 1.25rem;
+		overflow-wrap: anywhere;
+	}
 
 	.card {
 		/* Add shadows to create the "card" effect */
@@ -150,6 +173,17 @@
 		}
 		.prose h2 {
 			font-size: medium;
+		}
+		.award-date {
+			font-size: 0.875rem;
+			margin-inline: 1rem;
+		}
+		.eachPrizes {
+			grid-template-columns: minmax(0, 1fr);
+			row-gap: 2px;
+		}
+		.eachPrizes h3 {
+			text-align: center;
 		}
 	}
 </style>
